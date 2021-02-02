@@ -86,8 +86,8 @@ footer i:hover {
   color: white;
 }
 
-.service .card {
-  min-height: 525px;
+.card {
+  min-height: 575px;
 }
 
 /* HOME */

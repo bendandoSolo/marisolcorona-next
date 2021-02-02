@@ -54,39 +54,39 @@ export default function Contact() {
             <form>
               <h2 className="text-center mb-4">Escríbenos</h2>
               <div className="form-outline mb-4">
+                <label className="form-label" htmlFor="form4Example1">
+                  <i className="fas fa-user me-2"></i>
+                  Name
+                </label>
                 <input
                   type="text"
                   id="form4Example1"
                   className="form-control"
                 />
-                <label className="form-label" htmlFor="form4Example1">
-                  <i className="fas fa-user me-2"></i>
-                  Name
-                </label>
               </div>
 
               <div className="form-outline mb-4">
+                <label className="form-label" htmlFor="form4Example2">
+                  <i className="fas fa-envelope prefix grey-text me-2"></i>
+                  Email address
+                </label>
                 <input
                   type="email"
                   id="form4Example2"
                   className="form-control"
                 />
-                <label className="form-label" htmlFor="form4Example2">
-                  <i className="fas fa-envelope prefix grey-text me-2"></i>
-                  Email address
-                </label>
               </div>
 
               <div className="form-outline mb-4">
+                <label className="form-label" htmlFor="form4Example3">
+                  <i className="fas fa-envelope me-2"></i>
+                  Message
+                </label>
                 <textarea
                   className="form-control"
                   id="form4Example3"
                   rows="4"
                 ></textarea>
-                <label className="form-label" htmlFor="form4Example3">
-                  <i className="fas fa-envelope me-2"></i>
-                  Message
-                </label>
               </div>
 
               <div className="form-check d-flex justify-content-center mb-4">
