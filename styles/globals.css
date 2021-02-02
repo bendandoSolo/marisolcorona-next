@@ -1,9 +1,25 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: "Roboto", Helvetica, Arial, sans-serif;
+}
+
+h1 {
+  color: #ff80ab;
+}
+
+h2,
+h3,
+h4,
+h5 {
+  color: black;
 }
 
 a {
@@ -11,6 +27,149 @@ a {
   text-decoration: none;
 }
 
-* {
-  box-sizing: border-box;
+/* NAV */
+
+nav {
+  background-color: #ff80ab;
+  color: white !important;
+  position: fixed;
+}
+
+nav a:hover {
+  opacity: 0.8;
+  color: white;
+}
+
+nav li {
+  margin-top: 0;
+  color: white;
+}
+
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+li {
+  margin-top: 1rem;
+  color: #a9a9a9;
+}
+
+footer {
+  background-color: #2e3951;
+  color: white;
+}
+
+footer i {
+  transition: 0.2s ease-in-out;
+}
+
+footer i:hover {
+  color: #ff80ab;
+}
+
+/* Causes White space on Mobile version */
+
+.row {
+  --bs-gutter-x: 0 !important;
+}
+
+.service .card {
+  min-height: 525px;
+}
+
+i {
+  color: #ff80ab;
+}
+
+button i {
+  color: white;
+}
+
+/* HOME */
+
+.service .card img {
+  height: 200px;
+}
+
+.header {
+  padding: 15rem 0;
+  background-color: #2e3951;
+  background-size: cover;
+  position: relative;
+}
+
+.masked {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  opacity: 0.3;
+  background-color: black;
+  z-index: 1;
+}
+
+.intro {
+  z-index: 200;
+}
+
+.home-head {
+  background-image: url("../public/images/Home-Header.jpg");
+}
+
+/* Therapy */
+
+.therapy {
+  background-image: url("../public/images/Individual-Header.jpg");
+}
+
+/* Workshop */
+.workshop {
+  background-image: url("../public/images/Workshop-Header.jpg");
+}
+
+/* Programmes */
+
+.programas {
+  background-image: url("../public/images/programa-landscape.png");
+}
+
+/* Testmimonials */
+
+.testimonios {
+  background-image: url("../public/images/Testimonios-Header.png");
+}
+
+.testimonials .card img {
+  border-radius: 50%;
+  width: 200px;
+}
+
+/* Contact */
+
+.contact {
+  background-image: url("../public/images/Contact-Header.png");
+}
+
+/* Transitions */
+
+.page {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: #ff80ab;
+  z-index: 300;
+  border-right: 2px solid #2e3951;
+}
+
+.card p {
+  color: #747373;
+}
+
+li h4 {
+  color: black;
 }
