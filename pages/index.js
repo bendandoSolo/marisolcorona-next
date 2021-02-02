@@ -28,6 +28,7 @@ export default function Home() {
             role="button"
           >
             Aprende más
+            <i className="fas fa-play ms-2"></i>
           </button>
           <Link href="https://calendly.com/marisol-corona/entrevista">
             <a target="_blank">
@@ -37,6 +38,7 @@ export default function Home() {
                 role="button"
               >
                 Reservar ahora
+                <i className="fas fa-book-open ms-2"></i>
               </button>
             </a>
           </Link>
