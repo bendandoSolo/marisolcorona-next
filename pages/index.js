@@ -248,7 +248,7 @@ export default function Home() {
           >
             <div className="card text-center">
               <img
-                src="\images\workshop.jpg"
+                src="\images\Workshop-Header.jpg"
                 className="card-img-top mb-3"
                 alt="..."
               />
@@ -261,7 +261,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div>
-                  <Link href="/workshop">
+                  <Link href="/">
                     <button
                       id={styles.headerButtonPink}
                       className="btn text-white"
