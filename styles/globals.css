@@ -107,13 +107,27 @@ footer i:hover {
   z-index: 200;
 }
 
+/* HOME */
+
 .home-head {
   background-image: url("../public/images/Home-Header.jpg");
+}
+
+@media screen and (max-width: 500px) {
+  .home-head {
+    background-image: url("../public/images/Home-Mobile.jpg");
+  }
 }
 
 /* Therapy */
 .therapy {
   background-image: url("../public/images/Individual-Header.jpg");
+}
+
+@media screen and (max-width: 500px) {
+  .therapy {
+    background-image: url("../public/images/terapia-mobile.jpg");
+  }
 }
 
 /* Workshop */
@@ -131,6 +145,12 @@ footer i:hover {
   background-image: url("../public/images/Testimonios-Header.png");
 }
 
+@media screen and (max-width: 500px) {
+  .testimonios {
+    background-image: url("../public/images/test-mobile.jpg");
+  }
+}
+
 .testimonials .card img {
   border-radius: 50%;
   width: 200px;
@@ -139,6 +159,12 @@ footer i:hover {
 /* Contact */
 .contact {
   background-image: url("../public/images/Contact-Header.png");
+}
+
+@media screen and (max-width: 500px) {
+  .contact {
+    background-image: url("../public/images/Contact-Mobile.jpg");
+  }
 }
 
 /* Transitions */
