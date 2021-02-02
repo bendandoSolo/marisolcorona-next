@@ -1,11 +1,28 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import { motion } from "framer-motion";
 
 import Image from "next/image";
 
 export default function Contact() {
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0, x: "-100vw" }}
+      animate={{
+        opacity: 1,
+        x: 0,
+        transition: {
+          duration: 0.8,
+        },
+      }}
+      exit={{
+        opacity: 0,
+        x: "100vw",
+        transition: {
+          duration: 0.8,
+        },
+      }}
+    >
       <Head>
         <title>Contact | Marisol Corona</title>
       </Head>
@@ -115,6 +132,6 @@ export default function Contact() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

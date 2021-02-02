@@ -7,7 +7,23 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0, x: "-100vw" }}
+      animate={{
+        opacity: 1,
+        x: 0,
+        transition: {
+          duration: 0.8,
+        },
+      }}
+      exit={{
+        opacity: 0,
+        x: "100vw",
+        transition: {
+          duration: 0.8,
+        },
+      }}
+    >
       <Head>
         <title>Home | Marisol Corona</title>
       </Head>
@@ -540,6 +556,6 @@ export default function Home() {
       </div>
 
       {/* End of Container */}
-    </div>
+    </motion.div>
   );
 }

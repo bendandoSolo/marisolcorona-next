@@ -1,10 +1,27 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Image from "next/image";
+import { motion } from "framer-motion";
 
 export default function Testimonials() {
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0, x: "-100vw" }}
+      animate={{
+        opacity: 1,
+        x: 0,
+        transition: {
+          duration: 0.8,
+        },
+      }}
+      exit={{
+        opacity: 0,
+        x: "100vw",
+        transition: {
+          duration: 0.8,
+        },
+      }}
+    >
       <Head>
         <title>Create Next App</title>
       </Head>
@@ -111,6 +128,6 @@ export default function Testimonials() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

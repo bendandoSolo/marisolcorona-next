@@ -7,7 +7,23 @@ import Link from "next/link";
 
 export default function Individual() {
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0, x: "-100vw" }}
+      animate={{
+        opacity: 1,
+        x: 0,
+        transition: {
+          duration: 0.8,
+        },
+      }}
+      exit={{
+        opacity: 0,
+        x: "100vw",
+        transition: {
+          duration: 0.8,
+        },
+      }}
+    >
       <Head>
         <title>Individual | Marisol Corona</title>
       </Head>
@@ -127,6 +143,6 @@ export default function Individual() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }

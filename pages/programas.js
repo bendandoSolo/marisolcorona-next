@@ -1,12 +1,29 @@
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
+import { motion } from "framer-motion";
 
 import Image from "next/image";
 import Link from "next/link";
 
 export default function Programas() {
   return (
-    <div>
+    <motion.div
+      initial={{ opacity: 0, x: "-100vw" }}
+      animate={{
+        opacity: 1,
+        x: 0,
+        transition: {
+          duration: 0.8,
+        },
+      }}
+      exit={{
+        opacity: 0,
+        x: "100vw",
+        transition: {
+          duration: 0.8,
+        },
+      }}
+    >
       <Head>
         <title>Programas | Marisol Corona</title>
       </Head>
@@ -129,6 +146,6 @@ export default function Programas() {
           </div>
         </div>
       </div>
-    </div>
+    </motion.div>
   );
 }
