@@ -1,3 +1,5 @@
+/* GLOBAL */
+
 * {
   box-sizing: border-box;
   padding: 0;
@@ -27,11 +29,35 @@ a {
   text-decoration: none;
 }
 
+ul {
+  list-style: none;
+  margin-left: 0;
+  padding-left: 0;
+}
+
+li {
+  margin-top: 1rem;
+  color: #a9a9a9;
+}
+
+i {
+  color: #ff80ab;
+}
+
+button i {
+  color: white;
+}
+
+/* Causes White space on Mobile version */
+
+.row {
+  --bs-gutter-x: 0 !important;
+}
+
 /* NAV */
 
 nav {
   background-color: #ff80ab;
-  color: white !important;
   position: fixed;
 }
 
@@ -45,16 +71,7 @@ nav li {
   color: white;
 }
 
-ul {
-  list-style: none;
-  margin-left: 0;
-  padding-left: 0;
-}
-
-li {
-  margin-top: 1rem;
-  color: #a9a9a9;
-}
+/* FOOTER */
 
 footer {
   background-color: #2e3951;
@@ -66,25 +83,11 @@ footer i {
 }
 
 footer i:hover {
-  color: #ff80ab;
-}
-
-/* Causes White space on Mobile version */
-
-.row {
-  --bs-gutter-x: 0 !important;
+  color: white;
 }
 
 .service .card {
   min-height: 525px;
-}
-
-i {
-  color: #ff80ab;
-}
-
-button i {
-  color: white;
 }
 
 /* HOME */
@@ -100,29 +103,31 @@ button i {
   position: relative;
 }
 
-.masked {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  right: 0;
-  left: 0;
-  opacity: 0.3;
-  background-color: black;
-  z-index: 1;
-}
-
 .intro {
   z-index: 200;
 }
+
+/* HOME */
 
 .home-head {
   background-image: url("../public/images/Home-Header.jpg");
 }
 
-/* Therapy */
+@media screen and (max-width: 500px) {
+  .home-head {
+    background-image: url("../public/images/Home-Mobile.jpg");
+  }
+}
 
+/* Therapy */
 .therapy {
   background-image: url("../public/images/Individual-Header.jpg");
+}
+
+@media screen and (max-width: 500px) {
+  .therapy {
+    background-image: url("../public/images/terapia-mobile.jpg");
+  }
 }
 
 /* Workshop */
@@ -131,15 +136,19 @@ button i {
 }
 
 /* Programmes */
-
 .programas {
   background-image: url("../public/images/programa-landscape.png");
 }
 
 /* Testmimonials */
-
 .testimonios {
   background-image: url("../public/images/Testimonios-Header.png");
+}
+
+@media screen and (max-width: 500px) {
+  .testimonios {
+    background-image: url("../public/images/test-mobile.jpg");
+  }
 }
 
 .testimonials .card img {
@@ -148,13 +157,17 @@ button i {
 }
 
 /* Contact */
-
 .contact {
   background-image: url("../public/images/Contact-Header.png");
 }
 
-/* Transitions */
+@media screen and (max-width: 500px) {
+  .contact {
+    background-image: url("../public/images/Contact-Mobile.jpg");
+  }
+}
 
+/* Transitions */
 .page {
   position: absolute;
   top: 0;
@@ -164,10 +177,6 @@ button i {
   background-color: #ff80ab;
   z-index: 300;
   border-right: 2px solid #2e3951;
-}
-
-.card p {
-  color: #747373;
 }
 
 li h4 {

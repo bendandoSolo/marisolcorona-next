@@ -3,7 +3,6 @@ import { useEffect } from "react";
 import "../styles/globals.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import "mdb-react-ui-kit/dist/css/mdb.min.css";
 
 import Navbar from "./components/Navbar";
 import Footer from "./components/Footer";

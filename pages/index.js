@@ -28,6 +28,7 @@ export default function Home() {
             role="button"
           >
             Aprende más
+            <i className="fas fa-play ms-2"></i>
           </button>
           <Link href="https://calendly.com/marisol-corona/entrevista">
             <a target="_blank">
@@ -37,6 +38,7 @@ export default function Home() {
                 role="button"
               >
                 Reservar ahora
+                <i className="fas fa-book-open ms-2"></i>
               </button>
             </a>
           </Link>
@@ -246,7 +248,7 @@ export default function Home() {
           >
             <div className="card text-center">
               <img
-                src="\images\workshop.jpg"
+                src="\images\Workshop-Header.jpg"
                 className="card-img-top mb-3"
                 alt="..."
               />
@@ -259,7 +261,7 @@ export default function Home() {
                   </p>
                 </div>
                 <div>
-                  <Link href="/workshop">
+                  <Link href="/">
                     <button
                       id={styles.headerButtonPink}
                       className="btn text-white"
