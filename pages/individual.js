@@ -18,7 +18,6 @@ export default function Individual() {
       }}
       exit={{
         opacity: 0,
-        x: "100vw",
         transition: {
           duration: 0.8,
         },
@@ -62,14 +61,12 @@ export default function Individual() {
         </div>
         <hr />
         {/* Section */}
-        <div className="my-5 p-5">
-          <h2 className="mb-5 text-center" data-aos="fade-up">
-            Esta técnica nos permitirá:
-          </h2>
+        <div className="my-5 p-5" data-aos="fade-up">
+          <h2 className="mb-5 text-center">Esta técnica nos permitirá:</h2>
           <div className="row justify-content-center">
             <div className="col-md-4 mx-5">
               <ul>
-                <li className="d-flex " data-aos="fade-up">
+                <li className="d-flex">
                   <i
                     className="fas fa-clipboard-check fa-2x"
                     aria-hidden="true"
@@ -82,7 +79,7 @@ export default function Individual() {
                     </p>
                   </div>
                 </li>
-                <li className="d-flex " data-aos="fade-up">
+                <li className="d-flex">
                   <i
                     className="fas fa-clipboard-check fa-2x"
                     aria-hidden="true"
@@ -92,7 +89,7 @@ export default function Individual() {
                     tus objetivos y metas.
                   </p>
                 </li>
-                <li className="d-flex " data-aos="fade-up">
+                <li className="d-flex">
                   <i
                     className="fas fa-clipboard-check fa-2x me-2"
                     aria-hidden="true"
@@ -100,7 +97,7 @@ export default function Individual() {
                   Te acompañare en el diseño de tu futuro sin que el pasado
                   limite a tu desarrollo.
                 </li>
-                <li className="d-flex " data-aos="fade-up">
+                <li className="d-flex">
                   <i
                     className="fas fa-clipboard-check fa-2x me-2"
                     aria-hidden="true"
@@ -111,7 +108,7 @@ export default function Individual() {
             </div>
             <div className="col-md-4 mx-5">
               <ul>
-                <li className="d-flex " data-aos="fade-up">
+                <li className="d-flex">
                   <i
                     className="fas fa-clipboard-check fa-2x"
                     aria-hidden="true"
@@ -121,7 +118,7 @@ export default function Individual() {
                     hacia tu nueva vida, modificando el presente.
                   </p>
                 </li>
-                <li className="d-flex " data-aos="fade-up">
+                <li className="d-flex">
                   <i
                     className="fas fa-clipboard-check fa-2x me-2"
                     aria-hidden="true"
@@ -130,7 +127,7 @@ export default function Individual() {
                   ¿por qué no? Incluso en el ¿para qué? de lo que realmente
                   quieres.
                 </li>
-                <li className="d-flex" data-aos="fade-up">
+                <li className="d-flex">
                   <i
                     className="fas fa-clipboard-check fa-2x me-2"
                     aria-hidden="true"

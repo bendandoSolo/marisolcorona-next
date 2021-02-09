@@ -2,8 +2,6 @@ import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import { motion } from "framer-motion";
 
-import Image from "next/image";
-
 export default function Contact() {
   return (
     <motion.div
@@ -17,7 +15,6 @@ export default function Contact() {
       }}
       exit={{
         opacity: 0,
-        x: "100vw",
         transition: {
           duration: 0.8,
         },
@@ -36,7 +33,7 @@ export default function Contact() {
         {/* Section */}
         <div className="row my-5 justify-content-evenly py-5">
           <div className="col-md-6" data-aos="fade-up">
-            <ul>
+            <ul className="mb-5">
               <li>
                 <h4 className="mb-3">SESIÓN ONLINE</h4>
                 <p>¿Cómo funciona?</p>

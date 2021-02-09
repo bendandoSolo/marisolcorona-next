@@ -18,7 +18,6 @@ export default function Home() {
       }}
       exit={{
         opacity: 0,
-        x: "100vw",
         transition: {
           duration: 0.8,
         },
@@ -28,36 +27,39 @@ export default function Home() {
         <title>Home | Marisol Corona</title>
       </Head>
       <div className="home-head header">
-        <div className="text-center intro">
-          <h1 className="mb-3">Marisol Corona psicóloga y coach</h1>
-          <div className="row justify-content-center">
-            <h5 className="mb-3 text-white col-md-4">
-              Soy Marisol Corona, psicóloga clínica experta en duelo por
-              pérdida, divorcio y/o separación de pareja, relaciones toxicas,
-              codependencia y autoestima.
-            </h5>
+        <div className="mask-div"></div>
+        <div className="header-text container">
+          <div className="text-center intro">
+            <h1 className="mb-3">Marisol Corona psicóloga y coach</h1>
+            <div className="row justify-content-center">
+              <h5 className="mb-3 text-white col-md-4">
+                Soy Marisol Corona, psicóloga clínica experta en duelo por
+                pérdida, divorcio y/o separación de pareja, relaciones toxicas,
+                codependencia y autoestima.
+              </h5>
+            </div>
+            <button
+              id={styles.headerButtonInvisible}
+              className="btn mx-2 mt-4 py-3 px-4 text-white"
+              href=""
+              role="button"
+            >
+              Aprende más
+              <i className="fas fa-play ms-2"></i>
+            </button>
+            <Link href="https://calendly.com/marisol-corona/entrevista">
+              <a target="_blank">
+                <button
+                  id={styles.headerButtonPink}
+                  className="btn mx-2 mt-4 py-3 px-4 text-white"
+                  role="button"
+                >
+                  Reservar ahora
+                  <i className="fas fa-book-open ms-2"></i>
+                </button>
+              </a>
+            </Link>
           </div>
-          <button
-            id={styles.headerButtonInvisible}
-            className="btn mx-2 mt-4 py-3 px-5 text-white"
-            href=""
-            role="button"
-          >
-            Aprende más
-            <i className="fas fa-play ms-2"></i>
-          </button>
-          <Link href="https://calendly.com/marisol-corona/entrevista">
-            <a target="_blank">
-              <button
-                id={styles.headerButtonPink}
-                className="btn mx-2 mt-4 py-3 px-5 text-white"
-                role="button"
-              >
-                Reservar ahora
-                <i className="fas fa-book-open ms-2"></i>
-              </button>
-            </a>
-          </Link>
         </div>
       </div>
       {/* Start of Container */}
@@ -120,8 +122,11 @@ export default function Home() {
         <hr />
         {/* SECTION */}
 
-        <div className="row pt-5 mt-5 justify-content-evenly">
-          <div className="col-md-6 text-center mb-3" data-aos="fade-up">
+        <div
+          className="row pt-5 mt-5 justify-content-evenly"
+          data-aos="fade-up"
+        >
+          <div className="col-md-6 text-center mb-3">
             <Image
               src="/sol.jpg"
               alt="Picture of the author"
@@ -129,7 +134,7 @@ export default function Home() {
               height={375}
             />
           </div>
-          <div className="col-md-6" data-aos="fade-up" data-aos-delay="100">
+          <div className="col-md-6">
             <div>
               <h3>¿Por qué puedes confiar en mí?</h3>
               <p className="mt-4">Porque pasé por lo mismo que tú...</p>
@@ -157,11 +162,9 @@ export default function Home() {
         <hr />
 
         {/* SECTION */}
-        <div className="row mt-5">
-          <h2 className="text-center my-5" data-aos="fade-up">
-            Sobre Mí
-          </h2>
-          <div className="col-md-4" data-aos="fade-up">
+        <div className="row mt-5" data-aos="fade-up">
+          <h2 className="text-center my-5">Sobre Mí</h2>
+          <div className="col-md-4">
             <div>
               <ul>
                 <li className="d-flex">
@@ -190,7 +193,7 @@ export default function Home() {
               </ul>
             </div>
           </div>
-          <div className="col-md-4" data-aos="fade-up" data-aos-delay="100">
+          <div className="col-md-4">
             <Image
               src="/qualifications.jpg"
               alt="Picture of the author"
@@ -198,7 +201,7 @@ export default function Home() {
               height={425}
             />
           </div>
-          <div className="col-md-4" data-aos="fade-up" data-aos-delay="200">
+          <div className="col-md-4">
             <ul>
               <li className="d-flex">
                 <i className="fas fa-check-circle fa-2x dark"></i>
@@ -225,11 +228,14 @@ export default function Home() {
         <h2 className="text-center my-5" data-aos="fade-up">
           Servicios
         </h2>
-        <div className="row my-5 justify-content-around service">
-          <div className="col-md-3 mb-4" data-aos="fade-up">
+        <div
+          className="row my-5 justify-content-around service"
+          data-aos="fade-up"
+        >
+          <div className="col-md-3 mb-4">
             <div className="card text-center">
               <img
-                src="\images\terapia-individual.jpg"
+                src="\images\terapia-card.jpg"
                 className="card-img-top mb-3"
                 alt="..."
               />
@@ -257,14 +263,10 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div
-            className="col-md-3 mb-4"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
+          <div className="col-md-3 mb-4">
             <div className="card text-center">
               <img
-                src="\images\Workshop-Header.jpg"
+                src="\images\workshop-card.jpg"
                 className="card-img-top mb-3"
                 alt="..."
               />
@@ -290,14 +292,10 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div
-            className="col-md-3 mb-4"
-            data-aos="fade-up"
-            data-aos-delay="200"
-          >
+          <div className="col-md-3 mb-4">
             <div className="card text-center">
               <img
-                src="\images\programa-landscape.png"
+                src="\images\programas-card.png"
                 className="card-img-top mb-3"
                 alt="..."
               />
@@ -329,228 +327,234 @@ export default function Home() {
 
         {/* SECTION */}
 
-        <h2 className="text-center my-5" data-aos="fade-up">
-          Descargas
-        </h2>
-        <div className="text-center" data-aos="fade-up">
-          <Image
-            src="/man-woman.png"
-            alt="Picture of the author"
-            width={1000}
-            height={425}
-          />
-        </div>
-        <div className="row mt-5">
-          <h3 className="text-center" data-aos="fade-up">
-            Para comenzar, regístrate y descarga parte de mi contenido gratis
-          </h3>
+        <div data-aos="fade-up">
+          <h2 className="text-center my-5">Descargas</h2>
+          <div className="text-center">
+            <Image
+              src="/man-woman.png"
+              alt="Picture of the author"
+              width={1000}
+              height={425}
+            />
+          </div>
+          <div className="row mt-5">
+            <h3 className="text-center">
+              Para comenzar, regístrate y descarga parte de mi contenido gratis
+            </h3>
 
-          <div className="col-md-6 text-center p-5" data-aos="fade-up">
-            <p>Descarga el podcast GRATIS "Las 5 etapas del Duelo de Pareja"</p>
-            <Link href="https://www.dopplerpages.com/marisol-A0943/Form2-35698">
-              <a target="_blank">
-                <button
-                  id={styles.headerButtonPink}
-                  className="btn mx-2 mt-2 py-3 px-5 text-white"
-                  href=""
-                  role="button"
-                >
-                  Descarga
-                  <i className="fas fa-download ms-2"></i>
-                </button>
-              </a>
-            </Link>
+            <div className="col-md-6 text-center p-5">
+              <p>
+                Descarga el podcast GRATIS "Las 5 etapas del Duelo de Pareja"
+              </p>
+              <Link href="https://www.dopplerpages.com/marisol-A0943/Form2-35698">
+                <a target="_blank">
+                  <button
+                    id={styles.headerButtonPink}
+                    className="btn mx-2 mt-2 py-3 px-5 text-white"
+                    href=""
+                    role="button"
+                  >
+                    Descarga
+                    <i className="fas fa-download ms-2"></i>
+                  </button>
+                </a>
+              </Link>
+            </div>
+            <div className="col-md-6 text-center p-5">
+              <p>
+                Descarga la guía GRATIS para "Dejar de pensar en tu ex-pareja en
+                6 pasos"
+              </p>
+              <Link href="https://app2.fromdoppler.com/Lists/FormProcessing/PublishedForm?IdForm=YekAANSiE4%2bsddf9OJiocw%3d%3d">
+                <a target="_blank">
+                  <button
+                    id={styles.headerButtonPink}
+                    className="btn mx-2 mt-2 py-3 px-5 text-white"
+                    href=""
+                    role="button"
+                  >
+                    Descarga
+                    <i className="fas fa-download ms-2"></i>
+                  </button>
+                </a>
+              </Link>
+            </div>
           </div>
-          <div
-            className="col-md-6 text-center p-5"
-            data-aos="fade-up"
-            data-aos-delay="100"
-          >
-            <p>
-              Descarga la guía GRATIS para "Dejar de pensar en tu ex-pareja en 6
-              pasos"
-            </p>
-            <Link href="https://app2.fromdoppler.com/Lists/FormProcessing/PublishedForm?IdForm=YekAANSiE4%2bsddf9OJiocw%3d%3d">
-              <a target="_blank">
-                <button
-                  id={styles.headerButtonPink}
-                  className="btn mx-2 mt-2 py-3 px-5 text-white"
-                  href=""
-                  role="button"
-                >
-                  Descarga
-                  <i className="fas fa-download ms-2"></i>
-                </button>
-              </a>
-            </Link>
-          </div>
+          <hr />
         </div>
-        <hr />
 
         {/* SECTION */}
-        <h2 className="text-center my-4" data-aos="fade-up">
-          Preguntas frecuentes
-        </h2>
-        <div className="row my-5">
-          <div className="col-md-6 p-3" data-aos="fade-up">
-            <ul>
-              <li className="d-flex">
-                <i
-                  className="fas fa-comments fa-2x mb-1 dark"
-                  aria-hidden="true"
-                ></i>
-                <div className="mx-3">
-                  <h4>¿Por dónde empezar? ¿qué pasos puedo dar?</h4>
-                  <p>
-                    Solo mándame un mensaje por correo electrónico para ponernos
-                    en contacto o pide una sesión directamente o un mensaje al
-                    teléfono de whtasAp.
-                  </p>
-                </div>
-              </li>
-              <li className="d-flex">
-                <i
-                  className="fas fa-comments fa-2x mb-1 dark"
-                  aria-hidden="true"
-                ></i>
-                <div className="mx-3">
-                  <h4>¿Cuál es la frecuencia y la duración de las sesiones?</h4>
-                  <p>
-                    En un primer momento se recomienda asistir de manera semanal
-                    o quincenal.
-                  </p>
-                  <p>
-                    A medida que la persona sienta que está alcanzando sus
-                    objetivos y se encuentre mucho mejor el número de sesiones
-                    se irá reduciendo progresivamente.
-                  </p>
-                  <p>
-                    En nuestro centro nos adaptamos a las necesidades de
-                    nuestros pacientes. A veces por motivos económicos o por
-                    incompatibilidad horaria las sesiones tienen que ser
-                    espaciadas en el tiempo. La duración de las sesiones suele
-                    ser aproximadamente de una hora de duración.
-                  </p>
-                </div>
-              </li>
-              <li className="d-flex">
-                <i
-                  className="fas fa-comments fa-2x mb-1 dark"
-                  aria-hidden="true"
-                ></i>
-                <div className="mx-3">
-                  <h4>
-                    ¿Cuál es la frecuencia entre un workshop y el programa?
-                  </h4>
-                  <p>
-                    Un worshop es una clase de 2 dias donde te explicare todo lo
-                    referente a la problemática que estás pasando y harás
-                    ejercicios para poder entender y tenerlo más claro con el
-                    fin de que te sientas mejor; un programa es un
-                    acompañamiento de tres meses donde se te proporciona mucha
-                    psico información, ejercicios de descubrimiento,
-                    meditaciones y lecturas.
-                  </p>
-                </div>
-              </li>
-              <li className="d-flex">
-                <i
-                  className="fas fa-comments fa-2x mb-1 dark"
-                  aria-hidden="true"
-                ></i>
-                <div className="mx-3">
-                  <h4>¿Qué duración tiene una terapia psicológica?</h4>
-                  <p>
-                    Gracias a nuestro modelo de intervención basado en el uso de
-                    herramientas y técnicas altamente eficaces podemos decir que
-                    las terapias que realizamos en nuestro centro son breves.
-                  </p>
-                  <p>
-                    La duración exacta de la terapia dependerá del motivo de la
-                    consulta, la gravedad del problema, la motivación y del
-                    compromiso que tenga el paciente durante el proceso.
-                  </p>
-                  <p>
-                    Creemos que la mejor inversión que se puede hacer por uno
-                    mismo es emplear el tiempo y el esfuerzo en un proceso
-                    terapéutico. Muchos pacientes nos comentan que ha habido un
-                    antes y después en sus vidas tras la realización de la
-                    terapia.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </div>
-          <div className="col-md-6 p-3" data-aos="fade-up" data-aos-delay="100">
-            <ul>
-              <li className="d-flex">
-                <i
-                  className="fas fa-comments fa-2x mb-1 dark"
-                  aria-hidden="true"
-                ></i>
-                <div className="mx-3">
-                  <h4>¿Cuándo tengo de acudir al psicólogo?</h4>
-                  <ul>
-                    <li>
-                      <p>Si te encuentras en un momento difícil de tu vida.</p>
-                    </li>
-                    <li>
-                      Si te enfrentas a un problema que no encuentras la
-                      solución y requiere la ayuda de un profesional.
-                    </li>
-                    <li>
-                      Si sientes tristeza, soledad, angustia, ansiedad, etc.
-                    </li>
-                    <li>Si necesitas un cambio.</li>
-                    <li>Si no encuentras satisfacción en tu propia vida.</li>
-                    <li>Si necesitas ayuda y apoyo sobre tu problema.</li>
-                    <li>
-                      Si te gustaría recibir asesoramiento para poder ayudar a
-                      otra persona que tiene problemas y no sabes cómo hacerlo.
-                    </li>
-                    <li>
-                      Si tienes alguno de los siguientes problemas: ansiedad,
-                      depresión, estrés, problemas de pareja, problemas
-                      familiares, divorcio complicado, insatisfacción vital,
-                      ausencia de felicidad, etc.
-                    </li>
-                    <li>
-                      Muchas veces pensamos que pedir ayuda es de personas
-                      débiles, pensar así hace que el problema se vaya haciendo
-                      cada vez más grande y vaya aumentando el sufrimiento
-                      significativamente.
-                    </li>
-                  </ul>
-                </div>
-              </li>
-              <li className="d-flex">
-                <i
-                  className="fas fa-comments fa-2x mb-1 dark"
-                  aria-hidden="true"
-                ></i>
-                <div className="ms-3">
-                  <h4>
-                    Debido a mi trabajo, no tengo casi disponibilidad ¿cuál es
-                    la mejor terapia para mí?
-                  </h4>
-                  <p>
-                    Desde nuestro centro queremos ofreceros la opción que mejor
-                    se adapte a ti. Para ello disponemos de tres modalidades:
-                  </p>
-                  <p>Terapia online por videoconferencia</p>
-                </div>
-              </li>
-              <li className="d-flex">
-                <i
-                  className="fas fa-comments fa-2x mb-1 dark"
-                  aria-hidden="true"
-                ></i>
-                <div className="ms-3">
-                  <h4>¿Mis datos son confidenciales?</h4>
-                  <p>Se garantiza confidencialidad absoluta.</p>
-                </div>
-              </li>
-            </ul>
+
+        <div data-aos="fade-up">
+          <h2 className="text-center my-4">Preguntas frecuentes</h2>
+          <div className="row my-5">
+            <div className="col-md-6 p-3">
+              <ul>
+                <li className="d-flex">
+                  <i
+                    className="fas fa-comments fa-2x mb-1 dark"
+                    aria-hidden="true"
+                  ></i>
+                  <div className="mx-3">
+                    <h4>¿Por dónde empezar? ¿qué pasos puedo dar?</h4>
+                    <p>
+                      Solo mándame un mensaje por correo electrónico para
+                      ponernos en contacto o pide una sesión directamente o un
+                      mensaje al teléfono de whtasAp.
+                    </p>
+                  </div>
+                </li>
+                <li className="d-flex">
+                  <i
+                    className="fas fa-comments fa-2x mb-1 dark"
+                    aria-hidden="true"
+                  ></i>
+                  <div className="mx-3">
+                    <h4>
+                      ¿Cuál es la frecuencia y la duración de las sesiones?
+                    </h4>
+                    <p>
+                      En un primer momento se recomienda asistir de manera
+                      semanal o quincenal.
+                    </p>
+                    <p>
+                      A medida que la persona sienta que está alcanzando sus
+                      objetivos y se encuentre mucho mejor el número de sesiones
+                      se irá reduciendo progresivamente.
+                    </p>
+                    <p>
+                      En nuestro centro nos adaptamos a las necesidades de
+                      nuestros pacientes. A veces por motivos económicos o por
+                      incompatibilidad horaria las sesiones tienen que ser
+                      espaciadas en el tiempo. La duración de las sesiones suele
+                      ser aproximadamente de una hora de duración.
+                    </p>
+                  </div>
+                </li>
+                <li className="d-flex">
+                  <i
+                    className="fas fa-comments fa-2x mb-1 dark"
+                    aria-hidden="true"
+                  ></i>
+                  <div className="mx-3">
+                    <h4>
+                      ¿Cuál es la frecuencia entre un workshop y el programa?
+                    </h4>
+                    <p>
+                      Un worshop es una clase de 2 dias donde te explicare todo
+                      lo referente a la problemática que estás pasando y harás
+                      ejercicios para poder entender y tenerlo más claro con el
+                      fin de que te sientas mejor; un programa es un
+                      acompañamiento de tres meses donde se te proporciona mucha
+                      psico información, ejercicios de descubrimiento,
+                      meditaciones y lecturas.
+                    </p>
+                  </div>
+                </li>
+                <li className="d-flex">
+                  <i
+                    className="fas fa-comments fa-2x mb-1 dark"
+                    aria-hidden="true"
+                  ></i>
+                  <div className="mx-3">
+                    <h4>¿Qué duración tiene una terapia psicológica?</h4>
+                    <p>
+                      Gracias a nuestro modelo de intervención basado en el uso
+                      de herramientas y técnicas altamente eficaces podemos
+                      decir que las terapias que realizamos en nuestro centro
+                      son breves.
+                    </p>
+                    <p>
+                      La duración exacta de la terapia dependerá del motivo de
+                      la consulta, la gravedad del problema, la motivación y del
+                      compromiso que tenga el paciente durante el proceso.
+                    </p>
+                    <p>
+                      Creemos que la mejor inversión que se puede hacer por uno
+                      mismo es emplear el tiempo y el esfuerzo en un proceso
+                      terapéutico. Muchos pacientes nos comentan que ha habido
+                      un antes y después en sus vidas tras la realización de la
+                      terapia.
+                    </p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+            <div className="col-md-6 p-3">
+              <ul>
+                <li className="d-flex">
+                  <i
+                    className="fas fa-comments fa-2x mb-1 dark"
+                    aria-hidden="true"
+                  ></i>
+                  <div className="mx-3">
+                    <h4>¿Cuándo tengo de acudir al psicólogo?</h4>
+                    <ul>
+                      <li>
+                        <p>
+                          Si te encuentras en un momento difícil de tu vida.
+                        </p>
+                      </li>
+                      <li>
+                        Si te enfrentas a un problema que no encuentras la
+                        solución y requiere la ayuda de un profesional.
+                      </li>
+                      <li>
+                        Si sientes tristeza, soledad, angustia, ansiedad, etc.
+                      </li>
+                      <li>Si necesitas un cambio.</li>
+                      <li>Si no encuentras satisfacción en tu propia vida.</li>
+                      <li>Si necesitas ayuda y apoyo sobre tu problema.</li>
+                      <li>
+                        Si te gustaría recibir asesoramiento para poder ayudar a
+                        otra persona que tiene problemas y no sabes cómo
+                        hacerlo.
+                      </li>
+                      <li>
+                        Si tienes alguno de los siguientes problemas: ansiedad,
+                        depresión, estrés, problemas de pareja, problemas
+                        familiares, divorcio complicado, insatisfacción vital,
+                        ausencia de felicidad, etc.
+                      </li>
+                      <li>
+                        Muchas veces pensamos que pedir ayuda es de personas
+                        débiles, pensar así hace que el problema se vaya
+                        haciendo cada vez más grande y vaya aumentando el
+                        sufrimiento significativamente.
+                      </li>
+                    </ul>
+                  </div>
+                </li>
+                <li className="d-flex">
+                  <i
+                    className="fas fa-comments fa-2x mb-1 dark"
+                    aria-hidden="true"
+                  ></i>
+                  <div className="ms-3">
+                    <h4>
+                      Debido a mi trabajo, no tengo casi disponibilidad ¿cuál es
+                      la mejor terapia para mí?
+                    </h4>
+                    <p>
+                      Desde nuestro centro queremos ofreceros la opción que
+                      mejor se adapte a ti. Para ello disponemos de tres
+                      modalidades:
+                    </p>
+                    <p>Terapia online por videoconferencia</p>
+                  </div>
+                </li>
+                <li className="d-flex">
+                  <i
+                    className="fas fa-comments fa-2x mb-1 dark"
+                    aria-hidden="true"
+                  ></i>
+                  <div className="ms-3">
+                    <h4>¿Mis datos son confidenciales?</h4>
+                    <p>Se garantiza confidencialidad absoluta.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
           </div>
         </div>
       </div>

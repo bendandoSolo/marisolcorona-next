@@ -16,14 +16,13 @@ export default function Testimonials() {
       }}
       exit={{
         opacity: 0,
-        x: "100vw",
         transition: {
           duration: 0.8,
         },
       }}
     >
       <Head>
-        <title>Create Next App</title>
+        <title>Testimonios | Marisol Corona</title>
       </Head>
       <div className="header testimonios">
         <div className="text-center intro">
@@ -43,7 +42,7 @@ export default function Testimonials() {
               data-aos="fade-up"
             >
               <img
-                src="\images\Jenny-Briseno.jpeg"
+                src="\images\testimonios\Jenny-Briseno.jpeg"
                 className="card-img-top"
                 alt="..."
               />
@@ -66,7 +65,7 @@ export default function Testimonials() {
               data-aos="fade-up"
             >
               <img
-                src="\images\Charity-Massey.jpg"
+                src="\images\testimonios\Charity-Massey.jpg"
                 className="card-img-top"
                 alt="..."
               />
@@ -89,7 +88,7 @@ export default function Testimonials() {
               data-aos="fade-up"
             >
               <img
-                src="\images\Elizabet-Llandes.jpg"
+                src="\images\testimonios\Elizabet-Llandes.jpg"
                 className="card-img-top"
                 alt="..."
               />
@@ -110,7 +109,7 @@ export default function Testimonials() {
               data-aos="fade-up"
             >
               <img
-                src="\images\Ana-Carolina-Morales.jpg"
+                src="\images\testimonios\Ana-Carolina-Morales.jpg"
                 className="card-img-top"
                 alt="..."
               />

@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="navbar navbar-expand-lg text-white py-4 fixed-top">
+      <nav className="navbar navbar-expand-lg  py-3 fixed-top">
         <div className="container">
           <Link href="/">
             <a className="navbar-brand">Marisol Corona</a>
@@ -27,7 +27,7 @@ const Navbar = () => {
             <i className="fas fa-bars"></i>
           </button>
           <div className="collapse navbar-collapse" id="navbarNav">
-            <ul className="navbar-nav">
+            <ul className="navbar-nav ms-auto">
               <li className="nav-item">
                 <Link href="/">
                   <a

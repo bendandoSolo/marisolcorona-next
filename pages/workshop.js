@@ -17,7 +17,6 @@ export default function Workshop() {
       }}
       exit={{
         opacity: 0,
-        x: "100vw",
         transition: {
           duration: 0.8,
         },
@@ -34,26 +33,18 @@ export default function Workshop() {
       {/* Start of Container */}
       <div className="container">
         {/* Section */}
-        <div className="text-center my-5 p-5">
-          <h2 className="mb-5" data-aos="fade-up">
-            Workshop Supera tu ruptura amorosa
-          </h2>
+        <div className="text-center my-5 p-5" data-aos="fade-up">
+          <h2 className="mb-5">Workshop Supera tu ruptura amorosa</h2>
           <div className={styles.workshop}>
-            <h5 data-aos="fade-up">
-              ¿Acabas de terminar una relación importante?
-            </h5>
-            <h5 data-aos="fade-up">
-              ¿Te sientes triste, ansiosa y angustiada?
-            </h5>
-            <h5 data-aos="fade-up">
+            <h5>¿Acabas de terminar una relación importante?</h5>
+            <h5>¿Te sientes triste, ansiosa y angustiada?</h5>
+            <h5>
               ¿Te la pasas revisando tu celular para ver si te llamo o dejo
               algún mensaje?
             </h5>
-            <h5 className="mb-5" data-aos="fade-up">
-              ¿Quieres sentirte mejor?
-            </h5>
+            <h5 className="mb-5">¿Quieres sentirte mejor?</h5>
           </div>
-          <p data-aos="fade-up">
+          <p>
             Con el taller de Ruptura amorosa obtendrás las herramientas
             necesarias para empezar a entender lo que estas sintiendo,
             comprender la situación y así poder sentirte mejor y salir adelante.
@@ -63,7 +54,6 @@ export default function Workshop() {
               <button
                 id={styles.headerButtonPink}
                 className="btn mx-2 mt-4 py-3 px-5 text-white"
-                data-aos="fade-up"
                 role="button"
               >
                 Reservar ahora
@@ -74,25 +64,23 @@ export default function Workshop() {
         </div>
         <hr />
         {/* Section */}
-        <div className="my-5 p-5">
-          <h2 className="mb-5 text-center " data-aos="fade-up">
-            Módulos
-          </h2>
+        <div className="my-5 p-5" data-aos="fade-up">
+          <h2 className="mb-5 text-center ">Módulos</h2>
           <div className="row justify-content-center">
-            <h5 className="text-center mb-5" data-aos="fade-up">
+            <h5 className="text-center mb-5">
               Gracias a los ejercicios e información proporcionada
               proporcionados lograras:
             </h5>
             <div className="col-md-4 mx-5">
               <ul>
-                <li className="d-flex" data-aos="fade-up">
+                <li className="d-flex">
                   <i
                     className="fas fa-clipboard-check fa-2x me-2"
                     aria-hidden="true"
                   ></i>
                   Aprender que es una ruptura amorosa.
                 </li>
-                <li className="d-flex" data-aos="fade-up">
+                <li className="d-flex">
                   <i
                     className="fas fa-clipboard-check fa-2x me-2"
                     aria-hidden="true"
@@ -100,7 +88,7 @@ export default function Workshop() {
                   Entender tus emociones como angustia, ansiedad, miedo y de
                   donde vienen.
                 </li>
-                <li className="d-flex" data-aos="fade-up">
+                <li className="d-flex">
                   <i
                     className="fas fa-clipboard-check fa-2x me-2"
                     aria-hidden="true"
@@ -111,21 +99,21 @@ export default function Workshop() {
             </div>
             <div className="col-md-4 mx-5">
               <ul>
-                <li className="d-flex" data-aos="fade-up">
+                <li className="d-flex">
                   <i
                     className="fas fa-clipboard-check fa-2x me-2"
                     aria-hidden="true"
                   ></i>
                   Entender y ubicar en qué etapa de duelo pareja te encuentras.
                 </li>
-                <li className="d-flex" data-aos="fade-up">
+                <li className="d-flex">
                   <i
                     className="fas fa-clipboard-check fa-2x me-2"
                     aria-hidden="true"
                   ></i>
                   Porque no era la persona correcta para ti.
                 </li>
-                <li className="d-flex" data-aos="fade-up">
+                <li className="d-flex">
                   <i
                     className="fas fa-clipboard-check fa-2x me-2"
                     aria-hidden="true"
