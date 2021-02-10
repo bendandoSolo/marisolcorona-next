@@ -70,7 +70,7 @@ export default function Contact() {
               <div className="form-outline mb-4">
                 <label className="form-label" htmlFor="form4Example1">
                   <i className="fas fa-user me-2"></i>
-                  Name
+                  Tu nombre
                 </label>
                 <input
                   type="text"
@@ -82,7 +82,7 @@ export default function Contact() {
               <div className="form-outline mb-4">
                 <label className="form-label" htmlFor="form4Example2">
                   <i className="fas fa-envelope prefix grey-text me-2"></i>
-                  Email address
+                  Tu correo electrónico
                 </label>
                 <input
                   type="email"
@@ -94,7 +94,7 @@ export default function Contact() {
               <div className="form-outline mb-4">
                 <label className="form-label" htmlFor="form4Example3">
                   <i className="fas fa-envelope me-2"></i>
-                  Message
+                  Tu mensaje
                 </label>
                 <textarea
                   className="form-control"
@@ -111,7 +111,7 @@ export default function Contact() {
                   id="form4Example4"
                 />
                 <label className="form-check-label" htmlFor="form4Example4">
-                  Send me a copy of this message
+                  Suscríbeme al boletín
                 </label>
               </div>
               <div className="row justify-content-center">

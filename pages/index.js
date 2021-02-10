@@ -40,7 +40,7 @@ export default function Home() {
             </div>
             <button
               id={styles.headerButtonInvisible}
-              className="btn mx-2 mt-4 py-3 px-4 text-white"
+              className="btn mx-2 mt-4 py-3 px-5 text-white"
               href=""
               role="button"
             >
@@ -51,7 +51,7 @@ export default function Home() {
               <a target="_blank">
                 <button
                   id={styles.headerButtonPink}
-                  className="btn mx-2 mt-4 py-3 px-4 text-white"
+                  className="btn mx-2 mt-4 py-3 px-5 text-white"
                   role="button"
                 >
                   Reservar ahora

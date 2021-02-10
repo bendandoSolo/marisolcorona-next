@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <div>
-      <nav className="navbar navbar-expand-lg  py-3 fixed-top">
+      <nav className="navbar navbar-expand-lg  py-2 fixed-top">
         <div className="container">
           <Link href="/">
             <a className="navbar-brand">Marisol Corona</a>
