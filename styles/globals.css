@@ -79,12 +79,32 @@ textarea {
 /* NAV */
 
 nav {
-  background-color: #ff80ab;
+  background-color: black;
+  opacity: 0.8;
   position: fixed;
+  transition: 0.2s ease-in-out;
+}
+
+@media screen and (max-width: 770px) {
+  nav {
+    padding: 3px 0 !important;
+    transition: 0.2s ease-in-out;
+    background-color: #ff80ab;
+    opacity: 1;
+  }
+}
+
+.nav-scroll {
+  padding: 3px 0 !important;
+  transition: 0.2s ease-in-out;
+  background-color: #ff80ab;
+  opacity: 1;
 }
 
 .navbar-brand {
   color: white;
+  /* z-index: 3;
+  opacity: 1; */
 }
 
 nav a:hover {
