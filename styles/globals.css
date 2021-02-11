@@ -136,6 +136,18 @@ footer i:hover {
   min-height: 575px;
 }
 
+@media screen and (max-width: 1000px) {
+  .card {
+    height: 750px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card {
+    height: 500px;
+  }
+}
+
 /* HOME */
 
 .service .card img {

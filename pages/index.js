@@ -229,10 +229,10 @@ export default function Home() {
           Servicios
         </h2>
         <div
-          className="row my-5 justify-content-around service"
+          className="row my-5 justify-content-center service"
           data-aos="fade-up"
         >
-          <div className="col-md-3 mb-4">
+          <div className="col-md-3 mb-4 mx-3">
             <div className="card text-center">
               <img
                 src="\images\terapia-card.jpg"
@@ -263,7 +263,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="col-md-3 mb-4">
+          <div className="col-md-3 mb-4 mx-3">
             <div className="card text-center">
               <img
                 src="\images\workshop-card.jpg"
@@ -292,7 +292,7 @@ export default function Home() {
               </div>
             </div>
           </div>
-          <div className="col-md-3 mb-4">
+          <div className="col-md-3 mb-4 mx-3">
             <div className="card text-center">
               <img
                 src="\images\programas-card.png"
