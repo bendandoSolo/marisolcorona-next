@@ -29,7 +29,7 @@ const Footer = () => {
         </Link>
         <div className="my-4">
           <Image
-            src="/logoTrimPink.png"
+            src="/images/logoTrimPink.png"
             alt="Picture of the author"
             width={200}
             height={100}
