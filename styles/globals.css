@@ -90,7 +90,7 @@ form {
 form input,
 form textarea {
   border: none;
-  border-bottom: 1px solid gray !important;
+  border-bottom: 1px solid lightgray !important;
   padding: 1rem;
 }
 
