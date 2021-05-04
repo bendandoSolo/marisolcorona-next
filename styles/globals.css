@@ -92,12 +92,14 @@ form textarea {
   border: none;
   border-bottom: 1px solid lightgray !important;
   padding: 1rem;
+  cursor: pointer;
 }
 
 form input:focus,
 form textarea:focus {
   border-bottom: 2px solid #ff80ab !important;
   outline: none;
+  cursor: text;
 }
 
 #form4Example4 {
