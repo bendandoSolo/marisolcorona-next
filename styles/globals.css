@@ -383,3 +383,35 @@ footer i:hover {
 li h4 {
   color: black;
 }
+
+/* Accordian */
+
+.accordion-collapse {
+  border-width: 0 !important;
+}
+
+.accordion-button {
+  background-color: #ff80ab;
+  color: whitesmoke;
+}
+
+.accordion-button.collapsed {
+  border: 1px solid whitesmoke;
+}
+
+.accordion-body {
+  padding-bottom: 2rem;
+  border: 2px solid lightgray;
+}
+
+.accordion-button:focus {
+  background-color: whitesmoke;
+  color: #ff80ab;
+  outline: #ff80ab;
+  border-color: #ff80ab;
+}
+
+.accordion-button:not(.collapsed) {
+  background-color: #ff80ab;
+  color: whitesmoke;
+}

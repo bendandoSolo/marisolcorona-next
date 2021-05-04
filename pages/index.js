@@ -64,64 +64,6 @@ export default function Home() {
       </div>
       {/* Start of Container */}
       <div className="container">
-        <div className="row mt-5 py-5 align-items-start">
-          <div className="col-md-4" data-aos="fade-up">
-            <h3>Te está pasando que…</h3>
-            <ul>
-              <li>¿Acabas de terminar una relación?</li>
-              <li>
-                ¿Piensas que la vida no tiene sentido sin una pareja creando una
-                sensación de soledad?
-              </li>
-              <li>¿No sabes cómo salir de tu perdida de pareja?</li>
-              <li>
-                ¿Te la pasas checando tu celular para ver si te mando un
-                mensaje?
-              </li>
-              <li>
-                ¿Tienes sentimientos como angustia, miedo, frustración,
-                tristeza, ansiedad, desmotivación y no sabes cómo controlarlos?
-              </li>
-              <li>
-                ¿Crees que no tienes lo suficiente para salir adelante y que
-                siempre estarás en soledad, que todo lo que te está pasando es
-                tu culpa?
-              </li>
-            </ul>
-          </div>
-          <div className="col-md-4 text-center mt-5" data-aos="fade-up">
-            <Image
-              src="/heart.png"
-              alt="Picture of the author"
-              width={200}
-              height={160}
-            />{" "}
-          </div>
-          <div className="col-md-4" data-aos="fade-up">
-            <h3>¿Y sabes por qué te pasa esto?</h3>
-            <ul>
-              <li>Probablemente nadie te ha enseñado a...</li>
-              <li>Sentirte segura, amarte, aceptarte y respetarte.</li>
-              <li>
-                Entender tus emociones para mejorar tu tranquilidad, llegando a
-                la vida que quieres.
-              </li>
-              <li>
-                Sentirte con más autoestima, quererte más a ti misma y aprender
-                a estar contigo.
-              </li>
-              <li>
-                Crear relaciones de pareja más sanas que te harán sentir mejor y
-                completa.
-              </li>
-              <li>¡Encontrar a tu pareja ideal!</li>
-              <li>¿Te gustaría poder lograr todo esto y más?</li>
-            </ul>
-          </div>
-        </div>
-        <hr />
-        {/* SECTION */}
-
         <div
           className="row pt-5 mt-5 justify-content-evenly"
           data-aos="fade-up"
@@ -159,7 +101,94 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <hr />
+      </div>
+      <div class="container accordion my-5" id="accordionExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingOne">
+            <button
+              class="accordion-button p-4"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#collapseOne"
+              aria-expanded="true"
+              aria-controls="collapseOne"
+            >
+              Te está pasando que…
+            </button>
+          </h2>
+          <div
+            id="collapseOne"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingOne"
+            data-mdb-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <ul>
+                <li>¿Acabas de terminar una relación?</li>
+                <li>
+                  ¿Piensas que la vida no tiene sentido sin una pareja creando
+                  una sensación de soledad?
+                </li>
+                <li>¿No sabes cómo salir de tu perdida de pareja?</li>
+                <li>
+                  ¿Te la pasas checando tu celular para ver si te mando un
+                  mensaje?
+                </li>
+                <li>
+                  ¿Tienes sentimientos como angustia, miedo, frustración,
+                  tristeza, ansiedad, desmotivación y no sabes cómo
+                  controlarlos?
+                </li>
+                <li>
+                  ¿Crees que no tienes lo suficiente para salir adelante y que
+                  siempre estarás en soledad, que todo lo que te está pasando es
+                  tu culpa?
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="headingTwo">
+            <button
+              class="accordion-button collapsed p-4"
+              type="button"
+              data-mdb-toggle="collapse"
+              data-mdb-target="#collapseTwo"
+              aria-expanded="false"
+              aria-controls="collapseTwo"
+            >
+              ¿Y sabes por qué te pasa esto?
+            </button>
+          </h2>
+          <div
+            id="collapseTwo"
+            class="accordion-collapse collapse"
+            aria-labelledby="headingTwo"
+            data-mdb-parent="#accordionExample"
+          >
+            <div class="accordion-body">
+              <ul>
+                <li>Probablemente nadie te ha enseñado a...</li>
+                <li>Sentirte segura, amarte, aceptarte y respetarte.</li>
+                <li>
+                  Entender tus emociones para mejorar tu tranquilidad, llegando
+                  a la vida que quieres.
+                </li>
+                <li>
+                  Sentirte con más autoestima, quererte más a ti misma y
+                  aprender a estar contigo.
+                </li>
+                <li>
+                  Crear relaciones de pareja más sanas que te harán sentir mejor
+                  y completa.
+                </li>
+                <li>¡Encontrar a tu pareja ideal!</li>
+                <li>¿Te gustaría poder lograr todo esto y más?</li>
+              </ul>
+            </div>
+          </div>
+        </div>
 
         {/* SECTION */}
         <div className="row mt-5" data-aos="fade-up">
