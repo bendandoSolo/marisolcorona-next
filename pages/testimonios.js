@@ -25,7 +25,11 @@ export default function Testimonials() {
       <Head>
         <title>Testimonios | Marisol Corona</title>
       </Head>
-      <Banner text="Testimonios" bgImg="images/testimonios-dark-header.jpg" />
+      <Banner
+        text="Testimonios"
+        bgImg="images/testimonios-dark-header.jpg"
+        page="testimonios"
+      />
 
       <main id="main" className="mt-5 pt-5">
         <div className="container">

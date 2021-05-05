@@ -31,6 +31,7 @@ export default function Home() {
         smallText="Soy Marisol Corona, psicóloga clínica experta en duelo por pérdida, divorcio y/o separación de pareja, relaciones toxicas, codependencia y autoestima."
         button
         bgImg="images/Sol-bg.jpg"
+        page="home"
       />
       <main className="mt-5 pt-5" id="main">
         <div className="container">
@@ -114,8 +115,8 @@ export default function Home() {
           </section>
           <hr className="my-5" />
           <section className="mt-5 pt-5 wow fadeIn">
-            <div className="row my-5">
-              <div className="col-md-6 my-5">
+            <div className="row">
+              <div className="col-md-6">
                 <img
                   src="/Sol.jpg"
                   className="img-fluid z-depth-1-half"

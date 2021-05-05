@@ -1,8 +1,12 @@
 import Link from "next/link";
 
-const Banner = ({ text, smallText, button, bgImg }) => {
+const Banner = ({ text, smallText, button, bgImg, page }) => {
   return (
-    <div className="bg-header" style={{ backgroundImage: `url(${bgImg})` }}>
+    <div
+      className="bg-header"
+      id={page}
+      style={{ backgroundImage: `url(${bgImg})` }}
+    >
       <div className="overlay"></div>
       <div className="bg-text">
         <div className="text-center intro">

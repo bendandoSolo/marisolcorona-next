@@ -27,7 +27,11 @@ export default function Workshop() {
       <Head>
         <title>Workshop | Marisol Corona</title>
       </Head>
-      <Banner text="Workshops" bgImg="images/workshop-dark-header.jpg" />
+      <Banner
+        text="Workshops"
+        bgImg="images/workshop-dark-header.jpg"
+        page="workshops"
+      />
       <main className="mt-5 pt-5" id="services">
         <div className="container">
           <h2 className="mb-4 pb-4 text-center">

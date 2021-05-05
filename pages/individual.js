@@ -30,6 +30,7 @@ export default function Individual() {
       <Banner
         text="Terapia Individual"
         bgImg="images/terapia-dark-header.jpg"
+        page="individual"
       />
       <div className="container">
         <main className="mt-5 pt-5" id="services">

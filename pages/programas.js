@@ -26,7 +26,11 @@ export default function Programas() {
       <Head>
         <title>Programas | Marisol Corona</title>
       </Head>
-      <Banner text="Programas" bgImg="images/programas-dark-header.jpg" />
+      <Banner
+        text="Programas"
+        bgImg="images/programas-dark-header.jpg"
+        page="programas"
+      />
       <main className="mt-5 pt-5" id="services">
         <div className="container">
           <h2 className="mb-4 pb-3 text-center">

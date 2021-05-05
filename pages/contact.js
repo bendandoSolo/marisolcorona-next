@@ -109,6 +109,7 @@ export default function Contact() {
       <Banner
         text="Contact Marisol Corona"
         bgImg="images/contact-dark-header.jpg"
+        page="contact"
       />
       <div className="container">
         <div className="row my-5 justify-content-evenly align-items-center py-5">
