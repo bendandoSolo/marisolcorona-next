@@ -1,9 +1,9 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
 import { motion } from "framer-motion";
 
 import Image from "next/image";
 import Link from "next/link";
+import Banner from "./components/Banner";
 
 export default function Programas() {
   return (
@@ -26,118 +26,204 @@ export default function Programas() {
       <Head>
         <title>Programas | Marisol Corona</title>
       </Head>
-      <div className="header programas">
-        <div className="text-center intro">
-          <h1 className="mb-3">Programas</h1>
-        </div>
-      </div>
-      {/* Start of Container */}
-      <div className="container">
-        {/* Section */}
-        <div className="text-center my-5 p-5" data-aos="fade-up">
-          <h2 className="mb-5">Programa Recuperándome a mí misma</h2>
-          <h5 className="mb-5">Prográma de 3 meses</h5>
-          <p>
-            Es un programa de 3 meses enfocado a recuperarte después de pasar
-            por un duelo por pérdida o separación de pareja y llegar a la
-            estabilidad emocional, mental y espiritual, creando lo que te
-            mereces.
+      <Banner text="Programas" bgImg="images/programas-dark-header.jpg" />
+      <main class="mt-5 pt-5" id="services">
+        <div class="container">
+          <h2 class="mb-4 pb-3 text-center">
+            <strong>Programa Recuperándome a mí misma</strong>
+          </h2>
+
+          <h4 class="mb-4 pb-3 text-center primary">Prográma de 3 meses</h4>
+
+          <p class="text-center">
+            <strong>
+              Es un programa de 3 meses enfocado a recuperarte después de pasar
+              por un duelo por pérdida o separación de pareja y llegar a la
+              estabilidad emocional, mental y espiritual, creando lo que te
+              mereces.
+            </strong>
           </p>
-          <p>
-            Aprenderás a conocerte, aceptarte y quererte, sintiéndote más
-            completa e independiente, para llegar sentirte mejor con tu vida y
-            así poder crear relaciones de pareja más sanas que te harán sentir
-            feliz y completa.
+
+          <p class="text-center">
+            <strong>
+              Aprenderás a conocerte, aceptarte y quererte, sintiéndote más
+              completa e independiente, para llegar sentirte mejor con tu vida y
+              así poder crear relaciones de pareja más sanas que te harán sentir
+              feliz y completa.
+            </strong>
           </p>
-          <p>
-            Te acompañaré en cada momento de tu proceso para alcanzar tus
-            objetivos.
+
+          <p class="text-center">
+            <strong>
+              Te acompañaré en cada momento de tu proceso para alcanzar tus
+              objetivos.{" "}
+            </strong>
           </p>
-          <Link href="https://calendly.com/marisol-corona/informacion?month=2021-02">
-            <a target="_blank">
-              <button
-                id={styles.headerButtonPink}
-                className="btn mx-2 mt-4 py-3 px-5 text-white"
-                role="button"
-              >
-                Reservar ahora
-                <i className="fas fa-book-open ms-3"></i>
-              </button>
+
+          <div
+            class="pt-4 pb-4 mb-4 pb-4"
+            style={{ margin: "0 auto", width: "207px" }}
+          >
+            <a
+              class="btn btn-primary2 "
+              href="https://calendly.com/marisol-corona/60min"
+              target="_blank"
+              style={{
+                width: "207px",
+                height: "50px",
+                paddingBottom: "0px",
+                paddingTop: "15px",
+              }}
+              role="button"
+            >
+              Reservar ahora
+              <i class="fas fa-book-open ml-2"></i>
             </a>
-          </Link>
-        </div>
-        <hr />
-        {/* Section */}
-        <div className="my-5 p-5" data-aos="fade-up">
-          <h2 className="mb-5 text-center ">¿Horas de dedicación?</h2>
-          <div className="row justify-content-center">
-            <p className="text-center mb-4">
-              1 horas a la semana para trabajar con el material psicoeducativo,
-              más una hora de terapia psicológica.
-            </p>
-            <p className="text-center mb-5">
-              Los módulos están especialmente diseñados para ti:
-            </p>
-            <div className="col-md-4 mx-5">
-              <ul>
-                <li className="d-flex">
-                  <i
-                    className="fas fa-clipboard-check fa-2x me-2"
-                    aria-hidden="true"
-                  ></i>
-                  Aprenderás qué es el duelo y sus etapas.
-                </li>
-                <li className="d-flex">
-                  <i
-                    className="fas fa-clipboard-check fa-2x me-2"
-                    aria-hidden="true"
-                  ></i>
-                  Aplicaras técnicas para manejar tus emociones.
-                </li>
-                <li className="d-flex">
-                  <i
-                    className="fas fa-clipboard-check fa-2x me-2"
-                    aria-hidden="true"
-                  ></i>
-                  Crearás nuevos objetivos para llegar a sentirte mejor.
-                </li>
-                <li className="d-flex">
-                  <i
-                    className="fas fa-clipboard-check fa-2x me-2"
-                    aria-hidden="true"
-                  ></i>
-                  Sabrás cómo crear relaciones de pareja más sanas.
-                </li>
-              </ul>
-            </div>
-            <div className="col-md-4 mx-5">
-              <ul>
-                <li className="d-flex">
-                  <i
-                    className="fas fa-clipboard-check fa-2x me-2"
-                    aria-hidden="true"
-                  ></i>
-                  Entenderás lo qué estas sintiendo y por qué.
-                </li>
-                <li className="d-flex">
-                  <i
-                    className="fas fa-clipboard-check fa-2x me-2"
-                    aria-hidden="true"
-                  ></i>
-                  Entenderás qué es la ruptura y cómo superarla.
-                </li>
-                <li className="d-flex">
-                  <i
-                    className="fas fa-clipboard-check fa-2x me-2"
-                    aria-hidden="true"
-                  ></i>
-                  Aprenderás a amarte, aceptarte y estar contigo misma.
-                </li>
-              </ul>
-            </div>
           </div>
+
+          <hr class="my-5" />
+          <section className="pb-5">
+            <h2 class="pt-5 text-center pb-5">
+              <strong>¿Horas de dedicación?</strong>
+            </h2>
+
+            <p class="text-center pb-4">
+              <strong>
+                1 horas a la semana para trabajar con el material
+                psicoeducativo, más una hora de terapia psicológica.
+              </strong>
+            </p>
+
+            <p class="text-center pb-4">
+              <strong>
+                Los módulos están especialmente diseñados para ti:{" "}
+              </strong>
+            </p>
+
+            <div style={{ maxWidth: "600px", margin: "0 auto" }}>
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="row">
+                    <div class=" col-2">
+                      <i
+                        class="fas fa-clipboard-check fa-2x mb-1 dark"
+                        aria-hidden="true"
+                      ></i>
+                    </div>
+                    <div class="col-9 mb-2">
+                      <p class="grey-text mt-2">
+                        Aprenderás qué es el duelo y sus etapas.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="row">
+                    <div class="col-2">
+                      <i
+                        class="fas fa-clipboard-check fa-2x mb-1 dark"
+                        aria-hidden="true"
+                      ></i>
+                    </div>
+                    <div class="col-9 mb-2">
+                      <p class="grey-text mt-2">
+                        Entenderás lo qué estas sintiendo y por qué.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="row">
+                    <div class=" col-2">
+                      <i
+                        class="fas fa-clipboard-check fa-2x mb-1 dark"
+                        aria-hidden="true"
+                      ></i>
+                    </div>
+                    <div class="col-9 mb-2">
+                      <p class="grey-text mt-2">
+                        Aplicaras técnicas para manejar tus emociones.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="row">
+                    <div class=" col-2">
+                      <i
+                        class="fas fa-clipboard-check fa-2x mb-1 dark"
+                        aria-hidden="true"
+                      ></i>
+                    </div>
+                    <div class="col-9 mb-2">
+                      <p class="grey-text mt-2">
+                        Entenderás qué es la ruptura y cómo superarla.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="row">
+                    <div class="col-2">
+                      <i
+                        class="fas fa-clipboard-check fa-2x mb-1 dark"
+                        aria-hidden="true"
+                      ></i>
+                    </div>
+                    <div class="col-9 mb-2">
+                      <p class="grey-text mt-2">
+                        Crearás nuevos objetivos para llegar a sentirte mejor.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-lg-6">
+                  <div class="row">
+                    <div class="col-2">
+                      <i
+                        class="fas fa-clipboard-check fa-2x mb-1 dark"
+                        aria-hidden="true"
+                      ></i>
+                    </div>
+                    <div class="col-9 mb-2">
+                      <p class="grey-text mt-2">
+                        Aprenderás a amarte, aceptarte y estar contigo misma.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <div class="row">
+                <div class="col-lg-6">
+                  <div class="row">
+                    <div class="col-2">
+                      <i
+                        class="fas fa-clipboard-check fa-2x mb-1 dark"
+                        aria-hidden="true"
+                      ></i>
+                    </div>
+                    <div class="col-9 mb-2">
+                      <p class="grey-text mt-2">
+                        Sabrás cómo crear relaciones de pareja más sanas.
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
-      </div>
+      </main>
     </motion.div>
   );
 }

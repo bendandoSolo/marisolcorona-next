@@ -4,6 +4,8 @@ import { motion } from "framer-motion";
 import { Formik, Form, Field } from "formik";
 import * as Yup from "yup";
 
+import Banner from "./components/Banner";
+
 export default function Contact() {
   const SignupSchema = Yup.object().shape({
     name: Yup.string().required("Name is required"),
@@ -16,7 +18,7 @@ export default function Contact() {
     contactFormBtn.classList.add("disable-click");
     sending();
     props["to"] = "enquiries@bendando.com";
-    props["website"] = "tenantshub.co.uk";
+    props["website"] = "marisolcorona.com";
     const response = await fetch(
       "https://sendgridcsharp.azurewebsites.net/api/sendemail",
       {
@@ -101,11 +103,11 @@ export default function Contact() {
       <Head>
         <title>Contact | Marisol Corona</title>
       </Head>
-      <div className="header contact">
-        <div className="text-center intro">
-          <h1 className="mb-3">Contact Marisol Corona</h1>
-        </div>
-      </div>
+
+      <Banner
+        text="Contact Marisol Corona"
+        bgImg="images/contact-dark-header.jpg"
+      />
       {/* Start of Container */}
       <div className="container">
         {/* Section */}

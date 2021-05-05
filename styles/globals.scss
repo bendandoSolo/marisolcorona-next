@@ -1,4 +1,5 @@
 /* GLOBAL */
+
 /* * {
   box-sizing: border-box;
   padding: 0;
@@ -62,7 +63,9 @@ button {
 button i {
   color: white;
 } */
+
 /* Causes White space on Mobile version */
+
 /* .row {
   --bs-gutter-x: 0 !important;
 }
@@ -76,7 +79,6 @@ form {
   background-color: #ff80ab;
   border-radius: 0;
   border: 2px solid #ff80ab;
-  -webkit-transition: ease-in-out 0.2s;
   transition: ease-in-out 0.2s;
   padding: 1rem 3rem;
 }
@@ -114,23 +116,15 @@ form textarea:focus {
 #feedback {
   background: #ff80ab;
   height: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   position: relative;
 }
 
 #response {
   height: 0;
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  align-items: center;
   margin: 0 !important;
 }
 
@@ -145,15 +139,6 @@ form textarea:focus {
   font-weight: 500;
 }
 
-@-webkit-keyframes pop-down {
-  0% {
-    height: 0;
-  }
-  100% {
-    height: 50px;
-  }
-}
-
 @keyframes pop-down {
   0% {
     height: 0;
@@ -162,18 +147,9 @@ form textarea:focus {
     height: 50px;
   }
 }
-.pop-down {
-  -webkit-animation: 0.8s pop-down both;
-          animation: 0.8s pop-down both;
-}
 
-@-webkit-keyframes pop-up {
-  0% {
-    height: 50px;
-  }
-  100% {
-    height: 0;
-  }
+.pop-down {
+  animation: 0.8s pop-down both;
 }
 
 @keyframes pop-up {
@@ -184,20 +160,9 @@ form textarea:focus {
     height: 0;
   }
 }
-.pop-up {
-  -webkit-animation: 0.8s pop-up both;
-          animation: 0.8s pop-up both;
-}
 
-@-webkit-keyframes fade-in {
-  0% {
-    opacity: 0;
-    visibility: hidden;
-  }
-  100% {
-    opacity: 1;
-    visibility: visible;
-  }
+.pop-up {
+  animation: 0.8s pop-up both;
 }
 
 @keyframes fade-in {
@@ -210,20 +175,9 @@ form textarea:focus {
     visibility: visible;
   }
 }
-.fade-in {
-  -webkit-animation: 1s fade-in both;
-          animation: 1s fade-in both;
-}
 
-@-webkit-keyframes fade-out {
-  0% {
-    opacity: 1;
-    visibility: hidden;
-  }
-  100% {
-    opacity: 0;
-    visibility: hidden;
-  }
+.fade-in {
+  animation: 1s fade-in both;
 }
 
 @keyframes fade-out {
@@ -236,9 +190,9 @@ form textarea:focus {
     visibility: hidden;
   }
 }
+
 .fade-out {
-  -webkit-animation: 1s fade-out both;
-          animation: 1s fade-out both;
+  animation: 1s fade-out both;
 }
 
 .message-sent {
@@ -254,115 +208,166 @@ form textarea:focus {
 }
 
 /* NAV */
+
+// nav {
+//   background-color: rgba(0, 0, 0, 0.2);
+//   position: fixed;
+//   transition: 0.2s ease-in-out;
+//   box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%) !important;
+// }
+
+// @media screen and (max-width: 770px) {
+//   nav {
+//     padding: 3px 0 !important;
+//     transition: 0.2s ease-in-out;
+//     background-color: #ff80ab;
+//     opacity: 1;
+//   }
+// }
+
+// .nav-scroll {
+//   padding: 3px 0 !important;
+//   transition: 0.2s ease-in-out;
+//   background-color: #ff80ab;
+//   opacity: 1;
+// }
+
+// .navbar-brand {
+//   color: white;
+//   z-index: 3;
+//   opacity: 1;
+// }
+
+// nav a:hover {
+//   opacity: 0.8;
+//   color: white;
+// }
+
+// nav li {
+//   margin-top: 0;
+//   color: white;
+// }
+
 /* FOOTER */
+
 /* footer {
     background-color: #2e3951;
     color: white;
   }
-
+  
   footer i {
     transition: 0.2s ease-in-out;
   }
-
+  
   footer i:hover {
     color: white;
   }
-
+  
   .card {
     min-height: 575px;
   }
-
+  
   @media screen and (max-width: 1000px) {
     .card {
       height: 750px;
     }
   }
-
+  
   @media screen and (max-width: 767px) {
     .card {
       height: 500px;
     }
   } */
+
 /* HOME */
+
 /* .service .card img {
     height: 200px;
   }
-
+  
   .header {
     padding: 13rem 0;
     background-color: #2e3951;
     background-size: cover;
     position: relative;
   }
-
+  
   .intro {
     z-index: 200;
   } */
+
 /* HOME */
+
 /* .home-head {
     background-image: url("../public/images/home-dark-header.jpg");
   }
-
+  
   @media screen and (max-width: 500px) {
     .home-head {
       background-image: url("../public/images/home-dark-mobile.jpg");
     }
   } */
+
 /* Therapy */
 /* .therapy {
     background-image: url("../public/images/terapia-dark-header.jpg");
   }
-
+  
   @media screen and (max-width: 500px) {
     .therapy {
       background-image: url("../public/images/terapia-dark-mobile.jpg");
     }
   } */
+
 /* Workshop */
 /* .workshop {
     background-image: url("../public/images/workshop-dark-header.jpg");
   }
-
+  
   @media screen and (max-width: 500px) {
     .workshop {
       background-image: url("../public/images/workshop-dark-mobile.jpg");
     }
   } */
+
 /* Programmes */
 /* .programas {
     background-image: url("../public/images/programas-dark-header.jpg");
   }
-
+  
   @media screen and (max-width: 500px) {
     .programas {
       background-image: url("../public/images/programas-dark-mobile.jpg");
     }
   } */
+
 /* Testmimonials */
 /* .testimonios {
     background-image: url("../public/images/testimonios-dark-header.jpg");
   }
-
+  
   @media screen and (max-width: 500px) { */
 /* .testimonios {
       background-image: url("../public/images/testimonios-dark-mobile.jpg");
     }
   }
-
+  
   .testimonials .card img {
     border-radius: 50%;
     width: 200px;
   } */
+
 /* Contact */
 /* .contact {
     background-image: url("../public/images/contact-dark-header.jpg");
   }
-
+  
   @media screen and (max-width: 500px) {
     .contact {
       background-image: url("../public/images/contact-dark-mobile.jpg");
     }
   } */
+
 /* Transitions */
 /* .page {
     position: absolute;
@@ -374,71 +379,76 @@ form textarea:focus {
     z-index: 300;
     border-right: 2px solid #2e3951;
   }
-
+  
   li h4 {
     color: black;
   } */
+
 /* Accordian */
+
 /* .accordion-collapse {
     border-width: 0 !important;
   }
-
+  
   .accordion-button {
     background-color: #ff80ab;
     color: whitesmoke;
   }
-
+  
   .accordion-button.collapsed {
     border: 1px solid whitesmoke;
   }
-
+  
   .accordion-body {
     padding-bottom: 2rem;
     border: 2px solid lightgray;
     border-top: 0;
   }
-
+  
   .accordion-button:focus {
     background-color: whitesmoke;
     color: #ff80ab;
     outline: #ff80ab;
     border-color: #ff80ab;
   }
-
+  
   .accordion-button:not(.collapsed) {
     background-color: #ff80ab;
     color: whitesmoke;
   }
-
+  
   .view {
     background-image: url("/images/contact-dark-header.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center top;
   }
-
+  
   #learnMore {
     width: 207px;
     height: 50px;
     padding-bottom: 0px;
     padding-top: 15px;
   }
-
+  
   .repair {
     width: 100%;
     height: auto;
   } */
+
+$primary-color: #ff80ab;
+$light-color: #ffb2dd;
+$dark-color: #c94f7c;
+
 body {
   -webkit-text-size-adjust: 100%;
 }
-
 /* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
 html,
 body,
 .view {
   height: 100%;
 }
-
 /* Half Page Carousel itself*/
 .carousel {
   height: 50%;
@@ -452,7 +462,6 @@ body,
 .carousel .carousel-inner .active {
   height: 100%;
 }
-
 /* Adjustment for mobile devices*/
 @media (max-width: 776px) {
   .carousel {
@@ -465,92 +474,81 @@ body,
 }
 
 .top-nav-collapse {
-  background-color: #ff80ab;
+  background-color: $primary-color;
 }
-
 /* Adding color to the Navbar on mobile */
 @media only screen and (max-width: 768px) {
   .navbar {
-    background-color: #ff80ab;
+    background-color: $primary-color;
   }
 }
 /* Footer color for sake of consistency with Navbar */
 .page-footer {
-  background-color: #ff80ab;
+  background-color: $primary-color;
 }
 
 .white-hover-primary {
   color: white;
 }
-
 .white-hover-primary:hover {
-  color: #ff80ab;
+  color: $primary-color;
 }
 
 .btn-outline-white:hover {
   opacity: 0.7;
 }
-
 h1.primary,
 .primary,
 .primary-hover-white {
-  color: #ff80ab !important;
+  color: $primary-color !important;
 }
 
 .primary-hover-white:hover {
   color: white;
-  -webkit-transition: 0.5s;
   transition: 0.5s;
 }
 
 .dark {
-  color: #c94f7c;
+  color: $dark-color;
 }
 
 .btn-outline-primary,
 a.btn-outline-primary {
-  color: #ff80ab !important;
-  border: 2px solid #ff80ab !important;
+  color: $primary-color !important;
+  border: 2px solid $primary-color !important;
 }
 
 .btn-outline-primary:hover,
 a.btn-outline-primary:hover {
-  color: #c94f7c !important;
-  border: 2px solid #c94f7c !important;
+  color: $dark-color !important;
+  border: 2px solid $dark-color !important;
 }
 
 .btn-primary2 {
-  background-color: #ff80ab !important;
-  border: 2px solid #ff80ab !important;
+  background-color: $primary-color !important;
+  border: 2px solid $primary-color !important;
   color: #ffffff !important;
 }
 
 .btn-primary2:hover,
 a.btn-primary2:hover {
-  background-color: #c94f7c !important;
-  border: 2px solid #c94f7c !important;
+  background-color: $dark-color !important;
+  border: 2px solid $dark-color !important;
   color: #ffffff !important;
 }
 
+//small width
 @media (min-width: 992px) {
   .services-card-text {
     height: 127px;
   }
 }
+
 .center-children {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
   width: 100%;
   text-align: center;
   align-items: center;
@@ -562,7 +560,7 @@ a.btn-primary2:hover {
 
 .bendando-link:hover {
   text-decoration: underline;
-  color: #ff80ab;
+  color: $primary-color;
 }
 
 @media (max-width: 992px) {
@@ -570,10 +568,10 @@ a.btn-primary2:hover {
     padding: 0 30px !important;
   }
 }
+
 .md-form:focus {
-  border-bottom: 1px solid #ff80ab !important;
-  -webkit-box-shadow: 0 1px 0 0 #ff80ab !important;
-          box-shadow: 0 1px 0 0 #ff80ab !important;
+  border-bottom: 1px solid $primary-color !important;
+  box-shadow: 0 1px 0 0 $primary-color !important;
 }
 
 .testimonial-circle {
@@ -597,6 +595,7 @@ a.btn-primary2:hover {
     height: 144px;
   }
 }
+
 /* Required height of parents of the Half Page Carousel for proper displaying carousel itself */
 html,
 body,
@@ -624,6 +623,7 @@ body,
     height: 100%;
   }
 }
+
 /* Navbar animation */
 .navbar {
   background-color: rgba(0, 0, 0, 0.5);
@@ -639,6 +639,7 @@ body,
     background-color: #929fba;
   }
 }
+
 /* Footer color for sake of consistency with Navbar */
 .page-footer {
   background-color: #2e3951;
@@ -653,46 +654,46 @@ header,
 
 @media (max-width: 740px) {
   html,
-body,
-header,
-.carousel {
+  body,
+  header,
+  .carousel {
     height: 100vh;
   }
 }
+
 @media (min-width: 800px) and (max-width: 850px) {
   html,
-body,
-header,
-.carousel {
+  body,
+  header,
+  .carousel {
     height: 100vh;
   }
 }
+
 @media (min-width: 800px) and (max-width: 850px) {
   .navbar:not(.top-nav-collapse) {
     background: #929fba !important;
   }
 }
+
 nav {
   background-color: rgba(0, 0, 0, 0.2);
   position: fixed;
-  -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
-  -webkit-box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
-          box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.16), 0 2px 10px 0 rgba(0, 0, 0, 0.12) !important;
+  box-shadow: 0 2px 5px 0 rgb(0 0 0 / 16%), 0 2px 10px 0 rgb(0 0 0 / 12%) !important;
 }
 
 @media screen and (max-width: 770px) {
   nav {
     padding: 3px 0 !important;
-    -webkit-transition: 0.2s ease-in-out;
     transition: 0.2s ease-in-out;
     background-color: #ff80ab;
     opacity: 1;
   }
 }
+
 .nav-scroll {
   padding: 3px 0 !important;
-  -webkit-transition: 0.2s ease-in-out;
   transition: 0.2s ease-in-out;
   background-color: #ff80ab;
   opacity: 1;
@@ -718,12 +719,13 @@ nav li a {
   max-height: 60vh;
 }
 
-.banner h1 {
-  color: #ff80ab;
+.banner {
+  h1 {
+    color: $primary-color;
+  }
+  .banner-img {
+    width: 100%;
+    object-fit: cover;
+    height: 60vh;
+  }
 }
-.banner .banner-img {
-  width: 100%;
-  -o-object-fit: cover;
-     object-fit: cover;
-  height: 60vh;
-}/*# sourceMappingURL=globals.css.map */

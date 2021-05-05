@@ -3,6 +3,7 @@ import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import Image from "next/image";
 import { motion } from "framer-motion";
+import Banner from "./components/Banner";
 
 export default function Workshop() {
   return (
@@ -25,106 +26,176 @@ export default function Workshop() {
       <Head>
         <title>Workshop | Marisol Corona</title>
       </Head>
-      <div className="header workshop">
-        <div className="text-center intro">
-          <h1 className="mb-3">Workshops</h1>
-        </div>
-      </div>
+      <Banner text="Workshops" bgImg="images/workshop-dark-header.jpg" />
       {/* Start of Container */}
-      <div className="container">
-        {/* Section */}
-        <div className="text-center my-5 p-5" data-aos="fade-up">
-          <h2 className="mb-5">Workshop Supera tu ruptura amorosa</h2>
-          <div className={styles.workshop}>
-            <h5>¿Acabas de terminar una relación importante?</h5>
-            <h5>¿Te sientes triste, ansiosa y angustiada?</h5>
-            <h5>
-              ¿Te la pasas revisando tu celular para ver si te llamo o dejo
-              algún mensaje?
-            </h5>
-            <h5 className="mb-5">¿Quieres sentirte mejor?</h5>
-          </div>
-          <p>
-            Con el taller de Ruptura amorosa obtendrás las herramientas
-            necesarias para empezar a entender lo que estas sintiendo,
-            comprender la situación y así poder sentirte mejor y salir adelante.
+      <main class="mt-5 pt-5" id="services">
+        <div class="container">
+          <h2 class="mb-4 pb-4 text-center">
+            <strong>Workshop Supera tu ruptura amorosa</strong>
+          </h2>
+
+          <h5 class="mb-3 text-center primary">
+            ¿Acabas de terminar una relación importante?
+          </h5>
+          <h5 class="mb-3 text-center primary">
+            ¿Te sientes triste, ansiosa y angustiada?
+          </h5>
+          <h5 class="mb-3 text-center primary">
+            ¿Te la pasas revisando tu celular para ver si te llamo o dejo algún
+            mensaje?
+          </h5>
+          <h5 class="mb-5 text-center primary">¿Quieres sentirte mejor?</h5>
+
+          <p class="text-center">
+            <strong>
+              Con el taller de Ruptura amorosa obtendrás las herramientas
+              necesarias para empezar a entender lo que estas sintiendo,
+              comprender la situación y así poder sentirte mejor y salir
+              adelante.
+            </strong>
           </p>
-          <Link href="https://calendly.com/marisol-corona/informacion?month=2021-02">
-            <a target="_blank">
-              <button
-                id={styles.headerButtonPink}
-                className="btn mx-2 mt-4 py-3 px-5 text-white"
-                role="button"
-              >
-                Reservar ahora
-                <i className="fas fa-book-open ms-3"></i>
-              </button>
+
+          <div
+            class="pt-4 pb-4 mb-4 pb-4"
+            style={{ margin: "0 auto", width: "207px" }}
+          >
+            <a
+              class="btn btn-primary2 "
+              href="https://calendly.com/marisol-corona/informacion"
+              target="_blank"
+              style={{
+                width: "207px",
+                height: "50px",
+                paddinBottom: "0px",
+                paddingTop: "15px",
+              }}
+              role="button"
+            >
+              Reservar ahora
+              <i class="fas fa-book-open ml-2"></i>
             </a>
-          </Link>
-        </div>
-        <hr />
-        {/* Section */}
-        <div className="my-5 p-5" data-aos="fade-up">
-          <h2 className="mb-5 text-center ">Módulos</h2>
-          <div className="row justify-content-center">
-            <h5 className="text-center mb-5">
-              Gracias a los ejercicios e información proporcionada
-              proporcionados lograras:
-            </h5>
-            <div className="col-md-4 mx-5">
-              <ul>
-                <li className="d-flex">
-                  <i
-                    className="fas fa-clipboard-check fa-2x me-2"
-                    aria-hidden="true"
-                  ></i>
-                  Aprender que es una ruptura amorosa.
-                </li>
-                <li className="d-flex">
-                  <i
-                    className="fas fa-clipboard-check fa-2x me-2"
-                    aria-hidden="true"
-                  ></i>
-                  Entender tus emociones como angustia, ansiedad, miedo y de
-                  donde vienen.
-                </li>
-                <li className="d-flex">
-                  <i
-                    className="fas fa-clipboard-check fa-2x me-2"
-                    aria-hidden="true"
-                  ></i>
-                  Plantearte nuevos objetivos para establecer nuevas relaciones.
-                </li>
-              </ul>
-            </div>
-            <div className="col-md-4 mx-5">
-              <ul>
-                <li className="d-flex">
-                  <i
-                    className="fas fa-clipboard-check fa-2x me-2"
-                    aria-hidden="true"
-                  ></i>
-                  Entender y ubicar en qué etapa de duelo pareja te encuentras.
-                </li>
-                <li className="d-flex">
-                  <i
-                    className="fas fa-clipboard-check fa-2x me-2"
-                    aria-hidden="true"
-                  ></i>
-                  Porque no era la persona correcta para ti.
-                </li>
-                <li className="d-flex">
-                  <i
-                    className="fas fa-clipboard-check fa-2x me-2"
-                    aria-hidden="true"
-                  ></i>
-                  Comprender la importancia de pedir ayuda y trabajar en ti.
-                </li>
-              </ul>
-            </div>
           </div>
+
+          <hr class="my-5" />
+          <section className="mb-5">
+            <h2 class="pt-5 text-center pb-5">
+              <strong>Módulos</strong>
+            </h2>
+
+            <p class="text-center pb-4">
+              <strong>
+                Gracias a los ejercicios e información proporcionada
+                proporcionados lograras:
+              </strong>
+            </p>
+
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="row">
+                  <div class="col-2 d-flex justify-content-center">
+                    <i
+                      class="fas fa-clipboard-check fa-2x mb-1 dark"
+                      aria-hidden="true"
+                    ></i>
+                  </div>
+                  <div class="col-9 mb-2">
+                    <p class="grey-text mt-2">
+                      Aprender que es una ruptura amorosa.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="row">
+                  <div class="col-2 d-flex justify-content-center">
+                    <i
+                      class="fas fa-clipboard-check fa-2x mb-1 dark"
+                      aria-hidden="true"
+                    ></i>
+                  </div>
+                  <div class="col-9 mb-2">
+                    <p class="grey-text mt-2">
+                      Entender y ubicar en qué etapa de duelo pareja te
+                      encuentras.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="row">
+                  <div class="col-2 d-flex justify-content-center">
+                    <i
+                      class="fas fa-clipboard-check fa-2x mb-1 dark"
+                      aria-hidden="true"
+                    ></i>
+                  </div>
+                  <div class="col-9 mb-2">
+                    <p class="grey-text mt-2">
+                      Entender tus emociones como angustia, ansiedad, miedo y de
+                      donde vienen.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="row">
+                  <div class="col-2 d-flex justify-content-center">
+                    <i
+                      class="fas fa-clipboard-check fa-2x mb-1 dark"
+                      aria-hidden="true"
+                    ></i>
+                  </div>
+                  <div class="col-9 mb-2">
+                    <p class="grey-text mt-2">
+                      Porque no era la persona correcta para ti.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="row">
+              <div class="col-lg-6">
+                <div class="row">
+                  <div class="col-2 d-flex justify-content-center">
+                    <i
+                      class="fas fa-clipboard-check fa-2x mb-1 dark"
+                      aria-hidden="true"
+                    ></i>
+                  </div>
+                  <div class="col-9 mb-2">
+                    <p class="grey-text mt-2">
+                      Plantearte nuevos objetivos para establecer nuevas
+                      relaciones.
+                    </p>
+                  </div>
+                </div>
+              </div>
+
+              <div class="col-lg-6">
+                <div class="row">
+                  <div class="col-2 d-flex justify-content-center">
+                    <i
+                      class="fas fa-clipboard-check fa-2x mb-1 dark"
+                      aria-hidden="true"
+                    ></i>
+                  </div>
+                  <div class="col-9 mb-2">
+                    <p class="grey-text mt-2">
+                      Comprender la importancia de pedir ayuda y trabajar en ti.
+                    </p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
         </div>
-      </div>
+      </main>
     </motion.div>
   );
 }

@@ -1,45 +1,87 @@
-import React from "react";
-import styles from "../../styles/Home.module.css";
 import Image from "next/image";
 import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="pt-4 text-center">
-      <div className="text-center">
-        <Link href="/">
-          <button
-            id={styles.headerButtonInvisible}
-            className="btn mx-2 mt-2 py-3 px-5 text-white"
-            role="button"
-          >
-            Aprende más
-            <i className="fas fa-play ms-2"></i>
-          </button>
-        </Link>
-        <Link href="mailto:marisol@marisolcorona.com?Subject=Consulta%del%sitio%web">
-          <button
-            id={styles.headerButtonPink}
-            className="btn mx-2 mt-2 py-3 px-5 text-white"
-            role="button"
-          >
-            Reservar ahora
-            <i className="fas fa-book-open ms-2"></i>
-          </button>
-        </Link>
-        <div className="my-4">
-          <Image
-            src="/images/logoTrimPink.png"
-            alt="Picture of the author"
-            width={200}
-            height={100}
-          />
-        </div>
-        <div className="py-3">
-          <i className="fab fa-facebook-f mx-3"></i>
-          <i className="fas fa-users mx-3"></i>
-          <i className="fab fa-instagram mx-3"></i>
-        </div>
+    <footer class="page-footer text-center font-small mdb-color darken-2 mt-4 wow fadeIn">
+      <div class="pt-4 mt-5 pb-1">
+        <a
+          class="btn btn-outline-white me-2"
+          href="/"
+          alt="home"
+          target="_blank"
+          style={{
+            width: "207px",
+            height: "50px",
+            paddingBottom: "0px",
+            paddingTop: "15px",
+          }}
+          role="button"
+        >
+          Aprende más
+          <i class="fas fa-play ms-2"></i>
+        </a>
+        <a
+          class="btn btn-primary2"
+          href="mailto:marisol@marisolcorona.com?Subject=Consulta%del%sitio%web"
+          target="_blank"
+          style={{
+            width: "207px",
+            height: "50px",
+            paddingBottom: "0px",
+            paddingTop: "15px",
+          }}
+          role="button"
+        >
+          Reservar ahora
+          <i class="fas fa-book-open ms-2"></i>
+        </a>
+      </div>
+      <div class="center-children py-3">
+        <img
+          src="/images/logoTrimPink.png"
+          style={{ width: "200px", height: "auto" }}
+        />
+      </div>
+
+      <div class="pb-2 mb-2">
+        <a
+          href="https://www.facebook.com/marisolcoronapsicologa/"
+          target="_blank"
+        >
+          <i class="fab fa-facebook-f me-3 white-hover-primary"></i>
+        </a>
+        <a
+          href="https://tinyurl.com/yb73w2lh"
+          target="_blank"
+          style={{
+            width: "207px",
+            height: "50px",
+            paddingBottom: "0px",
+            paddingTop: "15px",
+          }}
+        >
+          <i class="fas fa-users me-3 white-hover-primary"></i>
+        </a>
+
+        <a
+          href="https://www.instagram.com/marisol.corona_psicologa/"
+          target="_blank"
+          style={{
+            width: "207px",
+            height: "50px",
+            paddingBottom: "0px",
+            paddingTop: "15px",
+          }}
+        >
+          <i class="fab fa-instagram white-hover-primary"></i>
+        </a>
+      </div>
+
+      <div class="footer-copyright py-3">
+        <a href="https://bendando.com/" class="bendando-link" target="_blank">
+          Created by Bendando
+        </a>
       </div>
     </footer>
   );
