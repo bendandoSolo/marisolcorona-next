@@ -2,10 +2,10 @@ import Link from "next/link";
 
 const Banner = ({ text, smallText, button, bgImg }) => {
   return (
-    <div class="bg-image banner">
-      <img src={bgImg} class="w-100" alt="Sample" />
-      <div class="mask" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}>
-        <div class="d-flex justify-content-center align-items-center h-100">
+    <div className="bg-image banner">
+      <img src={bgImg} className="w-100" alt="Sample" />
+      <div className="mask" style={{ backgroundColor: "rgba(0, 0, 0, 0.6)" }}>
+        <div className="d-flex justify-content-center align-items-center h-100">
           <div className="header-text container">
             <div className="text-center intro">
               {text && <h1 className="mb-3">{text}</h1>}

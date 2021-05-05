@@ -85,18 +85,18 @@ export default function Contact() {
 
   return (
     <motion.div
-      initial={{ opacity: 0, x: "-100vw" }}
+      initial={{ opacity: 0 }}
       animate={{
         opacity: 1,
         x: 0,
         transition: {
-          duration: 0.8,
+          duration: 1,
         },
       }}
       exit={{
         opacity: 0,
         transition: {
-          duration: 0.8,
+          duration: 1,
         },
       }}
     >
@@ -254,7 +254,7 @@ export default function Contact() {
                           </div>
                           <div className="text-center">
                             <button
-                              className="btn text-white pink-btn mt-3"
+                              className="btn text-white btn-primary2 mt-3"
                               type="submit"
                               id="contact-form-btn"
                             >

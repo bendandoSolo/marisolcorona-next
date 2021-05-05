@@ -8,18 +8,18 @@ import Banner from "./components/Banner";
 export default function Workshop() {
   return (
     <motion.div
-      initial={{ opacity: 0, x: "-100vw" }}
+      initial={{ opacity: 0 }}
       animate={{
         opacity: 1,
         x: 0,
         transition: {
-          duration: 0.8,
+          duration: 1,
         },
       }}
       exit={{
         opacity: 0,
         transition: {
-          duration: 0.8,
+          duration: 1,
         },
       }}
     >
@@ -28,25 +28,25 @@ export default function Workshop() {
       </Head>
       <Banner text="Workshops" bgImg="images/workshop-dark-header.jpg" />
       {/* Start of Container */}
-      <main class="mt-5 pt-5" id="services">
-        <div class="container">
-          <h2 class="mb-4 pb-4 text-center">
+      <main className="mt-5 pt-5" id="services">
+        <div className="container">
+          <h2 className="mb-4 pb-4 text-center">
             <strong>Workshop Supera tu ruptura amorosa</strong>
           </h2>
 
-          <h5 class="mb-3 text-center primary">
+          <h5 className="mb-3 text-center primary">
             ¿Acabas de terminar una relación importante?
           </h5>
-          <h5 class="mb-3 text-center primary">
+          <h5 className="mb-3 text-center primary">
             ¿Te sientes triste, ansiosa y angustiada?
           </h5>
-          <h5 class="mb-3 text-center primary">
+          <h5 className="mb-3 text-center primary">
             ¿Te la pasas revisando tu celular para ver si te llamo o dejo algún
             mensaje?
           </h5>
-          <h5 class="mb-5 text-center primary">¿Quieres sentirte mejor?</h5>
+          <h5 className="mb-5 text-center primary">¿Quieres sentirte mejor?</h5>
 
-          <p class="text-center">
+          <p className="text-center">
             <strong>
               Con el taller de Ruptura amorosa obtendrás las herramientas
               necesarias para empezar a entender lo que estas sintiendo,
@@ -56,11 +56,11 @@ export default function Workshop() {
           </p>
 
           <div
-            class="pt-4 pb-4 mb-4 pb-4"
+            className="pt-4 pb-4 mb-4 pb-4"
             style={{ margin: "0 auto", width: "207px" }}
           >
             <a
-              class="btn btn-primary2 "
+              className="btn btn-primary2 "
               href="https://calendly.com/marisol-corona/informacion"
               target="_blank"
               style={{
@@ -72,50 +72,50 @@ export default function Workshop() {
               role="button"
             >
               Reservar ahora
-              <i class="fas fa-book-open ml-2"></i>
+              <i className="fas fa-book-open ml-2"></i>
             </a>
           </div>
 
-          <hr class="my-5" />
+          <hr className="my-5" />
           <section className="mb-5">
-            <h2 class="pt-5 text-center pb-5">
+            <h2 className="pt-5 text-center pb-5">
               <strong>Módulos</strong>
             </h2>
 
-            <p class="text-center pb-4">
+            <p className="text-center pb-4">
               <strong>
                 Gracias a los ejercicios e información proporcionada
                 proporcionados lograras:
               </strong>
             </p>
 
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="row">
-                  <div class="col-2 d-flex justify-content-center">
+            <div className="row">
+              <div className="col-lg-6">
+                <div className="row">
+                  <div className="col-2 d-flex justify-content-center">
                     <i
-                      class="fas fa-clipboard-check fa-2x mb-1 dark"
+                      className="fas fa-clipboard-check fa-2x mb-1 dark"
                       aria-hidden="true"
                     ></i>
                   </div>
-                  <div class="col-9 mb-2">
-                    <p class="grey-text mt-2">
+                  <div className="col-9 mb-2">
+                    <p className="grey-text mt-2">
                       Aprender que es una ruptura amorosa.
                     </p>
                   </div>
                 </div>
               </div>
 
-              <div class="col-lg-6">
-                <div class="row">
-                  <div class="col-2 d-flex justify-content-center">
+              <div className="col-lg-6">
+                <div className="row">
+                  <div className="col-2 d-flex justify-content-center">
                     <i
-                      class="fas fa-clipboard-check fa-2x mb-1 dark"
+                      className="fas fa-clipboard-check fa-2x mb-1 dark"
                       aria-hidden="true"
                     ></i>
                   </div>
-                  <div class="col-9 mb-2">
-                    <p class="grey-text mt-2">
+                  <div className="col-9 mb-2">
+                    <p className="grey-text mt-2">
                       Entender y ubicar en qué etapa de duelo pareja te
                       encuentras.
                     </p>
@@ -124,17 +124,17 @@ export default function Workshop() {
               </div>
             </div>
 
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="row">
-                  <div class="col-2 d-flex justify-content-center">
+            <div className="row">
+              <div className="col-lg-6">
+                <div className="row">
+                  <div className="col-2 d-flex justify-content-center">
                     <i
-                      class="fas fa-clipboard-check fa-2x mb-1 dark"
+                      className="fas fa-clipboard-check fa-2x mb-1 dark"
                       aria-hidden="true"
                     ></i>
                   </div>
-                  <div class="col-9 mb-2">
-                    <p class="grey-text mt-2">
+                  <div className="col-9 mb-2">
+                    <p className="grey-text mt-2">
                       Entender tus emociones como angustia, ansiedad, miedo y de
                       donde vienen.
                     </p>
@@ -142,16 +142,16 @@ export default function Workshop() {
                 </div>
               </div>
 
-              <div class="col-lg-6">
-                <div class="row">
-                  <div class="col-2 d-flex justify-content-center">
+              <div className="col-lg-6">
+                <div className="row">
+                  <div className="col-2 d-flex justify-content-center">
                     <i
-                      class="fas fa-clipboard-check fa-2x mb-1 dark"
+                      className="fas fa-clipboard-check fa-2x mb-1 dark"
                       aria-hidden="true"
                     ></i>
                   </div>
-                  <div class="col-9 mb-2">
-                    <p class="grey-text mt-2">
+                  <div className="col-9 mb-2">
+                    <p className="grey-text mt-2">
                       Porque no era la persona correcta para ti.
                     </p>
                   </div>
@@ -159,17 +159,17 @@ export default function Workshop() {
               </div>
             </div>
 
-            <div class="row">
-              <div class="col-lg-6">
-                <div class="row">
-                  <div class="col-2 d-flex justify-content-center">
+            <div className="row">
+              <div className="col-lg-6">
+                <div className="row">
+                  <div className="col-2 d-flex justify-content-center">
                     <i
-                      class="fas fa-clipboard-check fa-2x mb-1 dark"
+                      className="fas fa-clipboard-check fa-2x mb-1 dark"
                       aria-hidden="true"
                     ></i>
                   </div>
-                  <div class="col-9 mb-2">
-                    <p class="grey-text mt-2">
+                  <div className="col-9 mb-2">
+                    <p className="grey-text mt-2">
                       Plantearte nuevos objetivos para establecer nuevas
                       relaciones.
                     </p>
@@ -177,16 +177,16 @@ export default function Workshop() {
                 </div>
               </div>
 
-              <div class="col-lg-6">
-                <div class="row">
-                  <div class="col-2 d-flex justify-content-center">
+              <div className="col-lg-6">
+                <div className="row">
+                  <div className="col-2 d-flex justify-content-center">
                     <i
-                      class="fas fa-clipboard-check fa-2x mb-1 dark"
+                      className="fas fa-clipboard-check fa-2x mb-1 dark"
                       aria-hidden="true"
                     ></i>
                   </div>
-                  <div class="col-9 mb-2">
-                    <p class="grey-text mt-2">
+                  <div className="col-9 mb-2">
+                    <p className="grey-text mt-2">
                       Comprender la importancia de pedir ayuda y trabajar en ti.
                     </p>
                   </div>
