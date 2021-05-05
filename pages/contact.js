@@ -1,10 +1,13 @@
+// Next Links
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
+import Link from "next/link";
+
 import { motion } from "framer-motion";
+import Banner from "./components/Banner";
+
+// Form Modules
 import { Formik, Form, Field } from "formik";
 import * as Yup from "yup";
-
-import Banner from "./components/Banner";
 
 export default function Contact() {
   const SignupSchema = Yup.object().shape({
@@ -103,82 +106,75 @@ export default function Contact() {
       <Head>
         <title>Contact | Marisol Corona</title>
       </Head>
-
       <Banner
         text="Contact Marisol Corona"
         bgImg="images/contact-dark-header.jpg"
       />
-      {/* Start of Container */}
       <div className="container">
-        {/* Section */}
         <div className="row my-5 justify-content-evenly align-items-center py-5">
-          <div className="col-md-6" data-aos="fade-up">
-            <ul className="mb-5">
-              <div className="row align-items-center">
-                <div className="col-sm-1">
-                  <i className="fas fa-info fa-2x"></i>
-                </div>
-                <div className="col-sm-10">
-                  <li>
-                    <h4 className="mb-3">SESIÓN ONLINE</h4>
-                    <p>¿Cómo funciona?</p>
-                  </li>
-                </div>
+          <div className="col-lg-6 col-md-12 px-4">
+            <div className="row mb-2">
+              <div className="col-1 mr-3">
+                <i className="fas fa-info fa-2x primary"></i>
               </div>
-              <div className="row align-items-center">
-                <div className="col-sm-1">
-                  <i className="fas fa-info fa-2x"></i>
-                </div>
-                <div className="col-sm-10">
-                  <li>
-                    <h4 className="mb-3">RESERVA TU CITA</h4>
-                    <p>
-                      A través de la web, por email: info@marisolcorona.com o al
-                      teléfono +7539390244.
-                    </p>
-                  </li>
-                </div>
+              <div className="col-10">
+                <h5 className="feature-title primary">SESIÓN ONLINE</h5>
+                <p className="grey-text">¿Cómo funciona?</p>
               </div>
-              <div className="row align-items-center">
-                <div className="col-sm-1">
-                  <i className="fas fa-info fa-2x"></i>
-                </div>
-                <div className="col-sm-10">
-                  <li>
-                    <h4 className="mb-3">PAGA ONLINE</h4>
-                    <p>
-                      A través de nuestra web con nuestra pasarela de pago
-                      segura.
-                    </p>
-                  </li>
-                </div>
+            </div>
+
+            <div className="row mb-2">
+              <div className="col-1 mr-3">
+                <i className="fas fa-info fa-2x primary"></i>
               </div>
-              <div className="row align-items-center">
-                <div className="col-sm-1">
-                  <i className="fas fa-info fa-2x"></i>
-                </div>
-                <div className="col-sm-10">
-                  <li>
-                    <h4 className="mb-3">CONFIRMACIÓN </h4>
-                    <p>
-                      Recibirás un correo electrónico con los pasos a seguir
-                      para la sesión online.
-                    </p>
-                  </li>
-                </div>
+              <div className="col-10">
+                <h5 className="feature-title primary">RESERVA TU CITA</h5>
+                <p className="grey-text">
+                  A través de la web, por email:
+                  <Link href="mailto:marisol@marisolcorona.com?Subject=Consulta%del%sitio%web">
+                    <a target="_top">info@marisolcorona.com </a>
+                  </Link>{" "}
+                  o al teléfono +7539390244.
+                </p>
               </div>
-              <div className="row align-items-center">
-                <div className="col-sm-1">
-                  <i className="fas fa-info fa-2x"></i>
-                </div>
-                <div className="col-sm-10">
-                  <li>
-                    <h4 className="mb-3">SKYPE O ZOOM</h4>
-                    <p>Añade esta cuenta a tu Skype: corona.marisol_1</p>
-                  </li>
-                </div>
+            </div>
+
+            <div className="row mb-2">
+              <div className="col-1 mr-3">
+                <i className="fas fa-info fa-2x primary"></i>
               </div>
-            </ul>
+              <div className="col-10">
+                <h5 className="feature-title primary">PAGA ONLINE</h5>
+                <p className="grey-text">
+                  A través de nuestra web con nuestra pasarela de pago segura.
+                </p>
+              </div>
+            </div>
+
+            <div className="row mb-2">
+              <div className="col-1 mr-3">
+                <i className="fas fa-info fa-2x primary"></i>
+              </div>
+              <div className="col-10">
+                <h5 className="feature-title primary">CONFIRMACIÓN</h5>
+                <p className="grey-text">
+                  Recibirás un correo electrónico con los pasos a seguir para la
+                  sesión online.
+                </p>
+              </div>
+            </div>
+
+            <div className="row mb-2">
+              <div className="col-1 mr-3">
+                <i className="fas fa-info fa-2x primary"></i>
+              </div>
+              <div className="col-10">
+                <h5 className="feature-title primary">SKYPE O ZOOM</h5>
+                <p className="grey-text">
+                  Añade esta cuenta a tu Skype: corona.marisol_1
+                </p>
+              </div>
+            </div>
           </div>
           <div className="col-md-4" data-aos="fade-up">
             <div className="contact_form shadow-5">

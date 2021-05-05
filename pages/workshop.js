@@ -1,7 +1,8 @@
+// Next Links
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
 import Link from "next/link";
 import Image from "next/image";
+
 import { motion } from "framer-motion";
 import Banner from "./components/Banner";
 
@@ -27,13 +28,11 @@ export default function Workshop() {
         <title>Workshop | Marisol Corona</title>
       </Head>
       <Banner text="Workshops" bgImg="images/workshop-dark-header.jpg" />
-      {/* Start of Container */}
       <main className="mt-5 pt-5" id="services">
         <div className="container">
           <h2 className="mb-4 pb-4 text-center">
             <strong>Workshop Supera tu ruptura amorosa</strong>
           </h2>
-
           <h5 className="mb-3 text-center primary">
             ¿Acabas de terminar una relación importante?
           </h5>
@@ -45,7 +44,6 @@ export default function Workshop() {
             mensaje?
           </h5>
           <h5 className="mb-5 text-center primary">¿Quieres sentirte mejor?</h5>
-
           <p className="text-center">
             <strong>
               Con el taller de Ruptura amorosa obtendrás las herramientas
@@ -54,41 +52,39 @@ export default function Workshop() {
               adelante.
             </strong>
           </p>
-
           <div
             className="pt-4 pb-4 mb-4 pb-4"
             style={{ margin: "0 auto", width: "207px" }}
           >
-            <a
-              className="btn btn-primary2 "
-              href="https://calendly.com/marisol-corona/informacion"
-              target="_blank"
-              style={{
-                width: "207px",
-                height: "50px",
-                paddinBottom: "0px",
-                paddingTop: "15px",
-              }}
-              role="button"
-            >
-              Reservar ahora
-              <i className="fas fa-book-open ml-2"></i>
-            </a>
+            <Link href="https://calendly.com/marisol-corona/informacion">
+              <a
+                className="btn btn-primary2 "
+                target="_blank"
+                style={{
+                  width: "207px",
+                  height: "50px",
+                  paddinBottom: "0px",
+                  paddingTop: "15px",
+                }}
+                role="button"
+              >
+                Reservar ahora
+                <i className="fas fa-book-open ml-2"></i>
+              </a>
+            </Link>
           </div>
 
           <hr className="my-5" />
-          <section className="mb-5">
+          <section className="pb-5">
             <h2 className="pt-5 text-center pb-5">
               <strong>Módulos</strong>
             </h2>
-
             <p className="text-center pb-4">
               <strong>
                 Gracias a los ejercicios e información proporcionada
                 proporcionados lograras:
               </strong>
             </p>
-
             <div className="row">
               <div className="col-lg-6">
                 <div className="row">
@@ -105,7 +101,6 @@ export default function Workshop() {
                   </div>
                 </div>
               </div>
-
               <div className="col-lg-6">
                 <div className="row">
                   <div className="col-2 d-flex justify-content-center">
@@ -123,7 +118,6 @@ export default function Workshop() {
                 </div>
               </div>
             </div>
-
             <div className="row">
               <div className="col-lg-6">
                 <div className="row">
@@ -141,7 +135,6 @@ export default function Workshop() {
                   </div>
                 </div>
               </div>
-
               <div className="col-lg-6">
                 <div className="row">
                   <div className="col-2 d-flex justify-content-center">
@@ -158,7 +151,6 @@ export default function Workshop() {
                 </div>
               </div>
             </div>
-
             <div className="row">
               <div className="col-lg-6">
                 <div className="row">
@@ -176,7 +168,6 @@ export default function Workshop() {
                   </div>
                 </div>
               </div>
-
               <div className="col-lg-6">
                 <div className="row">
                   <div className="col-2 d-flex justify-content-center">

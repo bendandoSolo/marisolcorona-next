@@ -1,7 +1,8 @@
+// Next Imports
 import Head from "next/head";
 import Link from "next/link";
-import { motion } from "framer-motion";
 
+import { motion } from "framer-motion";
 import Banner from "./components/Banner";
 
 export default function Home() {
@@ -29,11 +30,11 @@ export default function Home() {
         text="Marisol Corona psicóloga y coach"
         smallText="Soy Marisol Corona, psicóloga clínica experta en duelo por pérdida, divorcio y/o separación de pareja, relaciones toxicas, codependencia y autoestima."
         button
-        bgImg="images/home-dark-header.jpg"
+        bgImg="images/Sol-bg.jpg"
       />
       <main className="mt-5 pt-5" id="main">
         <div className="container">
-          <section>
+          <section id="aprende-mas">
             <div className="row features-small wow fadeIn">
               <div className="col-md-4">
                 <div className="row ">
@@ -75,7 +76,11 @@ export default function Home() {
               </div>
 
               <div className="col-md-4 d-flex align-items-center">
-                <img src="/heart.png" className="repair" />
+                <img
+                  src="/heart.png"
+                  alt="broken heart"
+                  className="repair w-100 my-3"
+                />
               </div>
 
               <div className="col-md-4 ">
@@ -234,12 +239,13 @@ export default function Home() {
             <h2 className="my-5">Servicios</h2>
             <div className="row mb-4 wow fadeIn">
               <div className="col-lg-4 col-md-12 mb-4">
-                <div className="card">
+                <div className="card mx-4">
                   <div className="view overlay">
                     <img
                       src="/images/terapia-card.jpg"
                       className="card-img-top"
                       alt="terapia individual"
+                      style={{ height: "250px" }}
                     />
                     <a href="/Individual" target="_blank">
                       <div className="mask rgba-white-slight"></div>
@@ -266,12 +272,13 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-lg-4 col-md-12 mb-4">
-                <div className="card">
+                <div className="card mx-4">
                   <div className="view overlay">
                     <img
                       src="/images/workshop-card.jpg"
                       className="card-img-top"
                       alt="Workshop"
+                      style={{ height: "250px" }}
                     />
                     <a href="/Workshops" target="_blank">
                       <div className="mask rgba-white-slight"></div>
@@ -296,12 +303,13 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-lg-4 col-md-12 mb-4">
-                <div className="card">
+                <div className="card mx-4">
                   <div className="view overlay">
                     <img
                       src="/images/programas-card.png"
                       className="card-img-top"
                       alt="Programas"
+                      style={{ height: "250px" }}
                     />
                     <a href="/Programas" target="_blank">
                       <div className="mask rgba-white-slight"></div>
@@ -349,15 +357,12 @@ export default function Home() {
                     Pareja"
                   </strong>
                 </p>
-                <a
-                  className="btn btn-primary2"
-                  href="https://www.dopplerpages.com/marisol-A0943/Form2-35698"
-                  target="_blank"
-                  role="button"
-                >
-                  Descarga
-                  <i className="fas fa-download ms-2"></i>
-                </a>
+                <Link href="https://www.dopplerpages.com/marisol-A0943/Form2-35698">
+                  <a className="btn btn-primary2" target="_blank" role="button">
+                    Descarga
+                    <i className="fas fa-download ms-2"></i>
+                  </a>
+                </Link>
               </div>
 
               <div className="col-md-6 mb-4 pb-4 text-center">
@@ -367,15 +372,17 @@ export default function Home() {
                     ex-pareja en 6 pasos"
                   </strong>
                 </p>
-                <a
-                  className="btn btn-primary2"
-                  href="https://tinyurl.com/w5xg9d3"
-                  target="_blank"
-                  role="button"
-                >
-                  Descarga
-                  <i className="fas fa-download ms-2"></i>
-                </a>
+                <Link href="https://tinyurl.com/w5xg9d3">
+                  <a
+                    className="btn btn-primary2"
+                    href="https://tinyurl.com/w5xg9d3"
+                    target="_blank"
+                    role="button"
+                  >
+                    Descarga
+                    <i className="fas fa-download ms-2"></i>
+                  </a>
+                </Link>
               </div>
             </div>
           </section>

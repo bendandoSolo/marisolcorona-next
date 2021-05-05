@@ -475,10 +475,6 @@ body,
   }
 }
 /* Footer color for sake of consistency with Navbar */
-.page-footer {
-  background-color: #ff80ab;
-}
-
 .white-hover-primary {
   color: white;
 }
@@ -636,7 +632,7 @@ body,
 /* Adding color to the Navbar on mobile */
 @media only screen and (max-width: 768px) {
   .navbar {
-    background-color: #929fba;
+    background-color: #2e3951;
   }
 }
 /* Footer color for sake of consistency with Navbar */
@@ -689,6 +685,10 @@ nav {
     background-color: #ff80ab;
     opacity: 1;
   }
+
+  nav button {
+    color: whitesmoke;
+  }
 }
 .nav-scroll {
   padding: 3px 0 !important;
@@ -735,7 +735,56 @@ footer.page-footer .footer-copyright a {
   color: #ffffff;
   -webkit-transition: 0.5s;
   transition: 0.5s;
+  cursor: pointer;
 }
 footer.page-footer .footer-copyright a:hover {
   color: #ff80ab;
+  cursor: pointer;
+}
+
+.bg-header {
+  position: relative;
+  text-align: center;
+  height: 60vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+.bg-header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.2);
+}
+.bg-header .bg-text {
+  z-index: 1000;
+}
+.bg-header .bg-text h1 {
+  color: #ff80ab;
+}
+
+@media screen and (max-width: 770px) {
+  .bg-header {
+    height: 90vh;
+  }
+
+  .mobile-center {
+    text-align: center;
+  }
+  .mobile-center .col-1 {
+    width: 100%;
+  }
+}
+.row {
+  --bs-gutter-x: 0 !important;
 }/*# sourceMappingURL=globals.css.map */

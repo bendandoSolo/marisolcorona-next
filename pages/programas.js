@@ -1,8 +1,8 @@
 import Head from "next/head";
-import { motion } from "framer-motion";
-
 import Image from "next/image";
 import Link from "next/link";
+
+import { motion } from "framer-motion";
 import Banner from "./components/Banner";
 
 export default function Programas() {
@@ -32,9 +32,7 @@ export default function Programas() {
           <h2 className="mb-4 pb-3 text-center">
             <strong>Programa Recuperándome a mí misma</strong>
           </h2>
-
           <h4 className="mb-4 pb-3 text-center primary">Prográma de 3 meses</h4>
-
           <p className="text-center">
             <strong>
               Es un programa de 3 meses enfocado a recuperarte después de pasar
@@ -43,7 +41,6 @@ export default function Programas() {
               mereces.
             </strong>
           </p>
-
           <p className="text-center">
             <strong>
               Aprenderás a conocerte, aceptarte y quererte, sintiéndote más
@@ -52,33 +49,32 @@ export default function Programas() {
               feliz y completa.
             </strong>
           </p>
-
           <p className="text-center">
             <strong>
               Te acompañaré en cada momento de tu proceso para alcanzar tus
-              objetivos.{" "}
+              objetivos.
             </strong>
           </p>
-
           <div
             className="pt-4 pb-4 mb-4 pb-4"
             style={{ margin: "0 auto", width: "207px" }}
           >
-            <a
-              className="btn btn-primary2 "
-              href="https://calendly.com/marisol-corona/60min"
-              target="_blank"
-              style={{
-                width: "207px",
-                height: "50px",
-                paddingBottom: "0px",
-                paddingTop: "15px",
-              }}
-              role="button"
-            >
-              Reservar ahora
-              <i className="fas fa-book-open ml-2"></i>
-            </a>
+            <Link href="https://calendly.com/marisol-corona/60min">
+              <a
+                className="btn btn-primary2 "
+                target="_blank"
+                style={{
+                  width: "207px",
+                  height: "50px",
+                  paddingBottom: "0px",
+                  paddingTop: "15px",
+                }}
+                role="button"
+              >
+                Reservar ahora
+                <i className="fas fa-book-open ms-2"></i>
+              </a>
+            </Link>
           </div>
 
           <hr className="my-5" />
