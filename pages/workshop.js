@@ -35,7 +35,7 @@ export default function Workshop() {
       <main className="mt-5 pt-5" id="services">
         <div className="container">
           <h2 className="mb-4 pb-4 text-center">
-            <strong>Workshop Supera tu ruptura amorosa</strong>
+            Workshop Supera tu ruptura amorosa
           </h2>
           <h5 className="mb-3 text-center primary">
             ¿Acabas de terminar una relación importante?
@@ -49,12 +49,9 @@ export default function Workshop() {
           </h5>
           <h5 className="mb-5 text-center primary">¿Quieres sentirte mejor?</h5>
           <p className="text-center">
-            <strong>
-              Con el taller de Ruptura amorosa obtendrás las herramientas
-              necesarias para empezar a entender lo que estas sintiendo,
-              comprender la situación y así poder sentirte mejor y salir
-              adelante.
-            </strong>
+            Con el taller de Ruptura amorosa obtendrás las herramientas
+            necesarias para empezar a entender lo que estas sintiendo,
+            comprender la situación y así poder sentirte mejor y salir adelante.
           </p>
           <div
             className="pt-4 pb-4 mb-4 pb-4"
@@ -80,9 +77,7 @@ export default function Workshop() {
 
           <hr className="my-5" />
           <section className="pb-5">
-            <h2 className="pt-5 text-center pb-5">
-              <strong>Módulos</strong>
-            </h2>
+            <h2 className="pt-5 text-center pb-5">Módulos</h2>
             <p className="text-center pb-4">
               <strong>
                 Gracias a los ejercicios e información proporcionada

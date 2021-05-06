@@ -34,30 +34,24 @@ export default function Programas() {
       <main className="mt-5 pt-5" id="services">
         <div className="container">
           <h2 className="mb-4 pb-3 text-center">
-            <strong>Programa Recuperándome a mí misma</strong>
+            Programa Recuperándome a mí misma
           </h2>
           <h4 className="mb-4 pb-3 text-center primary">Prográma de 3 meses</h4>
           <p className="text-center">
-            <strong>
-              Es un programa de 3 meses enfocado a recuperarte después de pasar
-              por un duelo por pérdida o separación de pareja y llegar a la
-              estabilidad emocional, mental y espiritual, creando lo que te
-              mereces.
-            </strong>
+            Es un programa de 3 meses enfocado a recuperarte después de pasar
+            por un duelo por pérdida o separación de pareja y llegar a la
+            estabilidad emocional, mental y espiritual, creando lo que te
+            mereces.
           </p>
           <p className="text-center">
-            <strong>
-              Aprenderás a conocerte, aceptarte y quererte, sintiéndote más
-              completa e independiente, para llegar sentirte mejor con tu vida y
-              así poder crear relaciones de pareja más sanas que te harán sentir
-              feliz y completa.
-            </strong>
+            Aprenderás a conocerte, aceptarte y quererte, sintiéndote más
+            completa e independiente, para llegar sentirte mejor con tu vida y
+            así poder crear relaciones de pareja más sanas que te harán sentir
+            feliz y completa.
           </p>
           <p className="text-center">
-            <strong>
-              Te acompañaré en cada momento de tu proceso para alcanzar tus
-              objetivos.
-            </strong>
+            Te acompañaré en cada momento de tu proceso para alcanzar tus
+            objetivos.
           </p>
           <div
             className="pt-4 pb-4 mb-4 pb-4"
@@ -83,15 +77,11 @@ export default function Programas() {
 
           <hr className="my-5" />
           <section className="pb-5">
-            <h2 className="pt-5 text-center pb-5">
-              <strong>¿Horas de dedicación?</strong>
-            </h2>
+            <h2 className="pt-5 text-center pb-5">¿Horas de dedicación?</h2>
 
             <p className="text-center pb-4">
-              <strong>
-                1 horas a la semana para trabajar con el material
-                psicoeducativo, más una hora de terapia psicológica.
-              </strong>
+              1 horas a la semana para trabajar con el material psicoeducativo,
+              más una hora de terapia psicológica.
             </p>
 
             <p className="text-center pb-4">

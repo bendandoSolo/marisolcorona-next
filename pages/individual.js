@@ -36,19 +36,17 @@ export default function Individual() {
         <main className="mt-5 pt-5" id="services">
           <div className="container">
             <h2 className="mb-4 text-center">
-              <strong>Sesiones terapia individual y coaching</strong>
+              Sesiones terapia individual y coaching
             </h2>
             <p className="mb-4 text-center">
-              <strong>
-                La terapia individual que yo uso la enriquezco con técnicas de
-                coaching para hacerla mucho más completa y efectiva es un
-                proceso a través del cual trabajaremos uno a en un ambiente
-                seguro y confidencial para explorar tus sentimientos, creencias
-                y comportamientos, trabajar con recuerdos desafiantes o
-                inadecuados, identificar aspectos de tu vida que quieres cambiar
-                con el fin de entenderse mejor a ti mismo y a los otros,
-                establecer metas personales, y trabajar hacia el cambio deseado.
-              </strong>
+              La terapia individual que yo uso la enriquezco con técnicas de
+              coaching para hacerla mucho más completa y efectiva es un proceso
+              a través del cual trabajaremos uno a en un ambiente seguro y
+              confidencial para explorar tus sentimientos, creencias y
+              comportamientos, trabajar con recuerdos desafiantes o inadecuados,
+              identificar aspectos de tu vida que quieres cambiar con el fin de
+              entenderse mejor a ti mismo y a los otros, establecer metas
+              personales, y trabajar hacia el cambio deseado.
             </p>
             <div
               className="pt-4 pb-4 mb-4 pb-4"
@@ -74,7 +72,7 @@ export default function Individual() {
             <hr className="my-5" />
             <section className="pb-5 mobile-center">
               <h2 className="pt-5 text-center pb-5">
-                <strong>Esta técnica nos permitirá:</strong>
+                Esta técnica nos permitirá:
               </h2>
               <div className="row">
                 <div className="col-lg-6">
