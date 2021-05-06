@@ -36,7 +36,7 @@ class Navbar extends React.Component {
           <div className="container">
             <Link href="/">
               <a className="navbar-brand">
-                <img style={{ width: "200px" }} src="/images/white_logo.png" />
+                <img id="nav-brand-logo" src="/images/nav/white_logo.png" />
               </a>
             </Link>
             <button
