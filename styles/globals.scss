@@ -149,6 +149,12 @@ body,
   height: 100%;
 }
 
+@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap");
+
+* {
+  font-family: "Karla", sans-serif;
+}
+
 /* Footer color for sake of consistency with Navbar */
 
 .white-hover-primary {
@@ -481,4 +487,8 @@ h3,
 h4,
 h5 {
   font-weight: normal;
+}
+
+.grey-text {
+  color: rgb(148, 148, 148);
 }

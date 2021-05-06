@@ -28,7 +28,7 @@ export default function Programas() {
       </Head>
       <Banner
         text="Programas"
-        bgImg="images/programas-bg.png"
+        bgImg="images/banners/programas_bg.png"
         page="programas"
       />
       <main className="mt-5 pt-5" id="services">

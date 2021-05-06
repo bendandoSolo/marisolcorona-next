@@ -30,18 +30,16 @@ export default function Home() {
         text="Marisol Corona psicóloga y coach"
         smallText="Soy Marisol Corona, psicóloga clínica experta en duelo por pérdida, divorcio y/o separación de pareja, relaciones toxicas, codependencia y autoestima."
         button
-        bgImg="images/Sol-bg.jpg"
+        bgImg="images/banners/home_bg.jpg"
         page="home"
       />
       <main className="mt-5 pt-5" id="main">
         <div className="container">
           <section id="aprende-mas">
-            <div className="row features-small wow fadeIn">
+            <div className="row">
               <div className="col-md-4">
                 <div className="row ">
-                  <h4 className="primary pb-3 full-width">
-                    Te está pasando que…
-                  </h4>
+                  <h4 className="primary pb-3">Te está pasando que…</h4>
                   <p>¿Acabas de terminar una relación?</p>
                   <p>
                     ¿Piensas que la vida no tiene sentido sin una pareja creando
@@ -78,7 +76,7 @@ export default function Home() {
 
               <div className="col-md-4 d-flex align-items-center">
                 <img
-                  src="/heart.png"
+                  src="/images/home-sections/heart.png"
                   alt="broken heart"
                   className="repair w-100 my-3"
                 />
@@ -114,35 +112,31 @@ export default function Home() {
             </div>
           </section>
           <hr className="my-5" />
-          <section className="mt-5 pt-5 wow fadeIn">
+          <section className="mt-5 pt-5">
             <div className="row">
               <div className="col-md-6">
                 <img
-                  src="/Sol.jpg"
-                  className="img-fluid z-depth-1-half"
+                  src="/images/home-sections/Sol.jpg"
+                  className="img-fluid mb-5"
                   style={{ width: "320px", margin: "0 auto", display: "block" }}
                   alt="Marisol Corona Psicóloga Clínica"
                 />
               </div>
-              <div className="col-md-6 mb-4 side-padding">
-                <h3 className="h3 mb-3 text-center">
-                  ¿Por qué puedes confiar en mí?
-                </h3>
-                <p className="text-center">
-                  Porque pasé por lo mismo que tú...
-                </p>
-                <p className="text-center">
+              <div className="col-md-6 mb-4 text-center">
+                <h3 className="h3 mb-3">¿Por qué puedes confiar en mí?</h3>
+                <p>Porque pasé por lo mismo que tú...</p>
+                <p>
                   Entiendo el difícil proceso de duelo y sé lo doloroso que es
                   sentir que no puedes salir por ti misma.
                 </p>
 
-                <hr />
-                <h3 className="h3 mb-3 text-center">Como podemos trabajar</h3>
-                <p className="text-center">
+                <hr className="my-4" />
+                <h3 className="h3 mb-3">Como podemos trabajar</h3>
+                <p>
                   El método de trabajo que utilizo se enmarca dentro del modelo
                   Gestáltico el cual yo conbino con coaching.
                 </p>
-                <p className="text-center">
+                <p>
                   Esta metodología se focaliza en los pensamientos, sentimientos
                   y conductas que puedan estar influyendo en el mantenimiento
                   del problema actual, facilitando la toma de conciencia y poder
@@ -156,7 +150,7 @@ export default function Home() {
           <section>
             <h2 className="my-5 h3 text-center">Sobre Mí</h2>
 
-            <div className="row features-small mb-5 mt-3 wow fadeIn">
+            <div className="row mb-5 mt-3">
               <div className="col-md-4">
                 <div className="row">
                   <div className="col-2">
@@ -199,9 +193,9 @@ export default function Home() {
               </div>
               <div className="col-md-4 flex-center">
                 <img
-                  src="/qualifications.jpg"
+                  src="/images/home-sections/qualifications.jpg"
                   alt="Marisol Corona "
-                  className="z-depth-0 img-fluid"
+                  className="img-fluid"
                 />
               </div>
               <div className="col-md-4 mt-2">
@@ -238,21 +232,17 @@ export default function Home() {
           <hr className="my-5" />
           <section className="text-center">
             <h2 className="my-5">Servicios</h2>
-            <div className="row mb-4 wow fadeIn">
+            <div className="row mb-4">
               <div className="col-lg-4 col-md-12 mb-4">
                 <div className="card mx-4">
-                  <div className="view overlay">
+                  <Link href="/individual">
                     <img
-                      src="/images/terapia-card.jpg"
+                      src="/images/cards/terapia-card.jpg"
                       className="card-img-top"
                       alt="terapia individual"
-                      style={{ height: "250px" }}
+                      style={{ height: "250px", cursor: "pointer" }}
                     />
-                    <a href="/Individual" target="_blank">
-                      <div className="mask rgba-white-slight"></div>
-                    </a>
-                  </div>
-
+                  </Link>
                   <div className="card-body">
                     <h4 className="card-title">TERAPIA INDIVIDUAL</h4>
                     <p className="card-text services-card-text">
@@ -261,61 +251,50 @@ export default function Home() {
                       resultados obtenidos son tan buenos como los que se
                       obtienen en las sesiones presenciales.
                     </p>
-                    <a
-                      href="/Individual"
-                      target="_blank"
-                      className="btn btn-primary2 btn-md"
-                    >
-                      Aprende más
-                      <i className="fas fa-play ms-2"></i>
-                    </a>
+                    <Link href="/individual">
+                      <a className="btn btn-primary2 btn-md">
+                        Aprende más
+                        <i className="fas fa-play ms-2"></i>
+                      </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-12 mb-4">
                 <div className="card mx-4">
-                  <div className="view overlay">
+                  <Link href="/workshops">
                     <img
-                      src="/images/workshop-card.jpg"
+                      src="/images/cards/workshop-card.jpg"
                       className="card-img-top"
                       alt="Workshop"
-                      style={{ height: "250px" }}
+                      style={{ height: "250px", cursor: "pointer" }}
                     />
-                    <a href="/Workshops" target="_blank">
-                      <div className="mask rgba-white-slight"></div>
-                    </a>
-                  </div>
-
+                  </Link>
                   <div className="card-body">
                     <h4 className="card-title">WORKSHOPS</h4>
                     <p className="card-text services-card-text">
                       A través del cual obtendrás las herramientas necesarias
                       para empezar a salir adelante y sentirte mejor.
                     </p>
-                    <a
-                      href="/Workshops"
-                      target="_blank"
-                      className="btn btn-primary2 btn-md"
-                    >
-                      Aprende más
-                      <i className="fas fa-play ms-2"></i>
-                    </a>
+                    <Link href="/workshops">
+                      <a className="btn btn-primary2 btn-md">
+                        Aprende más
+                        <i className="fas fa-play ms-2"></i>
+                      </a>
+                    </Link>
                   </div>
                 </div>
               </div>
               <div className="col-lg-4 col-md-12 mb-4">
                 <div className="card mx-4">
-                  <div className="view overlay">
+                  <Link href="/programas">
                     <img
-                      src="/images/programas-card.png"
+                      src="/images/cards/programas-card.png"
                       className="card-img-top"
                       alt="Programas"
-                      style={{ height: "250px" }}
+                      style={{ height: "250px", cursor: "pointer" }}
                     />
-                    <a href="/Programas" target="_blank">
-                      <div className="mask rgba-white-slight"></div>
-                    </a>
-                  </div>
+                  </Link>
 
                   <div className="card-body">
                     <h4 className="card-title">PROGRAMAS</h4>
@@ -324,14 +303,12 @@ export default function Home() {
                       pérdida o separación de pareja y llegar a la estabilidad
                       emocional, mental y espiritual, creando lo que te mereces.
                     </p>
-                    <a
-                      href="/Programas"
-                      target="_blank"
-                      className="btn btn-primary2 btn-md"
-                    >
-                      Aprende más
-                      <i className="fas fa-play ms-2"></i>
-                    </a>
+                    <Link href="/programas">
+                      <a className="btn btn-primary2 btn-md">
+                        Aprende más
+                        <i className="fas fa-play ms-2"></i>
+                      </a>
+                    </Link>
                   </div>
                 </div>
               </div>
@@ -340,9 +317,9 @@ export default function Home() {
           <hr className="my-5" />
           <section>
             <h2 className="my-5 h3 text-center">Descargas</h2>
-            <div className="full-width center-children pb-5">
+            <div className="pb-5">
               <img
-                src="/man-woman.png"
+                src="/images/home-sections/man_vs_woman.png"
                 style={{ width: "100%", height: "auto" }}
               />
             </div>
@@ -439,7 +416,6 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-
               <div className="col-lg-6">
                 <div className="row">
                   <div className="col-2 d-flex justify-content-center">
@@ -528,7 +504,6 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-
               <div className="col-lg-6">
                 <div className="row">
                   <div className="col-2 d-flex justify-content-center">

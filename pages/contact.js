@@ -108,7 +108,7 @@ export default function Contact() {
       </Head>
       <Banner
         text="Contact Marisol Corona"
-        bgImg="images/Contact-bg.png"
+        bgImg="images/banners/contact_bg.png"
         page="contact"
       />
       <div className="container">

@@ -35,7 +35,9 @@ class Navbar extends React.Component {
         <nav className="navbar navbar-expand-lg py-2 fixed-top">
           <div className="container">
             <Link href="/">
-              <a className="navbar-brand">Marisol Corona</a>
+              <a className="navbar-brand">
+                <img style={{ width: "200px" }} src="/images/white_logo.png" />
+              </a>
             </Link>
             <button
               className="navbar-toggler"

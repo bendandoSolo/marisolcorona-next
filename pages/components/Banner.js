@@ -10,7 +10,11 @@ const Banner = ({ text, smallText, button, bgImg, page }) => {
       <div className="overlay"></div>
       <div className="bg-text">
         <div className="text-center intro">
-          {text && <h1 className="mb-3">{text}</h1>}
+          {text && (
+            <h1 className="mb-3">
+              <strong>{text}</strong>
+            </h1>
+          )}
           <div className="row justify-content-center">
             {smallText && (
               <p className="mb-3 text-white col-md-6">{smallText}</p>

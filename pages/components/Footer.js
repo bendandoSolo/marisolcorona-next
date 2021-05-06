@@ -39,7 +39,7 @@ const Footer = () => {
       </div>
       <div className="center-children py-3">
         <img
-          src="/images/LogoTrimPink.png"
+          src="/images/footer/footer_logo.png"
           style={{ width: "200px", height: "auto" }}
         />
       </div>
