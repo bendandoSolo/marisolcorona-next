@@ -32,7 +32,7 @@ class Navbar extends React.Component {
 
     return (
       <div>
-        <nav className="navbar navbar-expand-lg  py-2 fixed-top">
+        <nav className="navbar navbar-expand-lg py-2 fixed-top">
           <div className="container">
             <Link href="/">
               <a className="navbar-brand">Marisol Corona</a>

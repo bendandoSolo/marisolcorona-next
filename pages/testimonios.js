@@ -27,7 +27,7 @@ export default function Testimonials() {
       </Head>
       <Banner
         text="Testimonios"
-        bgImg="images/testimonios-dark-header.jpg"
+        bgImg="images/Testimonios.png"
         page="testimonios"
       />
 
