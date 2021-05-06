@@ -20,11 +20,17 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
-@import url("https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap");
+button {
+  border-radius: 0 !important;
+}
+
+// @import url("https://fonts.googleapis.com/css2?family=Karla:wght@300&display=swap");
 
 * {
-  font-family: "Karla", sans-serif;
+  font-family: "Roboto", sans-serif;
 }
+
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap");
 
 html,
 body,
@@ -62,6 +68,10 @@ h4,
 h5 {
   font-weight: normal;
   text-transform: capitalize;
+}
+
+p {
+  font-weight: 300 !important;
 }
 
 @media (max-width: 992px) {
@@ -326,6 +336,17 @@ footer.page-footer .footer-copyright {
   .services-card-text {
     height: 127px;
   }
+}
+
+.accordion-button {
+  background-color: $primary-color;
+  color: #ffffff;
+}
+
+.accordion-button:focus {
+  background-color: #ffffff;
+  color: $primary-color;
+  border: $primary-color;
 }
 
 // Testimonios

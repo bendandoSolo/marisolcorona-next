@@ -4,6 +4,7 @@ import Link from "next/link";
 
 import { motion } from "framer-motion";
 import Banner from "./components/Banner";
+import Accordion from "./components/Accordion";
 
 export default function Home() {
   return (
@@ -35,7 +36,8 @@ export default function Home() {
       <main className="mt-5 pt-5" id="main">
         <div className="container">
           <section id="aprende-mas" data-aos="zoom-in" data-aos-duration="750">
-            <div className="row">
+            <Accordion />
+            {/* <div className="row">
               <div className="col-md-4">
                 <div className="row ">
                   <h4 className="primary pb-3">Te está pasando que…</h4>
@@ -108,7 +110,7 @@ export default function Home() {
                   </p>
                 </div>
               </div>
-            </div>
+            </div> */}
           </section>
           <hr className="my-5" />
           <section
