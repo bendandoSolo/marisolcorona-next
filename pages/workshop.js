@@ -34,49 +34,54 @@ export default function Workshop() {
       />
       <main className="mt-5 pt-5" id="services">
         <div className="container">
-          <h2 className="mb-4 pb-4 text-center">
-            Workshop Supera tu ruptura amorosa
-          </h2>
-          <h5 className="mb-3 text-center primary">
-            ¿Acabas de terminar una relación importante?
-          </h5>
-          <h5 className="mb-3 text-center primary">
-            ¿Te sientes triste, ansiosa y angustiada?
-          </h5>
-          <h5 className="mb-3 text-center primary">
-            ¿Te la pasas revisando tu celular para ver si te llamo o dejo algún
-            mensaje?
-          </h5>
-          <h5 className="mb-5 text-center primary">¿Quieres sentirte mejor?</h5>
-          <p className="text-center">
-            Con el taller de Ruptura amorosa obtendrás las herramientas
-            necesarias para empezar a entender lo que estas sintiendo,
-            comprender la situación y así poder sentirte mejor y salir adelante.
-          </p>
-          <div
-            className="pt-4 pb-4 mb-4 pb-4"
-            style={{ margin: "0 auto", width: "207px" }}
-          >
-            <Link href="https://calendly.com/marisol-corona/informacion">
-              <a
-                className="btn btn-primary2 "
-                target="_blank"
-                style={{
-                  width: "207px",
-                  height: "50px",
-                  paddinBottom: "0px",
-                  paddingTop: "15px",
-                }}
-                role="button"
-              >
-                Reservar ahora
-                <i className="fas fa-book-open ml-2"></i>
-              </a>
-            </Link>
-          </div>
+          <section data-aos="zoom-in" data-aos-duration="750">
+            <h2 className="mb-4 pb-4 text-center">
+              Workshop Supera tu ruptura amorosa
+            </h2>
+            <h5 className="mb-3 text-center primary">
+              ¿Acabas de terminar una relación importante?
+            </h5>
+            <h5 className="mb-3 text-center primary">
+              ¿Te sientes triste, ansiosa y angustiada?
+            </h5>
+            <h5 className="mb-3 text-center primary">
+              ¿Te la pasas revisando tu celular para ver si te llamo o dejo
+              algún mensaje?
+            </h5>
+            <h5 className="mb-5 text-center primary">
+              ¿Quieres sentirte mejor?
+            </h5>
+            <p className="text-center">
+              Con el taller de Ruptura amorosa obtendrás las herramientas
+              necesarias para empezar a entender lo que estas sintiendo,
+              comprender la situación y así poder sentirte mejor y salir
+              adelante.
+            </p>
+            <div
+              className="pt-4 pb-4 mb-4 pb-4"
+              style={{ margin: "0 auto", width: "207px" }}
+            >
+              <Link href="https://calendly.com/marisol-corona/informacion">
+                <a
+                  className="btn btn-primary2 "
+                  target="_blank"
+                  style={{
+                    width: "207px",
+                    height: "50px",
+                    paddinBottom: "0px",
+                    paddingTop: "15px",
+                  }}
+                  role="button"
+                >
+                  Reservar ahora
+                  <i className="fas fa-book-open ml-2"></i>
+                </a>
+              </Link>
+            </div>
+          </section>
 
           <hr className="my-5" />
-          <section className="pb-5">
+          <section className="pb-5" data-aos="zoom-in" data-aos-duration="750">
             <h2 className="pt-5 text-center pb-5">Módulos</h2>
             <p className="text-center pb-4">
               <strong>

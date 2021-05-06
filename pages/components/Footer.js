@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <footer className="page-footer text-center font-small mdb-color darken-2 mt-4 wow fadeIn">
+    <footer className="page-footer text-center font-small mt-4">
       <div className="pt-4 mt-5 pb-1">
         <Link href="/">
           <a

@@ -33,50 +33,54 @@ export default function Programas() {
       />
       <main className="mt-5 pt-5" id="services">
         <div className="container">
-          <h2 className="mb-4 pb-3 text-center">
-            Programa Recuperándome a mí misma
-          </h2>
-          <h4 className="mb-4 pb-3 text-center primary">Prográma de 3 meses</h4>
-          <p className="text-center">
-            Es un programa de 3 meses enfocado a recuperarte después de pasar
-            por un duelo por pérdida o separación de pareja y llegar a la
-            estabilidad emocional, mental y espiritual, creando lo que te
-            mereces.
-          </p>
-          <p className="text-center">
-            Aprenderás a conocerte, aceptarte y quererte, sintiéndote más
-            completa e independiente, para llegar sentirte mejor con tu vida y
-            así poder crear relaciones de pareja más sanas que te harán sentir
-            feliz y completa.
-          </p>
-          <p className="text-center">
-            Te acompañaré en cada momento de tu proceso para alcanzar tus
-            objetivos.
-          </p>
-          <div
-            className="pt-4 pb-4 mb-4 pb-4"
-            style={{ margin: "0 auto", width: "207px" }}
-          >
-            <Link href="https://calendly.com/marisol-corona/60min">
-              <a
-                className="btn btn-primary2 "
-                target="_blank"
-                style={{
-                  width: "207px",
-                  height: "50px",
-                  paddingBottom: "0px",
-                  paddingTop: "15px",
-                }}
-                role="button"
-              >
-                Reservar ahora
-                <i className="fas fa-book-open ms-2"></i>
-              </a>
-            </Link>
-          </div>
+          <section data-aos="zoom-in" data-aos-duration="750">
+            <h2 className="mb-4 pb-3 text-center">
+              Programa Recuperándome a mí misma
+            </h2>
+            <h4 className="mb-4 pb-3 text-center primary">
+              Prográma de 3 meses
+            </h4>
+            <p className="text-center">
+              Es un programa de 3 meses enfocado a recuperarte después de pasar
+              por un duelo por pérdida o separación de pareja y llegar a la
+              estabilidad emocional, mental y espiritual, creando lo que te
+              mereces.
+            </p>
+            <p className="text-center">
+              Aprenderás a conocerte, aceptarte y quererte, sintiéndote más
+              completa e independiente, para llegar sentirte mejor con tu vida y
+              así poder crear relaciones de pareja más sanas que te harán sentir
+              feliz y completa.
+            </p>
+            <p className="text-center">
+              Te acompañaré en cada momento de tu proceso para alcanzar tus
+              objetivos.
+            </p>
+            <div
+              className="pt-4 pb-4 mb-4 pb-4"
+              style={{ margin: "0 auto", width: "207px" }}
+            >
+              <Link href="https://calendly.com/marisol-corona/60min">
+                <a
+                  className="btn btn-primary2 "
+                  target="_blank"
+                  style={{
+                    width: "207px",
+                    height: "50px",
+                    paddingBottom: "0px",
+                    paddingTop: "15px",
+                  }}
+                  role="button"
+                >
+                  Reservar ahora
+                  <i className="fas fa-book-open ms-2"></i>
+                </a>
+              </Link>
+            </div>
+          </section>
 
           <hr className="my-5" />
-          <section className="pb-5">
+          <section className="pb-5" data-aos="zoom-in" data-aos-duration="750">
             <h2 className="pt-5 text-center pb-5">¿Horas de dedicación?</h2>
 
             <p className="text-center pb-4">

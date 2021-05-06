@@ -35,7 +35,7 @@ export default function Home() {
       />
       <main className="mt-5 pt-5" id="main">
         <div className="container">
-          <section id="aprende-mas">
+          <section id="aprende-mas" data-aos="zoom-in" data-aos-duration="750">
             <div className="row">
               <div className="col-md-4">
                 <div className="row ">
@@ -112,7 +112,11 @@ export default function Home() {
             </div>
           </section>
           <hr className="my-5" />
-          <section className="mt-5 pt-5">
+          <section
+            className="mt-5 pt-5"
+            data-aos="zoom-in"
+            data-aos-duration="750"
+          >
             <div className="row">
               <div className="col-md-6">
                 <img
@@ -147,9 +151,8 @@ export default function Home() {
             </div>
           </section>
           <hr className="my-5" />
-          <section>
+          <section data-aos="zoom-in" data-aos-duration="750">
             <h2 className="my-5 h3 text-center">Sobre Mí</h2>
-
             <div className="row mb-5 mt-3">
               <div className="col-md-4">
                 <div className="row">
@@ -230,7 +233,11 @@ export default function Home() {
             </div>
           </section>
           <hr className="my-5" />
-          <section className="text-center">
+          <section
+            className="text-center"
+            data-aos="zoom-in"
+            data-aos-duration="750"
+          >
             <h2 className="my-5">Servicios</h2>
             <div className="row mb-4">
               <div className="col-lg-4 col-md-12 mb-4">
@@ -315,7 +322,7 @@ export default function Home() {
             </div>
           </section>
           <hr className="my-5" />
-          <section>
+          <section data-aos="zoom-in" data-aos-duration="750">
             <h2 className="my-5 h3 text-center">Descargas</h2>
             <div className="pb-5">
               <img
@@ -365,7 +372,7 @@ export default function Home() {
             </div>
           </section>
           <hr className="my-5" />
-          <section className="mb-5">
+          <section className="mb-5" data-aos="zoom-in" data-aos-duration="750">
             <h2 className="my-5 h3 text-center">Preguntas frecuentes</h2>
             <div className="row features-small mt-5 wow fadeIn">
               <div className="col-lg-6">

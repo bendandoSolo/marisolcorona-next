@@ -33,8 +33,18 @@ export default function Testimonials() {
 
       <main id="main" className="mt-5 pt-5">
         <div className="container">
-          <section className="text-center">
-            <h2 className="h1-responsive">Lo que dicen mis clientas</h2>
+          <section
+            className="text-center"
+            data-aos="zoom-in"
+            data-aos-duration="750"
+          >
+            <h2
+              className="h1-responsive"
+              data-aos="zoom-in"
+              data-aos-duration="750"
+            >
+              Lo que dicen mis clientas
+            </h2>
 
             <div className="row mt-5 pt-5">
               <div className="col-lg-6  col-md-12 mb-lg-0 mb-4 testimonial-card-container">

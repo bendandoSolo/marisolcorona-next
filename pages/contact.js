@@ -112,7 +112,11 @@ export default function Contact() {
         page="contact"
       />
       <div className="container">
-        <div className="row my-5 justify-content-evenly align-items-center py-5">
+        <div
+          className="row my-5 justify-content-evenly align-items-center py-5"
+          data-aos="zoom-in"
+          data-aos-duration="750"
+        >
           <div className="col-lg-6 col-md-12 px-4">
             <div className="row mb-2">
               <div className="col-1 mr-3">
