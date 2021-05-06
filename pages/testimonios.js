@@ -7,9 +7,8 @@ import Banner from "./components/Banner";
 export default function Testimonials() {
   return (
     <motion.div
-      initial={{ opacity: 0 }}
+      initial={{ x: "-100vw" }}
       animate={{
-        opacity: 1,
         x: 0,
         transition: {
           duration: 1,
@@ -18,7 +17,7 @@ export default function Testimonials() {
       exit={{
         opacity: 0,
         transition: {
-          duration: 1,
+          duration: 0.5,
         },
       }}
     >
