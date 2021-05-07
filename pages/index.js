@@ -37,80 +37,6 @@ export default function Home() {
         <div className="container">
           <section id="aprende-mas" data-aos="zoom-in" data-aos-duration="750">
             <Accordion />
-            {/* <div className="row">
-              <div className="col-md-4">
-                <div className="row ">
-                  <h4 className="primary pb-3">Te está pasando que…</h4>
-                  <p>¿Acabas de terminar una relación?</p>
-                  <p>
-                    ¿Piensas que la vida no tiene sentido sin una pareja creando
-                    una sensación de soledad?
-                  </p>
-                  <p>¿No sabes cómo salir de tu perdida de pareja?</p>
-                  <p>
-                    ¿Te la pasas checando tu celular para ver si te mando un
-                    mensaje?
-                  </p>
-                  <p>
-                    ¿Tienes sentimientos como angustia, miedo, frustración,
-                    tristeza, ansiedad, desmotivación y no sabes cómo
-                    controlarlos?
-                  </p>
-                  <p>
-                    ¿Crees que no tienes lo suficiente para salir adelante y que
-                    siempre estarás en soledad, que todo lo que te está pasando
-                    es tu culpa?
-                  </p>
-                  <p>
-                    ¿Quieres sentirte mejor y salir adelante pero no sabes cómo?
-                  </p>
-                  <p>
-                    ¿Crees que siempre vas a encontrar a nadie que quiera estar
-                    contigo?
-                  </p>
-                  <p>
-                    ¿Sientes que hay algo malo en ti y que por eso nadie te
-                    quiere?
-                  </p>
-                </div>
-              </div>
-
-              <div className="col-md-4 d-flex align-items-center">
-                <img
-                  src="/images/home-sections/heart.png"
-                  alt="broken heart"
-                  className="repair w-100 my-3"
-                />
-              </div>
-
-              <div className="col-md-4 ">
-                <div className="row">
-                  <h4 className="primary pb-3">
-                    ¿Y sabes por qué te pasa esto?
-                  </h4>
-                  <p>
-                    <strong>Probablemente nadie te ha enseñado a...</strong>
-                  </p>
-                  <p>Sentirte segura, amarte, aceptarte y respetarte.</p>
-                  <p>
-                    Entender tus emociones para mejorar tu tranquilidad,
-                    llegando a la vida que quieres.
-                  </p>
-                  <p>
-                    Sentirte con más autoestima, quererte más a ti misma y
-                    aprender a estar contigo.
-                  </p>
-                  <p>
-                    Crear relaciones de pareja más sanas que te harán sentir
-                    mejor y completa.
-                  </p>
-                  <p className="full-width"> ¡Encontrar a tu pareja ideal!</p>
-                  <p>
-                    <strong>¿Te gustaría poder lograr todo esto y más?</strong>
-                  </p>
-                </div>
-              </div>
-            </div> */}
           </section>
           <hr className="my-5" />
           <section
@@ -122,7 +48,7 @@ export default function Home() {
               <div className="col-md-6">
                 <img
                   src="/images/home-sections/Sol.jpg"
-                  className="img-fluid mb-5"
+                  className="img-fluid mb-5 div-shadow"
                   style={{ width: "320px", margin: "0 auto", display: "block" }}
                   alt="Marisol Corona Psicóloga Clínica"
                 />
@@ -154,7 +80,7 @@ export default function Home() {
           <hr className="my-5" />
           <section data-aos="zoom-in" data-aos-duration="750">
             <h2 className="my-5 h3 text-center">Sobre Mí</h2>
-            <div className="row mb-5 mt-3">
+            <div className="row mb-5 mt-3 d-flex justify-content-evenly">
               <div className="col-md-4">
                 <div className="row">
                   <div className="col-2">
@@ -195,13 +121,13 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              <div className="col-md-4 flex-center">
+              {/* <div className="col-md-4 flex-center">
                 <img
                   src="/images/home-sections/qualifications.jpg"
                   alt="Marisol Corona "
                   className="img-fluid"
                 />
-              </div>
+              </div> */}
               <div className="col-md-4 mt-2">
                 <div className="row">
                   <div className="col-2">
@@ -327,6 +253,7 @@ export default function Home() {
             <h2 className="my-5 h3 text-center">Descargas</h2>
             <div className="pb-5">
               <img
+                className="div-shadow"
                 src="/images/home-sections/man_vs_woman.png"
                 style={{ width: "100%", height: "auto" }}
               />

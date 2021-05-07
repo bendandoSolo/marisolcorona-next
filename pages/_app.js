@@ -17,7 +17,7 @@ class MyApp extends App {
     super(props);
   }
   componentDidMount() {
-    AOS.init({});
+    AOS.init({ once: true });
   }
 
   render() {

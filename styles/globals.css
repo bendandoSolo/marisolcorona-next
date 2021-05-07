@@ -60,6 +60,11 @@ p {
   --bs-gutter-x: 0 !important;
 }
 
+.div-shadow {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+}
+
 .grey-text {
   color: #949494;
 }
@@ -83,6 +88,11 @@ p {
 
 .white-hover-primary:hover {
   color: #ff80ab;
+}
+
+.btn-outline-white {
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 .btn-outline-white:hover {
@@ -109,6 +119,8 @@ h1.primary,
 a.btn-outline-primary {
   color: #ff80ab !important;
   border: 2px solid #ff80ab !important;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 .btn-outline-primary:hover,
@@ -121,6 +133,8 @@ a.btn-outline-primary:hover {
   background-color: #ff80ab !important;
   border: 2px solid #ff80ab !important;
   color: #ffffff !important;
+  -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+          box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.3);
 }
 
 .btn-primary2:hover,
@@ -213,7 +227,7 @@ nav li a {
 
 @media screen and (min-width: 770px) {
   #nav-brand-logo {
-    width: 200px;
+    width: 160px;
   }
 }
 .bg-header {

@@ -88,7 +88,7 @@ const Accordian = () => {
               Crear relaciones de pareja más sanas que te harán sentir mejor y
               completa.
             </p>
-            <p classNameName="full-width"> ¡Encontrar a tu pareja ideal!</p>
+            <p>¡Encontrar a tu pareja ideal!</p>
             <p>
               <strong>¿Te gustaría poder lograr todo esto y más?</strong>
             </p>
