@@ -18,28 +18,32 @@ const Banner = ({ text, smallText, button, bgImg, page }) => {
           </div>
 
           {button && (
-            <>
-              <Link href="#aprende-mas">
-                <button
-                  className="btn mx-2 mt-4 py-3 px-5 text-white btn btn-outline-white"
-                  role="button"
-                >
-                  Aprende más
-                  <i className="fas fa-play ms-2"></i>
-                </button>
-              </Link>
-              <Link href="https://calendly.com/marisol-corona/entrevista">
-                <a target="_blank">
+            <div className="row justify-content-center">
+              <div className="col-md-3">
+                <Link href="#aprende-mas">
                   <button
-                    className="btn mx-2 mt-4 py-3 px-5 btn-primary2"
+                    className="btn mx-2 mt-4 py-3 px-5 text-white btn btn-outline-white"
                     role="button"
                   >
-                    Reservar ahora
-                    <i className="fas fa-book-open ms-2"></i>
+                    Aprende más
+                    <i className="fas fa-play ms-2"></i>
                   </button>
-                </a>
-              </Link>
-            </>
+                </Link>
+              </div>
+              <div className="col-md-3">
+                <Link href="https://calendly.com/marisol-corona/entrevista">
+                  <a target="_blank">
+                    <button
+                      className="btn mx-2 mt-4 py-3 px-5 btn-primary2"
+                      role="button"
+                    >
+                      Reservar ahora
+                      <i className="fas fa-book-open ms-2"></i>
+                    </button>
+                  </a>
+                </Link>
+              </div>
+            </div>
           )}
         </div>
       </div>

@@ -1,3 +1,5 @@
+import { useEffect } from "react";
+
 // Next Imports
 import Head from "next/head";
 import Link from "next/link";
@@ -7,6 +9,21 @@ import Banner from "./components/Banner";
 import Accordion from "./components/Accordion";
 
 export default function Home() {
+  // useEffect(() => {
+  //   let heightOfCardArr = [];
+  //   let serviceBoxArr = Array.from(document.querySelectorAll(".service-card"));
+  //   // console.log(serviceBoxArr);
+  //   serviceBoxArr.map((card) => heightOfCardArr.push(card.offsetHeight));
+  //   // console.log(heightOfCardArr);
+  //   let heightOfCard = Math.max(...heightOfCardArr);
+  //   // console.log(heightOfCard);
+  //   return document
+  //     .querySelectorAll(".service-card")
+  //     .forEach(
+  //       (el) => (el.style.cssText = `height: ${heightOfCard} !important`)
+  //     );
+  // }, []);
+
   return (
     <motion.div
       initial={{ x: "-100vw" }}
@@ -41,10 +58,7 @@ export default function Home() {
             data-aos-duration="750"
             style={{ margin: "0 auto" }}
             className="row justify-content-center"
-          >
-            <Accordion />
-          </section>
-          <hr className="my-5" />
+          ></section>
           <section
             className="mt-5 pt-5"
             data-aos="zoom-in"
@@ -82,6 +96,7 @@ export default function Home() {
                 </p>
               </div>
             </div>
+            <Accordion />
           </section>
           <hr className="my-5" />
           <section data-aos="zoom-in" data-aos-duration="750">
@@ -127,13 +142,6 @@ export default function Home() {
                   </div>
                 </div>
               </div>
-              {/* <div className="col-md-4 flex-center">
-                <img
-                  src="/images/home-sections/qualifications.jpg"
-                  alt="Marisol Corona "
-                  className="img-fluid"
-                />
-              </div> */}
               <div className="col-md-4 mt-2">
                 <div className="row">
                   <div className="col-2">
@@ -171,20 +179,22 @@ export default function Home() {
             data-aos="zoom-in"
             data-aos-duration="750"
           >
-            <h2 className="my-5">Servicios</h2>
+            <h2 className="my-5 h3">Servicios</h2>
             <div className="row mb-4">
               <div className="col-lg-4 col-md-12 mb-4">
-                <div className="card mx-4">
+                <div className="card mx-4 service-card h-100">
                   <Link href="/individual">
                     <img
                       src="/images/cards/terapia-card.jpg"
                       className="card-img-top"
                       alt="terapia individual"
-                      style={{ height: "250px", cursor: "pointer" }}
+                      style={{ cursor: "pointer" }}
                     />
                   </Link>
                   <div className="card-body">
-                    <h4 className="card-title">TERAPIA INDIVIDUAL</h4>
+                    <h4 className="card-title">
+                      <strong>TERAPIA INDIVIDUAL</strong>
+                    </h4>
                     <p className="card-text services-card-text">
                       Se realizan en la comodidad de tu casa, por
                       videoconferencia a través de Skype, Zoom o WhatsApp. Los
@@ -201,17 +211,19 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-lg-4 col-md-12 mb-4">
-                <div className="card mx-4">
+                <div className="card mx-4 service-card h-100">
                   <Link href="/workshops">
                     <img
                       src="/images/cards/workshop-card.jpg"
                       className="card-img-top"
                       alt="Workshop"
-                      style={{ height: "250px", cursor: "pointer" }}
+                      style={{ cursor: "pointer" }}
                     />
                   </Link>
                   <div className="card-body">
-                    <h4 className="card-title">WORKSHOPS</h4>
+                    <h4 className="card-title">
+                      <strong>WORKSHOPS</strong>
+                    </h4>
                     <p className="card-text services-card-text">
                       A través del cual obtendrás las herramientas necesarias
                       para empezar a salir adelante y sentirte mejor.
@@ -226,18 +238,20 @@ export default function Home() {
                 </div>
               </div>
               <div className="col-lg-4 col-md-12 mb-4">
-                <div className="card mx-4">
+                <div className="card mx-4 service-card h-100">
                   <Link href="/programas">
                     <img
                       src="/images/cards/programas-card.png"
                       className="card-img-top"
                       alt="Programas"
-                      style={{ height: "250px", cursor: "pointer" }}
+                      style={{ cursor: "pointer" }}
                     />
                   </Link>
 
                   <div className="card-body">
-                    <h4 className="card-title">PROGRAMAS</h4>
+                    <h4 className="card-title">
+                      <strong>PROGRAMAS</strong>
+                    </h4>
                     <p className="card-text services-card-text">
                       Enfocado a recuperarte después de pasar por un duelo por
                       pérdida o separación de pareja y llegar a la estabilidad

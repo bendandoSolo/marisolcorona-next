@@ -6,15 +6,10 @@ const Footer = () => {
       <div className="pt-4 mt-5 pb-1">
         <Link href="/">
           <a
-            className="btn btn-outline-white mx-2 mb-2"
+            className="btn btn-outline-white btn-md mx-2 mb-2"
             alt="home"
-            style={{
-              width: "207px",
-              height: "50px",
-              paddingBottom: "0px",
-              paddingTop: "15px",
-            }}
             role="button"
+            style={{ width: "190px" }}
           >
             Aprende más
             <i className="fas fa-play ms-2"></i>
@@ -22,14 +17,8 @@ const Footer = () => {
         </Link>
         <Link href="mailto:marisol@marisolcorona.com?Subject=Consulta%del%sitio%web">
           <a
-            className="btn btn-primary2 mb-2"
+            className="btn btn-primary2 btn-md mx-2 mb-2"
             target="_blank"
-            style={{
-              width: "207px",
-              height: "50px",
-              paddingBottom: "0px",
-              paddingTop: "15px",
-            }}
             role="button"
           >
             Reservar ahora
