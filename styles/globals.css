@@ -93,6 +93,7 @@ p {
 .btn-outline-white {
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.3);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 0;
 }
 
 .btn-outline-white:hover {
@@ -121,6 +122,7 @@ a.btn-outline-primary {
   border: 2px solid #ff80ab !important;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.3);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 0;
 }
 
 .btn-outline-primary:hover,
@@ -135,6 +137,7 @@ a.btn-outline-primary:hover {
   color: #ffffff !important;
   -webkit-box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.3);
           box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 10px 20px 0 rgba(0, 0, 0, 0.3);
+  border-radius: 0;
 }
 
 .btn-primary2:hover,

@@ -2,7 +2,10 @@ import React from "react";
 
 const Accordian = () => {
   return (
-    <div className="accordion accordion-flush" id="accordionFlushExample">
+    <div
+      className="accordion accordion-flush col-md-9"
+      id="accordionFlushExample"
+    >
       <div className="accordion-item">
         <h2 className="accordion-header" id="flush-headingOne">
           <button
@@ -13,7 +16,7 @@ const Accordian = () => {
             aria-expanded="false"
             aria-controls="flush-collapseOne"
           >
-            <h4>Te está pasando que…</h4>
+            <h5>Te está pasando que…</h5>
           </button>
         </h2>
         <div
@@ -62,7 +65,7 @@ const Accordian = () => {
             aria-expanded="false"
             aria-controls="flush-collapseTwo"
           >
-            <h4>¿Y sabes por qué te pasa esto?</h4>
+            <h5>¿Y sabes por qué te pasa esto?</h5>
           </button>
         </h2>
         <div

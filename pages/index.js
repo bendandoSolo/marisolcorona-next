@@ -35,7 +35,13 @@ export default function Home() {
       />
       <main className="mt-5 pt-5" id="main">
         <div className="container">
-          <section id="aprende-mas" data-aos="zoom-in" data-aos-duration="750">
+          <section
+            id="aprende-mas"
+            data-aos="zoom-in"
+            data-aos-duration="750"
+            style={{ margin: "0 auto" }}
+            className="row justify-content-center"
+          >
             <Accordion />
           </section>
           <hr className="my-5" />
