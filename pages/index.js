@@ -291,10 +291,20 @@ export default function Home() {
                   </strong>
                 </p>
                 <Link href="https://www.dopplerpages.com/marisol-A0943/Form2-35698">
-                  <a className="btn btn-primary2" target="_blank" role="button">
+                  <button
+                    className="btn btn-primary2"
+                    target="_blank"
+                    role="button"
+                    style={{
+                      width: "207px",
+                      height: "50px",
+                      paddingBottom: "0px",
+                      paddingTop: "0",
+                    }}
+                  >
                     Descarga
                     <i className="fas fa-download ms-2"></i>
-                  </a>
+                  </button>
                 </Link>
               </div>
 
@@ -306,15 +316,21 @@ export default function Home() {
                   </strong>
                 </p>
                 <Link href="https://tinyurl.com/w5xg9d3">
-                  <a
+                  <button
                     className="btn btn-primary2"
                     href="https://tinyurl.com/w5xg9d3"
                     target="_blank"
                     role="button"
+                    style={{
+                      width: "207px",
+                      height: "50px",
+                      paddingBottom: "0px",
+                      paddingTop: "0",
+                    }}
                   >
                     Descarga
                     <i className="fas fa-download ms-2"></i>
-                  </a>
+                  </button>
                 </Link>
               </div>
             </div>

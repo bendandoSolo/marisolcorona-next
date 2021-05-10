@@ -5,25 +5,36 @@ const Footer = () => {
     <footer className="page-footer text-center font-small mt-4">
       <div className="pt-4 mt-5 pb-1">
         <Link href="/">
-          <a
+          <button
             className="btn btn-outline-white btn-md mx-2 mb-2"
             alt="home"
             role="button"
-            style={{ width: "190px" }}
+            style={{
+              width: "207px",
+              height: "50px",
+              paddingBottom: "0px",
+              paddingTop: "0",
+            }}
           >
             Aprende más
             <i className="fas fa-play ms-2"></i>
-          </a>
+          </button>
         </Link>
         <Link href="mailto:marisol@marisolcorona.com?Subject=Consulta%del%sitio%web">
-          <a
+          <button
             className="btn btn-primary2 btn-md mx-2 mb-2"
             target="_blank"
             role="button"
+            style={{
+              width: "207px",
+              height: "50px",
+              paddingBottom: "0px",
+              paddingTop: "0",
+            }}
           >
             Reservar ahora
             <i className="fas fa-book-open ms-2"></i>
-          </a>
+          </button>
         </Link>
       </div>
       <div className="center-children py-3">

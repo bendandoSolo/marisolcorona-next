@@ -181,11 +181,6 @@ a.btn-primary2:hover {
   background-color: #929fba;
 }
 
-@media (min-width: 800px) and (max-width: 850px) {
-  .navbar:not(.top-nav-collapse) {
-    background: #929fba !important;
-  }
-}
 nav {
   background-color: rgba(0, 0, 0, 0.2);
   position: fixed;
@@ -226,7 +221,7 @@ nav li a {
   text-transform: capitalize;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 991px) {
   .navbar {
     background-color: #ff80ab;
   }
@@ -356,6 +351,15 @@ footer.page-footer .footer-copyright a:hover {
   color: #ff80ab;
 }
 
+@media screen and (max-width: 767px) {
+  h1 {
+    font-size: 2.5rem;
+  }
+
+  .sub-text {
+    display: none;
+  }
+}
 .card-img-top {
   height: 175px;
 }
@@ -376,6 +380,10 @@ footer.page-footer .footer-copyright a:hover {
           align-items: center;
 }
 .card-body p {
+  font-size: 16px;
+}
+
+.service-card p {
   font-size: 14px;
 }
 

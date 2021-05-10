@@ -180,7 +180,7 @@ export default function Contact() {
               </div>
             </div>
           </div>
-          <div className="col-md-4" data-aos="fade-up">
+          <div className="col-lg-4 col-md-8" data-aos="fade-up">
             <div className="contact_form shadow-5">
               {
                 <Formik

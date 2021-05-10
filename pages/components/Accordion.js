@@ -2,7 +2,7 @@ import React from "react";
 
 const Accordian = () => {
   return (
-    <div className=" mt-4 row justify-content-center">
+    <div className="mt-4 row justify-content-center">
       <div
         className="accordion accordion-flush col-md-5 mx-2"
         id="accordionFlushExample"
@@ -17,7 +17,7 @@ const Accordian = () => {
               aria-expanded="false"
               aria-controls="flush-collapseOne"
             >
-              <h5>Te está pasando que…</h5>
+              Te está pasando que…
             </button>
           </h2>
           <div
@@ -74,7 +74,7 @@ const Accordian = () => {
               aria-expanded="false"
               aria-controls="flush-collapseTwo"
             >
-              <h5>¿Y sabes por qué te pasa esto?</h5>
+              ¿Y sabes por qué te pasa esto?
             </button>
           </h2>
           <div
