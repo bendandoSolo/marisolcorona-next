@@ -34,7 +34,7 @@ export default function Programas() {
         <div className="container">
           <section data-aos="zoom-in" data-aos-duration="750">
             <h2 className="mb-4 pb-3 text-center">
-              Programa Recuperándome a mí misma
+              <strong>Programa Recuperándome a mí misma</strong>
             </h2>
             <h4 className="mb-4 pb-3 text-center primary">
               Prográma de 3 meses
@@ -80,7 +80,9 @@ export default function Programas() {
 
           <hr className="my-5" />
           <section className="pb-5" data-aos="zoom-in" data-aos-duration="750">
-            <h2 className="pt-5 text-center pb-5">¿Horas de dedicación?</h2>
+            <h2 className="pt-5 text-center pb-5">
+              <strong>¿Horas de dedicación?</strong>
+            </h2>
 
             <p className="text-center pb-4">
               1 horas a la semana para trabajar con el material psicoeducativo,

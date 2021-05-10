@@ -36,7 +36,9 @@ export default function Individual() {
           <div className="container">
             <section data-aos="zoom-in" data-aos-duration="750">
               <h2 className="mb-4 text-center">
-                Sesiones terapia individual y coaching
+                <strong>                  
+                  Sesiones terapia individual y coaching
+                </strong>
               </h2>
               <p className="mb-4 text-center">
                 La terapia individual que yo uso la enriquezco con técnicas de
@@ -77,7 +79,9 @@ export default function Individual() {
               data-aos-duration="750"
             >
               <h2 className="pt-5 text-center pb-5">
+                <strong>
                 Esta técnica nos permitirá:
+                </strong>
               </h2>
               <div className="row">
                 <div className="col-lg-6">

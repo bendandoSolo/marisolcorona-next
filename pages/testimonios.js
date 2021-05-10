@@ -42,7 +42,7 @@ export default function Testimonials() {
               data-aos="zoom-in"
               data-aos-duration="750"
             >
-              Lo que dicen mis clientas
+              <strong>Lo que dicen mis clientas</strong>
             </h2>
 
             <div className="row mt-5 pt-5">

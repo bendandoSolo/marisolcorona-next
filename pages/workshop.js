@@ -35,7 +35,7 @@ export default function Workshop() {
         <div className="container">
           <section data-aos="zoom-in" data-aos-duration="750">
             <h2 className="mb-4 pb-4 text-center">
-              Workshop Supera tu ruptura amorosa
+              <strong>Workshop Supera tu ruptura amorosa</strong>
             </h2>
             <h5 className="mb-3 text-center primary">
               ¿Acabas de terminar una relación importante?
@@ -81,7 +81,9 @@ export default function Workshop() {
 
           <hr className="my-5" />
           <section className="pb-5" data-aos="zoom-in" data-aos-duration="750">
-            <h2 className="pt-5 text-center pb-5">Módulos</h2>
+            <h2 className="pt-5 text-center pb-5">
+              <strong>Módulos</strong>
+            </h2>
             <p className="text-center pb-4">
               <strong>
                 Gracias a los ejercicios e información proporcionada
