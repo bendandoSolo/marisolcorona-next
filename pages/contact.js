@@ -138,7 +138,10 @@ export default function Contact() {
                   <Link href="mailto:marisol@marisolcorona.com?Subject=Consulta%del%sitio%web">
                     <a target="_top">info@marisolcorona.com </a>
                   </Link>{" "}
-                  o al teléfono +7539390244.
+                  o al teléfono{" "}
+                  <Link href="tel:+:+7539390244">
+                    <a target="_top">+7539390244. </a>
+                  </Link>{" "}
                 </p>
               </div>
             </div>
