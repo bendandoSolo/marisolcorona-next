@@ -51,10 +51,12 @@ export default function Workshop() {
               ¿Quieres sentirte mejor?
             </h5>
             <p className="text-center">
-              Con el taller de Ruptura amorosa obtendrás las herramientas
-              necesarias para empezar a entender lo que estas sintiendo,
-              comprender la situación y así poder sentirte mejor y salir
-              adelante.
+              <strong>
+                Con el taller de Ruptura amorosa obtendrás las herramientas
+                necesarias para empezar a entender lo que estas sintiendo,
+                comprender la situación y así poder sentirte mejor y salir
+                adelante.
+              </strong>
             </p>
             <div
               className="pt-4 pb-4 mb-4 pb-4"

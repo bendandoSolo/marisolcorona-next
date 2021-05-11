@@ -13,7 +13,9 @@ const Banner = ({ text, smallText, button, bgImg, page }) => {
           )}
           {smallText && (
             <div className="row justify-content-center sub-text">
-              <p className="mb-3 text-white col-md-6">{smallText}</p>
+              <p className="mb-3 text-white col-md-7 mb-4">
+                <strong>{smallText}</strong>
+              </p>
             </div>
           )}
 

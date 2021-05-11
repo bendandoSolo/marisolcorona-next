@@ -64,8 +64,8 @@ export default function Home() {
             data-aos="zoom-in"
             data-aos-duration="750"
           >
-            <div className="row">
-              <div className="col-md-6">
+            <div className="row jusitfy-content-center align-items-center">
+              <div className="col-lg-5">
                 <img
                   src="/images/home-sections/Sol.jpg"
                   className="img-fluid mb-5 div-shadow"
@@ -73,7 +73,7 @@ export default function Home() {
                   alt="Marisol Corona Psicóloga Clínica"
                 />
               </div>
-              <div className="col-md-6 mb-4 text-center">
+              <div className="col-lg-6 mb-4 text-center">
                 <h3 className="h3 mb-3">¿Por qué puedes confiar en mí?</h3>
                 <p>Porque pasé por lo mismo que tú...</p>
                 <p>
@@ -195,7 +195,7 @@ export default function Home() {
                     <h4 className="card-title">
                       <strong>TERAPIA INDIVIDUAL</strong>
                     </h4>
-                    <p className="card-text services-card-text">
+                    <p className="card-text services-card-text mb-5">
                       Se realizan en la comodidad de tu casa, por
                       videoconferencia a través de Skype, Zoom o WhatsApp. Los
                       resultados obtenidos son tan buenos como los que se
@@ -296,7 +296,7 @@ export default function Home() {
                     target="_blank"
                     role="button"
                     style={{
-                      width: "207px",
+                      width: "175px",
                       height: "50px",
                       paddingBottom: "0px",
                       paddingTop: "0",
@@ -322,7 +322,7 @@ export default function Home() {
                     target="_blank"
                     role="button"
                     style={{
-                      width: "207px",
+                      width: "175px",
                       height: "50px",
                       paddingBottom: "0px",
                       paddingTop: "0",

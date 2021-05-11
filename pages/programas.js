@@ -40,20 +40,26 @@ export default function Programas() {
               Prográma de 3 meses
             </h4>
             <p className="text-center">
-              Es un programa de 3 meses enfocado a recuperarte después de pasar
-              por un duelo por pérdida o separación de pareja y llegar a la
-              estabilidad emocional, mental y espiritual, creando lo que te
-              mereces.
+              <strong>
+                Es un programa de 3 meses enfocado a recuperarte después de
+                pasar por un duelo por pérdida o separación de pareja y llegar a
+                la estabilidad emocional, mental y espiritual, creando lo que te
+                mereces.
+              </strong>
             </p>
             <p className="text-center">
-              Aprenderás a conocerte, aceptarte y quererte, sintiéndote más
-              completa e independiente, para llegar sentirte mejor con tu vida y
-              así poder crear relaciones de pareja más sanas que te harán sentir
-              feliz y completa.
+              <strong>
+                Aprenderás a conocerte, aceptarte y quererte, sintiéndote más
+                completa e independiente, para llegar sentirte mejor con tu vida
+                y así poder crear relaciones de pareja más sanas que te harán
+                sentir feliz y completa.
+              </strong>
             </p>
             <p className="text-center">
-              Te acompañaré en cada momento de tu proceso para alcanzar tus
-              objetivos.
+              <strong>
+                Te acompañaré en cada momento de tu proceso para alcanzar tus
+                objetivos.
+              </strong>
             </p>
             <div
               className="pt-4 pb-4 mb-4 pb-4"
@@ -85,8 +91,10 @@ export default function Programas() {
             </h2>
 
             <p className="text-center pb-4">
-              1 horas a la semana para trabajar con el material psicoeducativo,
-              más una hora de terapia psicológica.
+              <strong>
+                1 horas a la semana para trabajar con el material
+                psicoeducativo, más una hora de terapia psicológica.
+              </strong>
             </p>
 
             <p className="text-center pb-4">
