@@ -25,6 +25,14 @@ export default function Workshop() {
     >
       <Head>
         <title>Workshop | Marisol Corona</title>
+        <meta
+          name="description"
+          content="Enfocado a trabajar en ti para entender lo que te está pasando para llegar a conocerte, aceptarte, quererse más y salir adelante."
+        />
+        <meta
+          name="keywords"
+          content="Enfocado a trabajar en ti para entender lo que te está pasando para llegar a conocerte, aceptarte, quererse más y salir adelante."
+        />
       </Head>
       <Banner
         text="Workshops"

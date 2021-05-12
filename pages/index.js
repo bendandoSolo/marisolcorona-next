@@ -1,5 +1,3 @@
-import { useEffect } from "react";
-
 // Next Imports
 import Head from "next/head";
 import Link from "next/link";
@@ -9,21 +7,6 @@ import Banner from "./components/Banner";
 import Accordion from "./components/Accordion";
 
 export default function Home() {
-  // useEffect(() => {
-  //   let heightOfCardArr = [];
-  //   let serviceBoxArr = Array.from(document.querySelectorAll(".service-card"));
-  //   // console.log(serviceBoxArr);
-  //   serviceBoxArr.map((card) => heightOfCardArr.push(card.offsetHeight));
-  //   // console.log(heightOfCardArr);
-  //   let heightOfCard = Math.max(...heightOfCardArr);
-  //   // console.log(heightOfCard);
-  //   return document
-  //     .querySelectorAll(".service-card")
-  //     .forEach(
-  //       (el) => (el.style.cssText = `height: ${heightOfCard} !important`)
-  //     );
-  // }, []);
-
   return (
     <motion.div
       initial={{ x: "-100vw" }}
@@ -42,6 +25,14 @@ export default function Home() {
     >
       <Head>
         <title>Home | Marisol Corona</title>
+        <meta
+          name="description"
+          content="Marisol Corona es psicóloga experta en duelo de pareja, ruptura amorosa, autoestima, dependencia emocional y relaciones toxicas al haber sufrido personalmente una ruptura amorosa"
+        />
+        <meta
+          name="keywords"
+          content="Marisol Corona es psicóloga experta en duelo de pareja, ruptura amorosa, autoestima, dependencia emocional y relaciones toxicas al haber sufrido personalmente una ruptura amorosa"
+        />
       </Head>
       <Banner
         text="Marisol Corona psicóloga y coach"

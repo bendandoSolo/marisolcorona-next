@@ -25,6 +25,14 @@ export default function Individual() {
     >
       <Head>
         <title>Individual | Marisol Corona</title>
+        <meta
+          name="description"
+          content="Marisol Corona terapia individual: Su meta es ayudar a otras personas a salir adelante, sentirse mejor construyendo relaciones de pareja más sanas para encontrar su pareja ideal."
+        />
+        <meta
+          name="keywords"
+          content="Marisol Corona terapia individual: Su meta es ayudar a otras personas a salir adelante, sentirse mejor construyendo relaciones de pareja más sanas para encontrar su pareja ideal."
+        />
       </Head>
       <Banner
         text="Terapia Individual"

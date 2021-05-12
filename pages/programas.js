@@ -24,6 +24,14 @@ export default function Programas() {
     >
       <Head>
         <title>Programas | Marisol Corona</title>
+        <meta
+          name="description"
+          content="Aprenderás a conocerse, aceptarte y quererte, sintiéndose más completas e independientes, para llegar sentirte mejor con tu vida y así poder crear relaciones de pareja más sana."
+        />
+        <meta
+          name="keywords"
+          content="Aprenderás a conocerse, aceptarte y quererte, sintiéndose más completas e independientes, para llegar sentirte mejor con tu vida y así poder crear relaciones de pareja más sana."
+        />
       </Head>
       <Banner
         text="Programas"

@@ -23,6 +23,14 @@ export default function Testimonials() {
     >
       <Head>
         <title>Testimonios | Marisol Corona</title>
+        <meta
+          name="description"
+          content="Marisol ha ayudado a muchas personas a salir adelante después de una ruptura amorosa, sentirse mejor construyendo relaciones de pareja más sanas para encontrar su pareja ideal."
+        />
+        <meta
+          name="keywords"
+          content="Marisol ha ayudado a muchas personas a salir adelante después de una ruptura amorosa, sentirse mejor construyendo relaciones de pareja más sanas para encontrar su pareja ideal."
+        />
       </Head>
       <Banner
         text="Testimonios"
