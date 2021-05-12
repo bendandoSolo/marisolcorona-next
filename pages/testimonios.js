@@ -61,7 +61,7 @@ export default function Testimonials() {
                     <h4 className="mb-4 primary">Jenny Briseño, España</h4>
                     <hr />
                     <p className="dark-grey-text mt-4 testimonial-text">
-                      <i className="fas fa-quote-left pr-2"></i>
+                      <i className="fas fa-quote-left px-2"></i>
                       <strong>
                         Me gustó mucho trabajar con Marisol, me sentí
                         comprendida, me ayudo a salir de ese término en mi
@@ -70,7 +70,7 @@ export default function Testimonials() {
                         hizo darme cuenta de muchas cosas en las que pude
                         trabajar.
                       </strong>
-                      <i className="fas fa-quote-right pr-2"></i>
+                      <i className="fas fa-quote-right px-2"></i>
                     </p>
                   </div>
                 </div>
@@ -90,14 +90,14 @@ export default function Testimonials() {
                     <h4 className="mb-4 primary">Charity Massey, Inglaterra</h4>
                     <hr />
                     <p className="dark-grey-text mt-4 testimonial-text">
-                      <i className="fas fa-quote-left pr-2"></i>
+                      <i className="fas fa-quote-left px-2"></i>
                       <strong>
                         Marisol me ayudo a salir del sufrimiento en el que me
                         encontraba y sentía que nunca iba a salir, ahora sé que
                         todo depende de mí y yo decido sentirme mejor y ser
                         feliz.
                       </strong>
-                      <i className="fas fa-quote-right pr-2"></i>
+                      <i className="fas fa-quote-right px-2"></i>
                     </p>
                   </div>
                 </div>
@@ -119,14 +119,14 @@ export default function Testimonials() {
                     <h4 className="mb-4 primary">Elizabet Llandes, México</h4>
                     <hr />
                     <p className="dark-grey-text mt-4 testimonial-text">
-                      <i className="fas fa-quote-left pr-2"></i>
+                      <i className="fas fa-quote-left px-2"></i>
                       <strong>
                         Gracias por apoyarme en el proceso de encontrarme,
                         entenderme y saber lo que realmente quiero en una pareja
                         ahora entiendo que no se puede pedir, lo que no estás
                         dispuesta a dar.
                       </strong>
-                      <i className="fas fa-quote-right pr-2"></i>
+                      <i className="fas fa-quote-right px-2"></i>
                     </p>
                   </div>
                 </div>
@@ -147,7 +147,7 @@ export default function Testimonials() {
                     </h4>
                     <hr />
                     <p className="dark-grey-text mt-4 testimonial-text">
-                      <i className="fas fa-quote-left pr-2 "></i>
+                      <i className="fas fa-quote-left px-2 "></i>
                       <strong>
                         Encontrar a una psicóloga que se enfocara en ruptura
                         amorosa fue lo mejor para mí, buscaba tener ayuda para
@@ -155,7 +155,7 @@ export default function Testimonials() {
                         mejor, soy una mujer más fuerte que logra todo lo que se
                         propone.
                       </strong>
-                      <i className="fas fa-quote-right pr-2"></i>
+                      <i className="fas fa-quote-right px-2"></i>
                     </p>
                   </div>
                 </div>
