@@ -187,7 +187,7 @@ export default function Home() {
                     <img
                       src="/images/cards/terapia-card.jpg"
                       className="card-img-top"
-                      alt="terapia individual"
+                      alt="Terapia Individual"
                       style={{ cursor: "pointer" }}
                     />
                   </Link>
@@ -283,6 +283,7 @@ export default function Home() {
                 className="div-shadow"
                 src="/images/home-sections/man_vs_woman.png"
                 style={{ width: "100%", height: "auto" }}
+                alt="Hombre vs mujer"
               />
             </div>
 

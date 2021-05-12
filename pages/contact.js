@@ -11,9 +11,11 @@ import * as Yup from "yup";
 
 export default function Contact() {
   const SignupSchema = Yup.object().shape({
-    name: Yup.string().required("Name is required"),
-    email: Yup.string().email("Invalid email").required("Email is required"),
-    message: Yup.string().required("Message is required"),
+    name: Yup.string().required("Se requiere el nombre"),
+    email: Yup.string()
+      .email("Email inválido")
+      .required("Correo electronico es requerido"),
+    message: Yup.string().required("Se requiere mensaje"),
   });
 
   const sendEmail = async (props) => {
@@ -126,7 +128,6 @@ export default function Contact() {
                 <p className="grey-text">¿Cómo funciona?</p>
               </div>
             </div>
-
             <div className="row mb-2">
               <div className="col-1 mr-3">
                 <i className="fas fa-info fa-2x primary"></i>
@@ -145,7 +146,6 @@ export default function Contact() {
                 </p>
               </div>
             </div>
-
             <div className="row mb-2">
               <div className="col-1 mr-3">
                 <i className="fas fa-info fa-2x primary"></i>
@@ -157,7 +157,6 @@ export default function Contact() {
                 </p>
               </div>
             </div>
-
             <div className="row mb-2">
               <div className="col-1 mr-3">
                 <i className="fas fa-info fa-2x primary"></i>
@@ -170,7 +169,6 @@ export default function Contact() {
                 </p>
               </div>
             </div>
-
             <div className="row mb-2">
               <div className="col-1 mr-3">
                 <i className="fas fa-info fa-2x primary"></i>
