@@ -85,17 +85,17 @@ export default function Individual() {
               <div className="row">
                 <div className="col-lg-6">
                   <div className="row">
-                    <div className="col-sm-1">
+                    <div className="col-2 d-flex justify-content-center">
                       <i
                         className="fas fa-clipboard-check fa-2x mb-1 dark"
                         aria-hidden="true"
                       ></i>
                     </div>
-                    <div className="col-sm-10 mb-2">
-                      <p className="grey-text mt-2">
+                    <div className="col-10 mb-2">
+                      <p className="grey-text">
                         Ver de dónde parte tu problemática y por qué.
                       </p>
-                      <p className="grey-text mt-2">
+                      <p className="grey-text">
                         Trabajaremos en tus objetivos y metas para lograr lo que
                         realmente quieres.
                       </p>
@@ -104,14 +104,14 @@ export default function Individual() {
                 </div>
                 <div className="col-lg-6">
                   <div className="row">
-                    <div className="col-sm-1">
+                    <div className="col-2 d-flex justify-content-center">
                       <i
                         className="fas fa-clipboard-check fa-2x mb-1 dark"
                         aria-hidden="true"
                       ></i>
                     </div>
-                    <div className="col-sm-10 mb-2">
-                      <p className="grey-text mt-2">
+                    <div className="col-10 mb-2">
+                      <p className="grey-text">
                         Tendremos esta visión hacia el futuro que quieres
                         lograr, hacia tu nueva vida, modificando el presente.
                       </p>
@@ -122,14 +122,14 @@ export default function Individual() {
               <div className="row">
                 <div className="col-lg-6">
                   <div className="row">
-                    <div className="col-sm-1">
+                    <div className="col-2 d-flex justify-content-center">
                       <i
                         className="fas fa-clipboard-check fa-2x mb-1 dark"
                         aria-hidden="true"
                       ></i>
                     </div>
-                    <div className="col-sm-10 mb-2">
-                      <p className="grey-text mt-2">
+                    <div className="col-10 mb-2">
+                      <p className="grey-text">
                         Vamos a profundizar en algunos temas y para dirigirnos
                         hacia tus objetivos y metas.
                       </p>
@@ -138,14 +138,14 @@ export default function Individual() {
                 </div>
                 <div className="col-lg-6">
                   <div className="row">
-                    <div className="col-sm-1">
+                    <div className="col-2 d-flex justify-content-center">
                       <i
                         className="fas fa-clipboard-check fa-2x mb-1 dark"
                         aria-hidden="true"
                       ></i>
                     </div>
-                    <div className="col-sm-10 mb-2">
-                      <p className="grey-text mt-2">
+                    <div className="col-10 mb-2">
+                      <p className="grey-text">
                         Analizaremos el ¿por qué? de las cosas, y trabajaremos
                         en el ¿por qué no? Incluso en el ¿para qué? de lo que
                         realmente quieres.
@@ -157,14 +157,14 @@ export default function Individual() {
               <div className="row">
                 <div className="col-lg-6">
                   <div className="row">
-                    <div className="col-sm-1">
+                    <div className="col-2 d-flex justify-content-center">
                       <i
                         className="fas fa-clipboard-check fa-2x mb-1 dark"
                         aria-hidden="true"
                       ></i>
                     </div>
-                    <div className="col-sm-10 mb-2">
-                      <p className="grey-text mt-2">
+                    <div className="col-10 mb-2">
+                      <p className="grey-text">
                         Te acompañare en el diseño de tu futuro sin que el
                         pasado limite a tu desarrollo.
                       </p>
@@ -173,14 +173,14 @@ export default function Individual() {
                 </div>
                 <div className="col-lg-6">
                   <div className="row">
-                    <div className="col-sm-1">
+                    <div className="col-2 d-flex justify-content-center">
                       <i
                         className="fas fa-clipboard-check fa-2x mb-1 dark"
                         aria-hidden="true"
                       ></i>
                     </div>
-                    <div className="col-sm-10 mb-2">
-                      <p className="grey-text mt-2">
+                    <div className="col-10 mb-2">
+                      <p className="grey-text">
                         Nos enfocaremos en lo que está mal y en lo que se puede
                         mejorar y desarrollar.
                       </p>
@@ -191,14 +191,14 @@ export default function Individual() {
               <div className="row">
                 <div className="col-lg-6">
                   <div className="row">
-                    <div className="col-sm-1">
+                    <div className="col-2 d-flex justify-content-center">
                       <i
                         className="fas fa-clipboard-check fa-2x mb-1 dark"
                         aria-hidden="true"
                       ></i>
                     </div>
-                    <div className="col-sm-10 mb-2">
-                      <p className="grey-text mt-2">
+                    <div className="col-10 mb-2">
+                      <p className="grey-text">
                         Nos centraremos en lo que deseas y en lo que quieres.
                       </p>
                     </div>

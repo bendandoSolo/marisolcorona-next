@@ -101,8 +101,8 @@ export default function Workshop() {
                       aria-hidden="true"
                     ></i>
                   </div>
-                  <div className="col-9 mb-2">
-                    <p className="grey-text mt-2">
+                  <div className="col-10 mb-2">
+                    <p className="grey-text">
                       Aprender que es una ruptura amorosa.
                     </p>
                   </div>
@@ -116,8 +116,8 @@ export default function Workshop() {
                       aria-hidden="true"
                     ></i>
                   </div>
-                  <div className="col-9 mb-2">
-                    <p className="grey-text mt-2">
+                  <div className="col-10 mb-2">
+                    <p className="grey-text">
                       Entender y ubicar en qué etapa de duelo pareja te
                       encuentras.
                     </p>
@@ -134,8 +134,8 @@ export default function Workshop() {
                       aria-hidden="true"
                     ></i>
                   </div>
-                  <div className="col-9 mb-2">
-                    <p className="grey-text mt-2">
+                  <div className="col-10 mb-2">
+                    <p className="grey-text">
                       Entender tus emociones como angustia, ansiedad, miedo y de
                       donde vienen.
                     </p>
@@ -150,8 +150,8 @@ export default function Workshop() {
                       aria-hidden="true"
                     ></i>
                   </div>
-                  <div className="col-9 mb-2">
-                    <p className="grey-text mt-2">
+                  <div className="col-10 mb-2">
+                    <p className="grey-text">
                       Porque no era la persona correcta para ti.
                     </p>
                   </div>
@@ -167,8 +167,8 @@ export default function Workshop() {
                       aria-hidden="true"
                     ></i>
                   </div>
-                  <div className="col-9 mb-2">
-                    <p className="grey-text mt-2">
+                  <div className="col-10 mb-2">
+                    <p className="grey-text">
                       Plantearte nuevos objetivos para establecer nuevas
                       relaciones.
                     </p>
@@ -183,8 +183,8 @@ export default function Workshop() {
                       aria-hidden="true"
                     ></i>
                   </div>
-                  <div className="col-9 mb-2">
-                    <p className="grey-text mt-2">
+                  <div className="col-10 mb-2">
+                    <p className="grey-text">
                       Comprender la importancia de pedir ayuda y trabajar en ti.
                     </p>
                   </div>

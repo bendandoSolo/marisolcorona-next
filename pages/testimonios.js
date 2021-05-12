@@ -58,9 +58,7 @@ export default function Testimonials() {
                     />
                   </div>
                   <div className="card-body">
-                    <h4 className="font-weight-bold mb-4 primary">
-                      Jenny Briseño, España
-                    </h4>
+                    <h4 className="mb-4 primary">Jenny Briseño, España</h4>
                     <hr />
                     <p className="dark-grey-text mt-4 testimonial-text">
                       <i className="fas fa-quote-left pr-2"></i>
@@ -89,9 +87,7 @@ export default function Testimonials() {
                     />
                   </div>
                   <div className="card-body">
-                    <h4 className="font-weight-bold mb-4 primary">
-                      Charity Massey, Inglaterra
-                    </h4>
+                    <h4 className="mb-4 primary">Charity Massey, Inglaterra</h4>
                     <hr />
                     <p className="dark-grey-text mt-4 testimonial-text">
                       <i className="fas fa-quote-left pr-2"></i>
@@ -120,9 +116,7 @@ export default function Testimonials() {
                     />
                   </div>
                   <div className="card-body">
-                    <h4 className="font-weight-bold mb-4 primary">
-                      Elizabet Llandes, México
-                    </h4>
+                    <h4 className="mb-4 primary">Elizabet Llandes, México</h4>
                     <hr />
                     <p className="dark-grey-text mt-4 testimonial-text">
                       <i className="fas fa-quote-left pr-2"></i>
@@ -148,7 +142,7 @@ export default function Testimonials() {
                     />
                   </div>
                   <div className="card-body">
-                    <h4 className="font-weight-bold mb-4 primary">
+                    <h4 className="mb-4 primary">
                       Ana Carolina Morales, Mexico
                     </h4>
                     <hr />

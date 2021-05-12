@@ -20,8 +20,9 @@ body {
   -webkit-text-size-adjust: 100%;
 }
 
-.btn {
-  border-radius: 0 !important;
+.btn,
+.card {
+  border-radius: 0.125rem !important;
   font-size: 13px !important;
   font-weight: 400 !important;
 }
@@ -275,7 +276,7 @@ nav li a {
   }
 }
 
-@media screen and (max-width: 770px) {
+@media screen and (max-width: 481px) {
   .bg-header {
     height: 100vh;
   }
@@ -333,7 +334,6 @@ nav li a {
 
 @media screen and (max-width: 770px) {
   .mobile-center {
-    text-align: center;
     .col-1 {
       width: 100%;
     }
@@ -383,6 +383,8 @@ footer.page-footer .footer-copyright {
 
 .card-img-top {
   height: 175px;
+  width: 100%;
+  object-fit: cover;
 }
 
 .card-body {
@@ -390,6 +392,11 @@ footer.page-footer .footer-copyright {
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
+  hr {
+    background-color: lightgray !important;
+    color: lightgray !important;
+    width: 80%;
+  }
   p {
     font-size: 16px;
   }

@@ -196,10 +196,12 @@ export default function Home() {
                       <strong>TERAPIA INDIVIDUAL</strong>
                     </h4>
                     <p className="card-text services-card-text mb-5">
-                      Se realizan en la comodidad de tu casa, por
-                      videoconferencia a través de Skype, Zoom o WhatsApp. Los
-                      resultados obtenidos son tan buenos como los que se
-                      obtienen en las sesiones presenciales.
+                      <strong>
+                        Se realizan en la comodidad de tu casa, por
+                        videoconferencia a través de Skype, Zoom o WhatsApp. Los
+                        resultados obtenidos son tan buenos como los que se
+                        obtienen en las sesiones presenciales.
+                      </strong>
                     </p>
                     <Link href="/individual">
                       <a className="btn btn-primary2 btn-md">
@@ -225,8 +227,10 @@ export default function Home() {
                       <strong>WORKSHOPS</strong>
                     </h4>
                     <p className="card-text services-card-text">
-                      A través del cual obtendrás las herramientas necesarias
-                      para empezar a salir adelante y sentirte mejor.
+                      <strong>
+                        A través del cual obtendrás las herramientas necesarias
+                        para empezar a salir adelante y sentirte mejor.
+                      </strong>
                     </p>
                     <Link href="/workshops">
                       <a className="btn btn-primary2 btn-md">
@@ -253,9 +257,12 @@ export default function Home() {
                       <strong>PROGRAMAS</strong>
                     </h4>
                     <p className="card-text services-card-text">
-                      Enfocado a recuperarte después de pasar por un duelo por
-                      pérdida o separación de pareja y llegar a la estabilidad
-                      emocional, mental y espiritual, creando lo que te mereces.
+                      <strong>
+                        Enfocado a recuperarte después de pasar por un duelo por
+                        pérdida o separación de pareja y llegar a la estabilidad
+                        emocional, mental y espiritual, creando lo que te
+                        mereces.
+                      </strong>
                     </p>
                     <Link href="/programas">
                       <a className="btn btn-primary2 btn-md">
