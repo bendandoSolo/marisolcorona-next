@@ -602,11 +602,11 @@ form textarea:focus {
 }
 
 .message-sent {
-  background-color: #80ffa8;
+  background-color: #1aa145;
 }
 
 .message-error {
-  background-color: #ff8b80;
+  background-color: #e74335;
 }
 
 .disable-click {

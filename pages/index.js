@@ -9,9 +9,9 @@ import Accordion from "./components/Accordion";
 export default function Home() {
   return (
     <motion.div
-      initial={{ x: "-100vw" }}
+      initial={{ opacity: 0 }}
       animate={{
-        x: 0,
+        opacity: 1,
         transition: {
           duration: 1,
         },

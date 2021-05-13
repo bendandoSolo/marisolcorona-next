@@ -71,7 +71,7 @@ export default function Contact() {
       let responseText = document.getElementById("response-text");
       response.classList.add("pop-down", "message-sent");
       responseText.classList.add("fade-in");
-      responseText.innerHTML = "Message Sent";
+      responseText.innerHTML = "Mensaje enviado";
       contactFormBtn.classList.remove("disable-click");
     }, 2500);
   }
@@ -83,7 +83,7 @@ export default function Contact() {
       let responseText = document.getElementById("response-text");
       response.classList.add("pop-down", "message-error");
       responseText.classList.add("fade-in");
-      responseText.innerHTML = "Error - Please Try Again";
+      responseText.innerHTML = "Error: inténtelo de nuevo";
       contactFormBtn.classList.remove("disable-click");
     }, 2500);
   }
@@ -256,7 +256,7 @@ export default function Contact() {
                             </div>
                           ) : null}
                           <div id="feedback">
-                            <p id="feedback-text">Sending...</p>
+                            <p id="feedback-text">Enviando...</p>
                           </div>
                           <div id="response">
                             <p id="response-text"></p>
