@@ -114,7 +114,7 @@ class Navbar extends React.Component {
                       aria-current="page"
                       onClick={closeNav}
                     >
-                      Contact
+                      Contacto
                     </a>
                   </Link>
                 </li>

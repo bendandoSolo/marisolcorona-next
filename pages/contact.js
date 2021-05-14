@@ -105,18 +105,18 @@ export default function Contact() {
       }}
     >
       <Head>
-        <title>Contact | Marisol Corona</title>
+        <title>Contacto | Marisol Corona</title>
         <meta
           name="description"
-          content="Contact Marisol Corona es psicóloga experta en duelo de pareja, ruptura amorosa, autoestima, dependencia emocional y relaciones toxicas al haber sufrido personalmente una ruptura amorosa"
+          content="Contacto Marisol Corona es psicóloga experta en duelo de pareja, ruptura amorosa, autoestima, dependencia emocional y relaciones toxicas al haber sufrido personalmente una ruptura amorosa"
         />
         <meta
           name="keywords"
-          content="Contact Marisol Corona es psicóloga experta en duelo de pareja, ruptura amorosa, autoestima, dependencia emocional y relaciones toxicas al haber sufrido personalmente una ruptura amorosa"
+          content="Contacto Marisol Corona es psicóloga experta en duelo de pareja, ruptura amorosa, autoestima, dependencia emocional y relaciones toxicas al haber sufrido personalmente una ruptura amorosa"
         />
       </Head>
       <Banner
-        text="Contact Marisol Corona"
+        text="Contacto Marisol Corona"
         bgImg="images/banners/contact_bg.png"
         page="contact"
       />
@@ -267,7 +267,7 @@ export default function Contact() {
                               type="submit"
                               id="contact-form-btn"
                             >
-                              Send
+                            Enviar
                             </button>
                           </div>
                           <div id="msg"></div>
