@@ -22,7 +22,7 @@ export default function Contact() {
     const contactFormBtn = document.getElementById("contact-form-btn");
     contactFormBtn.classList.add("disable-click");
     sending();
-    props["to"] = "enquiries@bendando.com";
+    props["to"] = "marisol@marisolcorona.com";
     props["website"] = "marisolcorona.com";
     const response = await fetch(
       "https://sendgridcsharp.azurewebsites.net/api/sendemail",
