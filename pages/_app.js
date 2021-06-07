@@ -51,6 +51,15 @@ class MyApp extends App {
             type="text/javascript"
             src="https://cdnjs.cloudflare.com/ajax/libs/mdb-ui-kit/3.2.0/mdb.min.js"
           ></script>
+        {/* Global site tag (gtag.js) - Google Analytics */}
+        <script async src="https://www.googletagmanager.com/gtag/js?id=G-5C43JLF69V"></script>
+        <script>
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+
+          gtag('config', 'G-5C43JLF69V');
+        </script>
         </Head>
         <Navbar />
         <AnimatePresence exitBeforeEnter>
