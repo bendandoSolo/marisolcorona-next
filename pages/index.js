@@ -3,8 +3,9 @@ import Head from "next/head";
 import Link from "next/link";
 
 import { motion } from "framer-motion";
-import Banner from "./components/Banner";
-import Accordion from "./components/Accordion";
+import Banner from "../components/Banner";
+import Accordion from "../components/Accordion";
+
 
 export default function Home() {
   return (

@@ -2,7 +2,7 @@
 import Head from "next/head";
 
 import { motion } from "framer-motion";
-import Banner from "./components/Banner";
+import Banner from "../components/Banner";
 
 export default function Testimonials() {
   return (
