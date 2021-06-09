@@ -4,13 +4,11 @@ import { useRouter } from 'next/router'
 import "../styles/globals.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import * as gtag from '../lib/gtag';
 
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-
-import App from "next/app";
-
 import { AnimatePresence } from "framer-motion";
 
 const MyApp = ({ Component, pageProps, router }) => {
@@ -41,33 +39,6 @@ return(
          </AnimatePresence>
       <Footer />
   </>
-)
-
-
-};
-
-
-// class MyApp extends App {
-//   constructor(props) {
-//     super(props);
-//   }
-//   componentDidMount() {
-//     AOS.init({ once: true });
-//   }
-
-//   render() {
-//     const { Component, pageProps, router } = this.props;
-//     return (
-//       <>
-//         <Header/>
-//         <Navbar />
-//         <AnimatePresence exitBeforeEnter>
-//           <Component {...pageProps} key={router.route} />
-//         </AnimatePresence>
-//         <Footer />
-//       </>
-//     );
-//   }
-// }
+)};
 
 export default MyApp;

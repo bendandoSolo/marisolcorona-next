@@ -61,12 +61,10 @@ const Footer = () => {
           </a>
         </Link>
       </div>
-      <div className="footer-copyright py-3">
-        <Link href="https://bendando.com/">
-          <a className="bendando-link" target="_blank">
+      <div className="py-1 pt-3">
+          <a href="https://bendando.com/" className="bendando-link" target="_blank">
             Created by Bendando
           </a>
-        </Link>
       </div>
     </footer>
   );

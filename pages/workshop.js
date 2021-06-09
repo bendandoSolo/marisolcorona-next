@@ -82,8 +82,8 @@ export default function Workshop() {
                   }}
                   role="button"
                 >
-                  Reservar ahora
-                  <i className="fas fa-book-open ml-2"></i>
+                  Reservar ahora 
+                  <i className="fas fa-book-open ms-2"></i>
                 </a>
               </Link>
             </div>
