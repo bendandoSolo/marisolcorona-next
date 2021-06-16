@@ -11,6 +11,28 @@ import Footer from "../components/Footer";
 import Header from "../components/Header";
 import { AnimatePresence } from "framer-motion";
 
+
+function FacebookPixel() {
+  const nextRouter = useRouter()
+
+  useEffect(() => {
+    import("react-facebook-pixel")
+      .then((x) => x.default)
+      .then((ReactPixel) => {
+        ReactPixel.init('2576191972631019');
+        ReactPixel.pageView();
+
+        nextRouter.events.on("routeChangeComplete", () => {
+          ReactPixel.pageView();
+        });
+      });
+  });
+  return null;
+}
+
+
+
+
 const MyApp = ({ Component, pageProps, router }) => {
   const nextRouter = useRouter()
 
@@ -33,6 +55,7 @@ const MyApp = ({ Component, pageProps, router }) => {
 return(
   <>
       <Header/>
+      <FacebookPixel />
       <Navbar />
       <AnimatePresence exitBeforeEnter>
            <Component {...pageProps} key={router.route} />
