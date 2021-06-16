@@ -6,7 +6,6 @@ import { motion } from "framer-motion";
 import Banner from "../components/Banner";
 import Accordion from "../components/Accordion";
 
-
 export default function Home() {
   return (
     <motion.div
@@ -39,7 +38,7 @@ export default function Home() {
         text="Marisol Corona psicóloga y coach"
         smallText="Soy Marisol Corona, psicóloga clínica experta en duelo por pérdida, divorcio y/o separación de pareja, relaciones toxicas, codependencia y autoestima."
         button
-        bgImg="images/banners/home_bg.jpg"
+        bgImg="images/banners/home_bg.png"
         page="home"
       />
       <main className="mt-5 pt-5" id="main">
@@ -208,7 +207,7 @@ export default function Home() {
                 <div className="card mx-4 service-card h-100">
                   <Link href="/workshops">
                     <img
-                      src="/images/cards/workshop-card.jpg"
+                      src="/images/cards/workshops_bg.png"
                       className="card-img-top"
                       alt="Workshop"
                       style={{ cursor: "pointer" }}

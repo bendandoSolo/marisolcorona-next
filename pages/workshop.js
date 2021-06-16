@@ -36,7 +36,7 @@ export default function Workshop() {
       </Head>
       <Banner
         text="Workshops"
-        bgImg="images/banners/workshops_bg.jpg"
+        bgImg="images/banners/workshops_bg.png"
         page="workshops"
       />
       <main className="mt-5 pt-5" id="services">
@@ -82,7 +82,7 @@ export default function Workshop() {
                   }}
                   role="button"
                 >
-                  Reservar ahora 
+                  Reservar ahora
                   <i className="fas fa-book-open ms-2"></i>
                 </a>
               </Link>
