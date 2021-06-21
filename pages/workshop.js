@@ -3,27 +3,26 @@ import Head from "next/head";
 import Link from "next/link";
 //import Image from "next/image";
 
-// import { motion } from "framer-motion";
+import { motion } from "framer-motion";
 import Banner from "../components/Banner";
 
 export default function Workshop() {
   return (
-    <div>
-      {/* <motion.div
-        initial={{ x: "-100vw" }}
-        animate={{
-          x: 0,
-          transition: {
-            duration: 1,
-          },
-        }}
-        exit={{
-          opacity: 0,
-          transition: {
-            duration: 0.5,
-          },
-        }}
-      > */}
+    <motion.div
+      initial={{ x: "-100vw" }}
+      animate={{
+        x: 0,
+        transition: {
+          duration: 1,
+        },
+      }}
+      exit={{
+        opacity: 0,
+        transition: {
+          duration: 0.5,
+        },
+      }}
+    >
       <Head>
         <title>Workshop | Marisol Corona</title>
         <meta
@@ -203,7 +202,6 @@ export default function Workshop() {
           </section>
         </div>
       </main>
-      {/* </motion.div> */}
-    </div>
+    </motion.div>
   );
 }
