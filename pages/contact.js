@@ -2,7 +2,7 @@
 import Head from "next/head";
 import Link from "next/link";
 
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import Banner from "../components/Banner";
 
 // Form Modules
@@ -89,7 +89,8 @@ export default function Contact() {
   }
 
   return (
-    <motion.div
+    <div>
+      {/* <motion.div
       initial={{ x: "-100vw" }}
       animate={{
         x: 0,
@@ -103,7 +104,7 @@ export default function Contact() {
           duration: 0.5,
         },
       }}
-    >
+    > */}
       <Head>
         <title>Contacto | Marisol Corona</title>
         <meta
@@ -267,7 +268,7 @@ export default function Contact() {
                               type="submit"
                               id="contact-form-btn"
                             >
-                            Enviar
+                              Enviar
                             </button>
                           </div>
                           <div id="msg"></div>
@@ -285,6 +286,7 @@ export default function Contact() {
           </div>
         </div>
       </div>
-    </motion.div>
+      {/* </motion.div> */}
+    </div>
   );
 }

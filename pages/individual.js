@@ -3,12 +3,13 @@ import Head from "next/head";
 //import Image from "next/image";
 import Link from "next/link";
 
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import Banner from "../components/Banner";
 
 export default function Individual() {
   return (
-    <motion.div
+    <div>
+      {/* <motion.div
       initial={{ x: "-100vw" }}
       animate={{
         x: 0,
@@ -22,7 +23,7 @@ export default function Individual() {
           duration: 0.5,
         },
       }}
-    >
+    > */}
       <Head>
         <title>Individual | Marisol Corona</title>
         <meta
@@ -217,6 +218,7 @@ export default function Individual() {
           </div>
         </main>
       </div>
-    </motion.div>
+      {/* </motion.div> */}
+    </div>
   );
 }

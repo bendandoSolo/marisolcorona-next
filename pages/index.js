@@ -8,7 +8,8 @@ import Accordion from "../components/Accordion";
 
 export default function Home() {
   return (
-    <motion.div
+    <div>
+      {/* <motion.div
       initial={{ opacity: 0 }}
       animate={{
         opacity: 1,
@@ -22,7 +23,7 @@ export default function Home() {
           duration: 0.5,
         },
       }}
-    >
+    > */}
       <Head>
         <title>Home | Marisol Corona</title>
         <meta
@@ -555,6 +556,7 @@ export default function Home() {
           </section>
         </div>
       </main>
-    </motion.div>
+      {/* </motion.div> */}
+    </div>
   );
 }

@@ -1,12 +1,13 @@
 // Next Links
 import Head from "next/head";
 
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import Banner from "../components/Banner";
 
 export default function Testimonials() {
   return (
-    <motion.div
+    <div>
+      {/* <motion.div
       initial={{ x: "-100vw" }}
       animate={{
         x: 0,
@@ -20,7 +21,7 @@ export default function Testimonials() {
           duration: 0.5,
         },
       }}
-    >
+    > */}
       <Head>
         <title>Testimonios | Marisol Corona</title>
         <meta
@@ -172,6 +173,7 @@ export default function Testimonials() {
           </section>
         </div>
       </main>
-    </motion.div>
+      {/* </motion.div> */}
+    </div>
   );
 }
