@@ -2,7 +2,7 @@ import Link from "next/link";
 
 const Banner = ({ text, smallText, button, bgImg, page }) => {
   return (
-    <div className="bg-header" id={page} loading="lazy">
+    <div className="bg-header" id={page}>
       <div className="overlay"></div>
       <div className="bg-text">
         <div className="text-center intro">

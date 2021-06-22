@@ -2,27 +2,28 @@
 import Head from "next/head";
 import Link from "next/link";
 
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 import Banner from "../components/Banner";
 import Accordion from "../components/Accordion";
 
 export default function Home() {
   return (
-    <motion.div
-      initial={{ opacity: 0 }}
-      animate={{
-        opacity: 1,
-        transition: {
-          duration: 1,
-        },
-      }}
-      exit={{
-        opacity: 0,
-        transition: {
-          duration: 0.5,
-        },
-      }}
-    >
+    <div>
+      {/* <motion.div
+        initial={{ opacity: 0 }}
+        animate={{
+          opacity: 1,
+          transition: {
+            duration: 1,
+          },
+        }}
+        exit={{
+          opacity: 0,
+          transition: {
+            duration: 0.5,
+          },
+        }}
+      > */}
       <Head>
         <title>Home | Marisol Corona</title>
         <meta
@@ -60,7 +61,11 @@ export default function Home() {
                 <img
                   src="/images/home-sections/Sol.jpg"
                   className="img-fluid mb-5 div-shadow"
-                  style={{ width: "320px", margin: "0 auto", display: "block" }}
+                  style={{
+                    width: "320px",
+                    margin: "0 auto",
+                    display: "block",
+                  }}
                   alt="Marisol Corona Psicóloga Clínica"
                 />
               </div>
@@ -555,6 +560,7 @@ export default function Home() {
           </section>
         </div>
       </main>
-    </motion.div>
+      {/* </motion.div> */}
+    </div>
   );
 }

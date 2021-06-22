@@ -9,7 +9,7 @@ import * as gtag from "../lib/gtag";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 import Header from "../components/Header";
-import { AnimatePresence } from "framer-motion";
+// import { AnimatePresence } from "framer-motion";
 
 function FacebookPixel() {
   const nextRouter = useRouter();
@@ -52,9 +52,9 @@ const MyApp = ({ Component, pageProps, router }) => {
       <Header />
       <FacebookPixel />
       <Navbar />
-      <AnimatePresence exitBeforeEnter>
-        <Component {...pageProps} key={router.route} />
-      </AnimatePresence>
+      {/* <AnimatePresence exitBeforeEnter> */}
+      <Component {...pageProps} key={router.route} />
+      {/* </AnimatePresence> */}
       <Footer />
     </>
   );
