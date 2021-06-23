@@ -180,12 +180,22 @@ export default function Home() {
               <div className="col-lg-4 col-md-12 mb-4">
                 <div className="card mx-4 service-card h-100">
                   <Link href="/individual">
-                    <img
-                      src="/images/cards/terapia-card.jpg"
-                      className="card-img-top"
-                      alt="Terapia Individual"
-                      style={{ cursor: "pointer" }}
-                    />
+                    <picture style={{ cursor: "pointer" }}>
+                      <source
+                        srcset="/images/cards/terapia-card.webp"
+                        type="image/webp"
+                        className="card-img-top"
+                      />
+                      <source
+                        srcset="/images/cards/terapia-card.jpg"
+                        type="image/jpeg"
+                        className="card-img-top"
+                      />
+                      <img
+                        src="/images/cards/terapia-card.jpg"
+                        className="card-img-top"
+                      />
+                    </picture>
                   </Link>
                   <div className="card-body">
                     <h4 className="card-title">
@@ -211,12 +221,22 @@ export default function Home() {
               <div className="col-lg-4 col-md-12 mb-4">
                 <div className="card mx-4 service-card h-100">
                   <Link href="/workshops">
-                    <img
-                      src="/images/cards/workshops_bg.png"
-                      className="card-img-top"
-                      alt="Workshop"
-                      style={{ cursor: "pointer" }}
-                    />
+                    <picture style={{ cursor: "pointer" }}>
+                      <source
+                        srcset="/images/banners/workshops_bg.webp"
+                        type="image/webp"
+                        className="card-img-top"
+                      />
+                      <source
+                        srcset="/images/banners/workshops_bg.jpg"
+                        type="image/jpeg"
+                        className="card-img-top"
+                      />
+                      <img
+                        src="/images/banners/workshops_bg.jpg"
+                        className="card-img-top"
+                      />
+                    </picture>
                   </Link>
                   <div className="card-body">
                     <h4 className="card-title">
@@ -240,12 +260,22 @@ export default function Home() {
               <div className="col-lg-4 col-md-12 mb-4">
                 <div className="card mx-4 service-card h-100">
                   <Link href="/programas">
-                    <img
-                      src="/images/cards/programas-card.png"
-                      className="card-img-top"
-                      alt="Programas"
-                      style={{ cursor: "pointer" }}
-                    />
+                    <picture style={{ cursor: "pointer" }}>
+                      <source
+                        srcset="/images/cards/programas_bg.webp"
+                        type="image/webp"
+                        className="card-img-top"
+                      />
+                      <source
+                        srcset="/images/cards/programas_bg.png"
+                        type="image/png"
+                        className="card-img-top"
+                      />
+                      <img
+                        src="/images/cards/programas_bg.png"
+                        className="card-img-top"
+                      />
+                    </picture>
                   </Link>
 
                   <div className="card-body">
@@ -275,12 +305,22 @@ export default function Home() {
           <section data-aos="zoom-in" data-aos-duration="750">
             <h2 className="my-5 h3 text-center">Descargas</h2>
             <div className="pb-5">
-              <img
-                className="div-shadow"
-                src="/images/home-sections/man_vs_woman.png"
-                style={{ width: "100%", height: "auto" }}
-                alt="Hombre vs mujer"
-              />
+              <picture style={{ cursor: "pointer" }}>
+                <source
+                  srcset="/images/home-sections/man_vs_woman.webp"
+                  type="image/webp"
+                />
+                <source
+                  srcset="/images/home-sections/man_vs_woman.png"
+                  type="image/png"
+                />
+                <img
+                  className="div-shadow"
+                  src="/images/home-sections/man_vs_woman.png"
+                  style={{ width: "100%", height: "auto" }}
+                  alt="Hombre vs mujer"
+                />
+              </picture>
             </div>
 
             <h4 className="pb-4 text-center primary">
