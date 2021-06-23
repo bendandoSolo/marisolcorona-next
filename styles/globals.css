@@ -287,7 +287,7 @@ nav li a {
 }
 
 #workshops {
-  background-image: url("/images/banners/workshops_mb.jpg");
+  background-image: url("/images/banners/workshops_mb.webp");
 }
 
 #programas {
@@ -312,7 +312,7 @@ nav li a {
   }
 
   #workshops {
-    background-image: url("/images/banners/workshops_bg.jpg");
+    background-image: url("/images/banners/workshops_bg.webp");
   }
 
   #programas {

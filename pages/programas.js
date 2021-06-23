@@ -36,7 +36,9 @@ export default function Programas() {
       </Head>
       <Banner
         text="Programas"
-        bgImg="images/banners/programas_bg.png"
+        bgImg="images/banners/programas_bg.jpg"
+        webp="images/banners/programas_bg.webp"
+        webpM="images/banners/programas_mb.webp"
         page="programas"
       />
       <main className="mt-5 pt-5" id="services">

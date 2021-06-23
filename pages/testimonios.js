@@ -35,7 +35,9 @@ export default function Testimonials() {
       </Head>
       <Banner
         text="Testimonios"
-        bgImg="images/banners/testimonios_bg.png"
+        bgImg="images/banners/testimonios_bg.jpg"
+        webp="images/banners/testimonios_bg.webp"
+        webpM="images/banners/testimonios_mb.webp"
         page="testimonios"
       />
 

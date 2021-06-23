@@ -37,8 +37,9 @@ export default function Individual() {
       </Head>
       <Banner
         text="Terapia Individual"
-        bgImg="images/banners/individual_bg.png"
-        page="individual"
+        bgImg="images/banners/individual_bg.jpg"
+        webp="images/banners/individual_bg.webp"
+        webpM="images/banners/individual_mb.webp"
       />
       <div className="container">
         <main className="mt-5 pt-5" id="services">

@@ -118,7 +118,9 @@ export default function Contact() {
       </Head>
       <Banner
         text="Contacto Marisol Corona"
-        bgImg="images/banners/contact_bg.png"
+        bgImg="images/banners/contact_bg.jpg"
+        webp="images/banners/contact_bg.webp"
+        webpM="images/banners/contact_mb.webp"
         page="contact"
       />
       <div className="container">

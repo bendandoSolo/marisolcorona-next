@@ -39,8 +39,9 @@ export default function Home() {
         text="Marisol Corona psicóloga y coach"
         smallText="Soy Marisol Corona, psicóloga clínica experta en duelo por pérdida, divorcio y/o separación de pareja, relaciones toxicas, codependencia y autoestima."
         button
-        bgImg="images/banners/home_bg.png"
-        page="home"
+        bgImg="images/banners/home_bg.jpg"
+        webp="images/banners/home_bg.webp"
+        webpM="images/banners/home_mb.webp"
       />
       <main className="mt-5 pt-5" id="main">
         <div className="container">

@@ -37,7 +37,9 @@ export default function Workshop() {
       </Head>
       <Banner
         text="Workshops"
-        bgImg="images/banners/workshops_bg.png"
+        bgImg="images/banners/workshops_bg.jpg"
+        webp="images/banners/workshops_bg.webp"
+        webpM="images/banners/workshops_mb.webp"
         page="workshops"
       />
       <main className="mt-5 pt-5" id="services">

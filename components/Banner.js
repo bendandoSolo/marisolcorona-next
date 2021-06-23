@@ -1,8 +1,27 @@
 import Link from "next/link";
 
-const Banner = ({ text, smallText, button, bgImg, page }) => {
+const Banner = ({ text, smallText, button, webp, webpM, bgImg }) => {
   return (
-    <div className="bg-header" id={page}>
+    <div className="bg-header">
+      <picture>
+        <source srcset={webpM} type="image/webp" media="(max-width: 767px)" />
+        <source srcset={webp} type="image/webp" />
+        <source srcset={bgImg} type="image/jpg" />
+        <img
+          src={bgImg}
+          alt={text}
+          style={{
+            width: "100%",
+            objectFit: "cover",
+            backgroundPosition: "center",
+            objectPosition: "top",
+            height: "100%",
+            position: "absolute",
+            top: "0",
+            left: "0",
+          }}
+        />
+      </picture>
       <div className="overlay"></div>
       <div className="bg-text">
         <div className="text-center intro">
